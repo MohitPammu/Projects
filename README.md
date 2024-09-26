@@ -1,1 +1,1 @@
-This is a repository of my Power BI projects
+This is a repository of my projects
