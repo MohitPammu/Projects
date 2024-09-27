@@ -1,1 +1,1 @@
-This is a repository of my projects
+This is a repository of my data projects
