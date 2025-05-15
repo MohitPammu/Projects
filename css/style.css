@@ -381,8 +381,8 @@ nav ul li a.active {
     height: 102%;
     object-fit: cover;
     /* Adjust image position to better center face */
-    object-position: center 45%; /* Move image up slightly (adjust as needed) */
-    transform: translateY(-5px); /* Fine-tune vertical position */
+    object-position: center 35%; /* Move image up slightly (adjust as needed) */
+    transform: translateY(10px); /* Fine-tune vertical position */
 }
 
 .profile-img-placeholder {
