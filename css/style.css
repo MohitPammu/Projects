@@ -357,21 +357,32 @@ nav ul li a.active {
 }
 
 .hero-image {
-    width: 300px; /* Adjust size as needed */
-    height: 300px; /* Must be equal to width for circular shape */
-    border: 5px solid #ccc; /* Adjust border thickness and color */
-    border-radius: 50%; /* Makes it circular */
-    overflow: hidden; /* Ensures the image doesn't overflow the container */
-    display: flex; /* Centers the image */
-    align-items: center; /* Centers the image vertically */
-    justify-content: center; /* Centers the image horizontally */
-    margin: 0 auto; /* Optional: centers within parent container */
+    width: 300px; /* Base size */
+    height: 300px; /* Equal to width for circular shape */
+    border: 4px solid var(--primary-color); /* Use theme color variable */
+    border-radius: var(--border-radius-full); /* Makes it circular */
+    overflow: hidden; /* Contains the image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative; /* For shadow positioning */
+    box-shadow: 0 8px 30px var(--shadow-color); /* Subtle shadow using theme variable */
+    transition: border-color 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for theme changes */
+}
+
+[data-theme="dark"] .hero-image {
+    border-color: var(--primary-color); /* Use theme primary color */
+    box-shadow: 0 8px 30px rgba(74, 108, 247, 0.2); /* Glowing effect for dark theme */
 }
 
 .profile-img {
-    width: 100%; 
-    height: 100%;
-    object-fit: cover; 
+    width: 102%; /* Slightly larger than container to avoid white gaps */
+    height: 102%;
+    object-fit: cover;
+    /* Adjust image position to better center face */
+    object-position: center 45%; /* Move image up slightly (adjust as needed) */
+    transform: translateY(-5px); /* Fine-tune vertical position */
 }
 
 .profile-img-placeholder {
@@ -387,6 +398,21 @@ nav ul li a.active {
     box-shadow: 0 10px 30px var(--shadow-color);
     margin-bottom: 10px;
     overflow: visible;
+}
+
+@media (max-width: 768px) {
+    .hero-image {
+        width: 250px;
+        height: 250px;
+        border-width: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-image {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 /* ===== About Section ===== */
