@@ -10,7 +10,7 @@
 
 This repository houses the code for my personal data science portfolio website, where I showcase my projects, skills, and professional journey. The website features a responsive design with dark/light mode and is built using modern web technologies.
 
-**Live Website**: [mohitpammu.github.io/Projects]([https://mohitpammu.github.io/](https://mohitpammu.github.io/Projects/))
+**Live Website**: [mohitpammu.github.io/Projects](https://mohitpammu.github.io/Projects/)
 
 <!-- Replace with an actual screenshot of your site when available -->
 <!-- For now, removed the image reference as it's not working -->
