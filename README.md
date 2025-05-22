@@ -34,7 +34,7 @@ Comprehensive data science portfolio demonstrating the practical application of 
 - **Business Impact**: Data-driven insights to optimize customer acquisition and retention strategies
 
 **Tech Stack**: R, tidyverse, ggplot2, Statistical Analysis  
-**🔗 [View Project Details](https://mohitpammu.github.io/Projects/projects/EDA/Cyclystic/Cyclystic_Report.html)**
+**🔗 [View Project Details](https://mohitpammu.github.io/Projects/projects/EDA/Cyclistic/cyclistic-google-data-analytics-capstone.html)**
 
 ### 🏢 HR Analytics Dashboard | Workforce Intelligence
 **Microsoft Power BI Certification Project (2024)**
