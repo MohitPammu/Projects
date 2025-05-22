@@ -17,7 +17,7 @@ Comprehensive data science portfolio demonstrating the practical application of 
 ## Featured Projects
 
 ### 🔢 SVHN Digit Recognition | CNN Optimization
-**MIT Applied Data Science Program (2025)**
+**MIT Professional Education Applied Data Science Program (2025)**
 
 - **Achieved 90% accuracy with 39% parameter reduction** through systematic experimental analysis
 - Conducted comprehensive model complexity studies, learning rate optimization, and AutoML hyperparameter tuning
