@@ -44,7 +44,7 @@ Comprehensive data science portfolio demonstrating the practical application of 
 - **Business Impact**: Enabled data-driven talent retention decisions and organizational restructuring insights
 
 **Tech Stack**: Power BI, DAX, Data Modeling, Row-Level Security  
-**🔗 [View Project Details](https://mohitpammu.github.io/Projects/projects/BI%20&%20Visualization/HR%20Data/hr_analytics_report.html)**
+**🔗 [View Project Details](https://github.com/MohitPammu/Projects/tree/main/projects/BI%20%26%20Visualization/HR%20Data)**
 
 ### 🍕 FoodHub Order Analysis | Strategic Business Intelligence
 **Exploratory Data Analysis Project (2024)**
@@ -54,7 +54,7 @@ Comprehensive data science portfolio demonstrating the practical application of 
 - **Business Impact**: Actionable insights for menu optimization, pricing strategy, and customer segmentation
 
 **Tech Stack**: Python, Pandas, Matplotlib, Seaborn, Statistical Analysis  
-**🔗 [View Project Details](https://mohitpammu.github.io/Projects/projects/EDA/FoodHub/FoodHub_Analysis.html)**
+**🔗 [View Project Details](https://mohitpammu.github.io/Projects/projects/EDA/FoodHub/MohitPammu-FDS_Project.html)**
 
 ---
 
