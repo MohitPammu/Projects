@@ -176,12 +176,6 @@ Open to discussing data science opportunities, collaborative projects, or techni
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
 <p align="center">
 <strong>Building data science solutions that drive business impact</strong><br>
 © 2025 Mohit Pammu
