@@ -563,7 +563,7 @@ function loadIndustryNews() {
     ];
     
     // Load news from static JSON file
-    fetch('/assets/data/news.json?' + new Date().getTime())
+    fetch('/Projects/assets/data/news.json?' + new Date().getTime())
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
