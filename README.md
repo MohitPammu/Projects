@@ -14,7 +14,7 @@ Comprehensive data science portfolio demonstrating the practical application of 
 
 ---
 
-## Featured Projects
+## Featured Repositories
 
 ### 🔢 SVHN Digit Recognition | CNN Optimization
 **MIT Professional Education Applied Data Science Program (2025)**
@@ -24,7 +24,21 @@ Comprehensive data science portfolio demonstrating the practical application of 
 - **Business Impact**: Developed edge-compatible solution for resource-constrained deployment scenarios
 
 **Tech Stack**: Python, TensorFlow, CNN Architecture, AutoML  
-**🔗 [View Project Details](https://github.com/MohitPammu/SVHN-Digit-Recognition)**
+**🔗 [View Repository](https://github.com/MohitPammu/SVHN-Digit-Recognition)**
+
+### 👁️ Facial Emotion Detection | Computer Vision
+**MIT Professional Education Applied Data Science Program (2025)**
+
+- **Achieved ~82% accuracy** using custom CNN architecture optimized for grayscale facial images
+- **Outperformed transfer learning models** (VGG16, ResNet101, EfficientNetV2) through domain-specific optimization
+- **Business Impact**: Production-ready solution for affective computing applications in healthcare, customer analytics, and human-computer interaction
+
+**Tech Stack**: Python, TensorFlow, CNN, Computer Vision, Affective Computing  
+**🔗 [View Repository](https://github.com/MohitPammu/Facial-Emotion-Detection)**
+
+---
+
+## Featured Projects
 
 ### 📊 Bikeshare User Analytics | Marketing Strategy
 **Google Data Analytics Professional Program (2024)**
@@ -45,6 +59,10 @@ Comprehensive data science portfolio demonstrating the practical application of 
 
 **Tech Stack**: Power BI, DAX, Data Modeling, Row-Level Security  
 **🔗 [View Project Details](https://github.com/MohitPammu/Projects/tree/main/projects/BI%20%26%20Visualization/HR%20Data)**
+
+---
+
+## Additional Projects
 
 ### 🍕 FoodHub Order Analysis | Strategic Business Intelligence
 **Exploratory Data Analysis Project (2024)**
