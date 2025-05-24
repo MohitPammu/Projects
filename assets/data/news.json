@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-05-24T13:48:38.487Z",
+  "lastUpdated": "2025-05-24T14:03:56.085Z",
   "items": [
     {
       "title": "Top 7 Python Frameworks for AI Agents",
@@ -17,32 +17,48 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Choosing the Right Machine Learning Algorithm: A Decision Tree Approach",
-      "link": "https://www.kdnuggets.com/choosing-the-right-machine-learning-algorithm-a-decision-tree-approach",
-      "pubDate": "Wed, 21 May 2025 14:00:21 +0000",
-      "author": "Iván Palomares Carrascosa",
-      "source": "KDnuggets"
+      "title": "Keep your R code clean and consistent with Air",
+      "link": "https://www.r-bloggers.com/2025/05/keep-your-r-code-clean-and-consistent-with-air/",
+      "pubDate": "Mon, 19 May 2025 00:00:00 +0000",
+      "author": "Yohann Mansiaux",
+      "source": "R-bloggers"
     },
     {
-      "title": "The Ultimate Guide to Learning Anything with NotebookLM",
-      "link": "https://www.kdnuggets.com/the-ultimate-guide-to-learning-anything-with-notebooklm",
-      "pubDate": "Mon, 19 May 2025 16:00:45 +0000",
-      "author": "Jayita Gulati",
-      "source": "KDnuggets"
+      "title": "Spatial machine learning with caret",
+      "link": "https://www.r-bloggers.com/2025/05/spatial-machine-learning-with-caret/",
+      "pubDate": "Wed, 14 May 2025 00:00:00 +0000",
+      "author": "Jan Linnenbrink",
+      "source": "R-bloggers"
     },
     {
-      "title": "Quantum Computing and Its Impact on Data Science",
-      "link": "https://ieee.org/publications/quantum-computing-data-science-2025",
-      "pubDate": "2025-05-19T09:15:00Z",
-      "author": "Quantum Research Team",
-      "source": "IEEE"
+      "title": "Our project to reduce traffic emissions with AI has expanded to more than 100 intersections in Boston.",
+      "link": "https://blog.google/outreach-initiatives/sustainability/project-green-light-boston-expansion/",
+      "pubDate": "Thu, 22 May 2025 15:00:00 +0000",
+      "author": "Staff Writer",
+      "source": "Blog"
     },
     {
-      "title": "The Rise of Explainable AI in Enterprise Applications",
-      "link": "https://techcrunch.com/2025/05/26/explainable-ai-enterprise/",
-      "pubDate": "2025-05-26T11:20:00Z",
-      "author": "Enterprise Tech Editor",
-      "source": "TechCrunch"
+      "title": "Apply to our new program for startups using AI to support governments.",
+      "link": "https://blog.google/outreach-initiatives/entrepreneurs/govtech-startups-program/",
+      "pubDate": "Thu, 22 May 2025 09:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Karen Fiester"
+        ],
+        "title": [
+          "Global Director of Google for Startups"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     }
   ]
 }
