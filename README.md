@@ -24,7 +24,7 @@ Comprehensive data science portfolio demonstrating the practical application of 
 - **Business Impact**: Developed edge-compatible solution for resource-constrained deployment scenarios
 
 **Tech Stack**: Python, TensorFlow, CNN Architecture, AutoML  
-**🔗 [View Project Details](https://mohitpammu.github.io/Projects/projects/Deep%20Learning/Digit%20Recgonition/MohitPammu_SVHN_Digit_Recognition.html)**
+**🔗 [View Project Details](https://github.com/MohitPammu/SVHN-Digit-Recognition)**
 
 ### 📊 Bikeshare User Analytics | Marketing Strategy
 **Google Data Analytics Professional Program (2024)**
