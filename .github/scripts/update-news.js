@@ -259,7 +259,10 @@ async function updateNewsFeed() {
     const alternateFeeds = [
       'https://kdnuggets.com/feed',
       'https://www.r-bloggers.com/feed/',
-      'https://feeds.feedburner.com/Analytics-Vidhya'
+      'https://feeds.feedburner.com/Analytics-Vidhya',
+      'https://www.datanami.com/feed/',
+      'https://blog.google/technology/ai/rss/',
+      'https://insidebigdata.com/feed/'
     ];
     
     let liveArticles = [];
@@ -276,7 +279,7 @@ async function updateNewsFeed() {
           // Process items from the feed, filtering out spam
           const validArticles = feedData.items
             .filter(item => isValidArticle(item))
-            .slice(0, 5) // Get up to 5 valid articles
+            .slice(0, 2) // Get up to 2 valid articles from each source
             .map(item => {
               return {
                 title: item.title,
@@ -288,16 +291,19 @@ async function updateNewsFeed() {
             });
           
           if (validArticles.length > 0) {
-            console.log(`Found ${validArticles.length} valid articles`);
-            liveArticles = validArticles;
-            break; // We got some live articles, no need to try other feeds
+            console.log(`Found ${validArticles.length} valid articles from ${feedUrl}`);
+            // Add these articles to our collection (not breaking out)
+            liveArticles = liveArticles.concat(validArticles);
           }
         }
       } catch (error) {
         console.error(`Error fetching feed from ${feedUrl}:`, error.message);
       }
     }
-    
+
+    // Limit to a maximum of 8 articles from live sources
+    liveArticles = liveArticles.slice(0, 8);
+
     // Combine curated and live articles (if any), prioritizing live ones
     let finalArticles = [...liveArticles];
     
