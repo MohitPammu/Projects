@@ -144,14 +144,22 @@ python -m http.server 8000
 
 ### Project Structure
 ```
+Projects/
+├── index.html                          # Main portfolio landing page
+├── css/                               # Styling files
+├── js/                                # Interactive elements (D3.js, etc.)
+├── assets/                            # Images, resources, data files
 ├── projects/
-│   ├── Deep Learning/          # CNN, Neural Networks
-│   ├── EDA/                   # Exploratory Data Analysis
-│   └── BI & Visualization/    # Dashboards, Reports
-├── assets/                    # Images, Data, Resources
-├── css/                       # Styling
-├── js/                        # Interactive Elements
-└── index.html                 # Main Portfolio Page
+│   ├── EDA/                          # Exploratory Data Analysis
+│   │   ├── Cyclistic/                # Bikeshare analytics (R, Google Data Analytics)
+│   │   │   └── cyclistic-google-data-analytics-capstone.html
+│   │   └── FoodHub/                  # Restaurant delivery analysis (Python, MIT)
+│   │       └── MohitPammu-FDS_Project.html
+│   └── BI & Visualization/           # Business Intelligence projects (Power BI)
+│       ├── HR Data/                  # HR analytics dashboard
+│       ├── Netflix Content Analysis/ # Netflix data visualization
+│       └── Sales Data/               # Sales performance dashboard
+└── README.md                         # Portfolio hub documentation
 ```
 
 ---
