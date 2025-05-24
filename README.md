@@ -8,7 +8,9 @@
 
 ## About This Portfolio
 
-Comprehensive data science portfolio demonstrating the practical application of machine learning and analytics to solve real business challenges. With a background in business consulting and operations management, I bring a unique perspective that bridges technical implementation with strategic business impact.
+**Portfolio Hub**: Comprehensive data science portfolio showcasing machine learning, analytics, and business intelligence projects. This repository serves as the central hub directing to flagship repositories and hosting substantial projects across the data science spectrum.
+
+With a background in business consulting and operations management, I bring a unique perspective that bridges technical implementation with strategic business impact. From production-ready deep learning models to large-scale analytics and business intelligence dashboards, this portfolio demonstrates systematic progression from foundational projects to enterprise-ready solutions.
 
 **🌐 Live Portfolio**: [mohitpammu.github.io/Projects](https://mohitpammu.github.io/Projects/)
 
