@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-05-27T00:41:36.514Z",
+  "lastUpdated": "2025-05-28T00:42:41.680Z",
   "items": [
     {
-      "title": "Warp: The Intelligent AI-Powered Terminal",
-      "link": "https://www.kdnuggets.com/warp-the-intelligent-ai-powered-terminal",
-      "pubDate": "Mon, 26 May 2025 16:00:09 +0000",
-      "author": "Abid Ali Awan",
+      "title": "Make Your Company Data Driven with Redash",
+      "link": "https://www.kdnuggets.com/make-your-company-data-driven-with-redash",
+      "pubDate": "Tue, 27 May 2025 14:00:07 +0000",
+      "author": "Cornellius Yudha Wijaya",
       "source": "KDnuggets"
     },
     {
-      "title": "How to Market Yourself as a Data Professional on LinkedIn",
-      "link": "https://www.kdnuggets.com/how-to-market-yourself-as-a-data-professional-on-linkedin",
-      "pubDate": "Mon, 26 May 2025 13:56:38 +0000",
-      "author": "Kanwal Mehreen",
+      "title": "10 Python One-Liners for Working with Dates and Times",
+      "link": "https://www.kdnuggets.com/10-python-one-liners-for-working-with-dates-and-times",
+      "pubDate": "Tue, 27 May 2025 12:00:38 +0000",
+      "author": "Iván Palomares Carrascosa",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Spatial machine learning with the tidymodels framework",
+      "link": "https://www.r-bloggers.com/2025/05/spatial-machine-learning-with-the-tidymodels-framework/",
+      "pubDate": "Wed, 28 May 2025 00:00:00 +0000",
+      "author": "Hanna Meyer",
+      "source": "R-bloggers"
     },
     {
       "title": "Building fully reproducible data science environments for R and Python with ease using Nix, rix, and rixpress workshop",
       "link": "https://www.r-bloggers.com/2025/05/building-fully-reproducible-data-science-environments-for-r-and-python-with-ease-using-nix-rix-and-rixpress-workshop/",
       "pubDate": "Tue, 20 May 2025 14:57:41 +0000",
       "author": "Dariia Mykhailyshyna",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Keep your R code clean and consistent with Air",
-      "link": "https://www.r-bloggers.com/2025/05/keep-your-r-code-clean-and-consistent-with-air/",
-      "pubDate": "Mon, 19 May 2025 00:00:00 +0000",
-      "author": "Yohann Mansiaux",
       "source": "R-bloggers"
     },
     {
