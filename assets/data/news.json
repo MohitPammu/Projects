@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-05-28T00:42:41.680Z",
+  "lastUpdated": "2025-05-29T00:42:42.824Z",
   "items": [
+    {
+      "title": "The Art of Writing Readable Python Functions",
+      "link": "https://www.kdnuggets.com/the-art-of-writing-readable-python-functions",
+      "pubDate": "Wed, 28 May 2025 14:00:57 +0000",
+      "author": "Bala Priya C",
+      "source": "KDnuggets"
+    },
     {
       "title": "Make Your Company Data Driven with Redash",
       "link": "https://www.kdnuggets.com/make-your-company-data-driven-with-redash",
@@ -10,24 +17,17 @@
       "source": "KDnuggets"
     },
     {
-      "title": "10 Python One-Liners for Working with Dates and Times",
-      "link": "https://www.kdnuggets.com/10-python-one-liners-for-working-with-dates-and-times",
-      "pubDate": "Tue, 27 May 2025 12:00:38 +0000",
-      "author": "Iván Palomares Carrascosa",
-      "source": "KDnuggets"
+      "title": "Applying GARCH and INGARCH models to papal conclaves",
+      "link": "https://www.r-bloggers.com/2025/05/applying-garch-and-ingarch-models-to-papal-conclaves/",
+      "pubDate": "Wed, 28 May 2025 00:00:00 +0000",
+      "author": "datascienceconfidential - r",
+      "source": "R-bloggers"
     },
     {
       "title": "Spatial machine learning with the tidymodels framework",
       "link": "https://www.r-bloggers.com/2025/05/spatial-machine-learning-with-the-tidymodels-framework/",
       "pubDate": "Wed, 28 May 2025 00:00:00 +0000",
       "author": "Hanna Meyer",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Building fully reproducible data science environments for R and Python with ease using Nix, rix, and rixpress workshop",
-      "link": "https://www.r-bloggers.com/2025/05/building-fully-reproducible-data-science-environments-for-r-and-python-with-ease-using-nix-rix-and-rixpress-workshop/",
-      "pubDate": "Tue, 20 May 2025 14:57:41 +0000",
-      "author": "Dariia Mykhailyshyna",
       "source": "R-bloggers"
     },
     {
