@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-03T00:43:38.874Z",
+  "lastUpdated": "2025-06-04T00:43:25.530Z",
   "items": [
     {
-      "title": "Training Models with XGBoost in Your Browser",
-      "link": "https://www.kdnuggets.com/training-models-with-xgboost-in-your-browser",
-      "pubDate": "Fri, 30 May 2025 14:00:46 +0000",
+      "title": "7 Cognitive Biases That Affect Your Data Analysis (and How to Overcome Them)",
+      "link": "https://www.kdnuggets.com/7-cognitive-biases-that-affect-your-data-analysis-and-how-to-overcome-them",
+      "pubDate": "Tue, 03 Jun 2025 16:00:09 +0000",
       "author": "Nate Rosidi",
       "source": "KDnuggets"
     },
     {
-      "title": "Data Science ETL Pipelines with DuckDB",
-      "link": "https://www.kdnuggets.com/data-science-etl-pipelines-with-duckdb",
-      "pubDate": "Fri, 30 May 2025 12:00:52 +0000",
-      "author": "Cornellius Yudha Wijaya",
+      "title": "Building Data Science Projects Using AI: A Vibe Coding Guide",
+      "link": "https://www.kdnuggets.com/building-data-science-projects-using-ai-a-vibe-coding-guide",
+      "pubDate": "Tue, 03 Jun 2025 14:00:18 +0000",
+      "author": "Natassha Selvaraj",
       "source": "KDnuggets"
     },
     {
-      "title": "Applying GARCH and INGARCH models to papal conclaves",
-      "link": "https://www.r-bloggers.com/2025/05/applying-garch-and-ingarch-models-to-papal-conclaves/",
-      "pubDate": "Wed, 28 May 2025 00:00:00 +0000",
-      "author": "datascienceconfidential - r",
+      "title": "Repost: The Modern R Stack for Production AI",
+      "link": "https://www.r-bloggers.com/2025/06/repost-the-modern-r-stack-for-production-ai/",
+      "pubDate": "Tue, 03 Jun 2025 09:10:00 +0000",
+      "author": "Stephen Turner",
       "source": "R-bloggers"
     },
     {
-      "title": "Spatial machine learning with the tidymodels framework",
-      "link": "https://www.r-bloggers.com/2025/05/spatial-machine-learning-with-the-tidymodels-framework/",
-      "pubDate": "Wed, 28 May 2025 00:00:00 +0000",
-      "author": "Hanna Meyer",
+      "title": "Containerizing Shiny Apps with {shiny2docker}: A Step-by-Step Guide",
+      "link": "https://www.r-bloggers.com/2025/06/containerizing-shiny-apps-with-shiny2docker-a-step-by-step-guide/",
+      "pubDate": "Tue, 03 Jun 2025 06:16:54 +0000",
+      "author": "Vincent GUYADER",
       "source": "R-bloggers"
     },
     {
