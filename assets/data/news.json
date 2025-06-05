@@ -1,21 +1,7 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-04T00:43:25.530Z",
+  "lastUpdated": "2025-06-05T00:42:58.887Z",
   "items": [
-    {
-      "title": "7 Cognitive Biases That Affect Your Data Analysis (and How to Overcome Them)",
-      "link": "https://www.kdnuggets.com/7-cognitive-biases-that-affect-your-data-analysis-and-how-to-overcome-them",
-      "pubDate": "Tue, 03 Jun 2025 16:00:09 +0000",
-      "author": "Nate Rosidi",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "Building Data Science Projects Using AI: A Vibe Coding Guide",
-      "link": "https://www.kdnuggets.com/building-data-science-projects-using-ai-a-vibe-coding-guide",
-      "pubDate": "Tue, 03 Jun 2025 14:00:18 +0000",
-      "author": "Natassha Selvaraj",
-      "source": "KDnuggets"
-    },
     {
       "title": "Repost: The Modern R Stack for Production AI",
       "link": "https://www.r-bloggers.com/2025/06/repost-the-modern-r-stack-for-production-ai/",
@@ -31,6 +17,29 @@
       "source": "R-bloggers"
     },
     {
+      "title": "AI breakthroughs are bringing hope to cancer research and treatment",
+      "link": "https://blog.google/technology/health/ruth-porat-remarks-asco/",
+      "pubDate": "Wed, 04 Jun 2025 18:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Ruth Porat"
+        ],
+        "title": [
+          "President & Chief Investment Officer"
+        ],
+        "department": [
+          "Alphabet and Google"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
+    },
+    {
       "title": "Our project to reduce traffic emissions with AI has expanded to more than 100 intersections in Boston.",
       "link": "https://blog.google/outreach-initiatives/sustainability/project-green-light-boston-expansion/",
       "pubDate": "Thu, 22 May 2025 15:00:00 +0000",
@@ -38,27 +47,18 @@
       "source": "Blog"
     },
     {
-      "title": "Apply to our new program for startups using AI to support governments.",
-      "link": "https://blog.google/outreach-initiatives/entrepreneurs/govtech-startups-program/",
-      "pubDate": "Thu, 22 May 2025 09:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Karen Fiester"
-        ],
-        "title": [
-          "Global Director of Google for Startups"
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
+      "title": "Data Science vs Machine Learning vs Data Analytics [2025] - Simplilearn.com",
+      "link": "https://simplilearn.com/data-science-vs-machine-learning-vs-data-analytics",
+      "pubDate": "2025-06-05T00:42:57.942Z",
+      "author": "Data Science Team",
+      "source": "Simplilearn"
+    },
+    {
+      "title": "What is the Best Language for Machine Learning? (May 2025) - Unite.AI",
+      "link": "https://unite.ai/best-language-for-machine-learning-2025/",
+      "pubDate": "2025-06-01T00:42:57.942Z",
+      "author": "AI Research Team",
+      "source": "Unite.AI"
     }
   ]
 }
