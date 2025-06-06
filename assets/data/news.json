@@ -1,37 +1,37 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-05T00:42:58.887Z",
+  "lastUpdated": "2025-06-06T00:42:17.598Z",
   "items": [
     {
-      "title": "Repost: The Modern R Stack for Production AI",
-      "link": "https://www.r-bloggers.com/2025/06/repost-the-modern-r-stack-for-production-ai/",
-      "pubDate": "Tue, 03 Jun 2025 09:10:00 +0000",
-      "author": "Stephen Turner",
+      "title": "New Mentoring Team, Same Open Science Spirit",
+      "link": "https://www.r-bloggers.com/2025/06/new-mentoring-team-same-open-science-spirit/",
+      "pubDate": "Thu, 05 Jun 2025 00:00:00 +0000",
+      "author": "rOpenSci - open tools for open science",
       "source": "R-bloggers"
     },
     {
-      "title": "Containerizing Shiny Apps with {shiny2docker}: A Step-by-Step Guide",
-      "link": "https://www.r-bloggers.com/2025/06/containerizing-shiny-apps-with-shiny2docker-a-step-by-step-guide/",
-      "pubDate": "Tue, 03 Jun 2025 06:16:54 +0000",
-      "author": "Vincent GUYADER",
+      "title": "R version of Probabilistic Machine Learning (for longitudinal data) Reserving (work in progress)",
+      "link": "https://www.r-bloggers.com/2025/06/r-version-of-probabilistic-machine-learning-for-longitudinal-data-reserving-work-in-progress/",
+      "pubDate": "Thu, 05 Jun 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
-      "title": "AI breakthroughs are bringing hope to cancer research and treatment",
-      "link": "https://blog.google/technology/health/ruth-porat-remarks-asco/",
-      "pubDate": "Wed, 04 Jun 2025 18:00:00 +0000",
+      "title": "Try new data visualizations and graphs for finance queries in AI Mode.",
+      "link": "https://blog.google/products/search/ai-mode-data-visualization/",
+      "pubDate": "Thu, 05 Jun 2025 19:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Ruth Porat"
+          "Soufi Esmaeilzadeh"
         ],
         "title": [
-          "President & Chief Investment Officer"
+          "Director, Product Management"
         ],
         "department": [
-          "Alphabet and Google"
+          "Search"
         ],
         "company": [
           ""
@@ -40,23 +40,39 @@
       "source": "Blog"
     },
     {
-      "title": "Our project to reduce traffic emissions with AI has expanded to more than 100 intersections in Boston.",
-      "link": "https://blog.google/outreach-initiatives/sustainability/project-green-light-boston-expansion/",
-      "pubDate": "Thu, 22 May 2025 15:00:00 +0000",
-      "author": "Staff Writer",
+      "title": "A closer look inside AI Mode",
+      "link": "https://blog.google/products/search/ai-mode-development/",
+      "pubDate": "Thu, 05 Jun 2025 18:30:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Ari Marini"
+        ],
+        "title": [
+          "Keyword Contributor"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
       "source": "Blog"
     },
     {
       "title": "Data Science vs Machine Learning vs Data Analytics [2025] - Simplilearn.com",
       "link": "https://simplilearn.com/data-science-vs-machine-learning-vs-data-analytics",
-      "pubDate": "2025-06-05T00:42:57.942Z",
+      "pubDate": "2025-06-03T00:42:16.034Z",
       "author": "Data Science Team",
       "source": "Simplilearn"
     },
     {
       "title": "What is the Best Language for Machine Learning? (May 2025) - Unite.AI",
       "link": "https://unite.ai/best-language-for-machine-learning-2025/",
-      "pubDate": "2025-06-01T00:42:57.942Z",
+      "pubDate": "2025-06-03T00:42:16.034Z",
       "author": "AI Research Team",
       "source": "Unite.AI"
     }
