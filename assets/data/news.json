@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-07T00:42:32.912Z",
+  "lastUpdated": "2025-06-08T00:48:31.867Z",
   "items": [
     {
       "title": "New Mentoring Team, Same Open Science Spirit",
@@ -63,18 +63,18 @@
       "source": "Blog"
     },
     {
-      "title": "Data Science vs Machine Learning vs Data Analytics [2025] - Simplilearn.com",
-      "link": "https://simplilearn.com/data-science-vs-machine-learning-vs-data-analytics",
-      "pubDate": "2025-06-07T00:42:31.337Z",
-      "author": "Data Science Team",
-      "source": "Simplilearn"
+      "title": "Talking to Kids About AI - Towards Data Science",
+      "link": "https://towardsdatascience.com/talking-to-kids-about-ai",
+      "pubDate": "2025-06-05T00:48:30.193Z",
+      "author": "Education Specialist",
+      "source": "Towards Data Science"
     },
     {
-      "title": "What is the Best Language for Machine Learning? (May 2025) - Unite.AI",
-      "link": "https://unite.ai/best-language-for-machine-learning-2025/",
-      "pubDate": "2025-06-06T00:42:31.337Z",
-      "author": "AI Research Team",
-      "source": "Unite.AI"
+      "title": "10 Machine Learning Algorithms Every Data Scientist Should Know in 2025",
+      "link": "https://kdnuggets.com/machine-learning-algorithms-data-scientists-2025",
+      "pubDate": "2025-06-05T00:48:30.194Z",
+      "author": "Machine Learning Expert",
+      "source": "KDnuggets"
     }
   ]
 }
