@@ -1,19 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-08T00:48:31.867Z",
+  "lastUpdated": "2025-06-09T00:46:12.371Z",
   "items": [
+    {
+      "title": "5 Error Handling Patterns in Python (Beyond Try-Except)",
+      "link": "https://www.kdnuggets.com/5-error-handling-patterns-in-python-beyond-try-except",
+      "pubDate": "Fri, 06 Jun 2025 14:00:14 +0000",
+      "author": "Kanwal Mehreen",
+      "source": "KDnuggets"
+    },
+    {
+      "title": "10 Awesome OCR Models for 2025",
+      "link": "https://www.kdnuggets.com/10-awesome-ocr-models-for-2025",
+      "pubDate": "Fri, 06 Jun 2025 12:00:36 +0000",
+      "author": "Kanwal Mehreen",
+      "source": "KDnuggets"
+    },
+    {
+      "title": "Beyond Nelson-Siegel and splines: A model-agnostic Machine Learning framework for discount curve calibration, interpolation and extrapolation",
+      "link": "https://www.r-bloggers.com/2025/06/beyond-nelson-siegel-and-splines-a-model-agnostic-machine-learning-framework-for-discount-curve-calibration-interpolation-and-extrapolation/",
+      "pubDate": "Sat, 07 Jun 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
+      "source": "R-bloggers"
+    },
     {
       "title": "New Mentoring Team, Same Open Science Spirit",
       "link": "https://www.r-bloggers.com/2025/06/new-mentoring-team-same-open-science-spirit/",
       "pubDate": "Thu, 05 Jun 2025 00:00:00 +0000",
       "author": "rOpenSci - open tools for open science",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "R version of Probabilistic Machine Learning (for longitudinal data) Reserving (work in progress)",
-      "link": "https://www.r-bloggers.com/2025/06/r-version-of-probabilistic-machine-learning-for-longitudinal-data-reserving-work-in-progress/",
-      "pubDate": "Thu, 05 Jun 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
@@ -61,20 +75,6 @@
         ]
       },
       "source": "Blog"
-    },
-    {
-      "title": "Talking to Kids About AI - Towards Data Science",
-      "link": "https://towardsdatascience.com/talking-to-kids-about-ai",
-      "pubDate": "2025-06-05T00:48:30.193Z",
-      "author": "Education Specialist",
-      "source": "Towards Data Science"
-    },
-    {
-      "title": "10 Machine Learning Algorithms Every Data Scientist Should Know in 2025",
-      "link": "https://kdnuggets.com/machine-learning-algorithms-data-scientists-2025",
-      "pubDate": "2025-06-05T00:48:30.194Z",
-      "author": "Machine Learning Expert",
-      "source": "KDnuggets"
     }
   ]
 }
