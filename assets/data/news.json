@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-10T00:43:08.017Z",
+  "lastUpdated": "2025-06-11T00:43:19.077Z",
   "items": [
     {
-      "title": "7 Cool Python Projects to Automate the Boring Stuff",
-      "link": "https://www.kdnuggets.com/7-cool-python-projects-to-automate-the-boring-stuff",
-      "pubDate": "Mon, 09 Jun 2025 12:00:52 +0000",
-      "author": "Bala Priya C",
+      "title": "Selling Your Side Project? 10 Marketplaces Data Scientists Need to Know",
+      "link": "https://www.kdnuggets.com/selling-your-side-project-10-marketplaces-data-scientists-need-to-know",
+      "pubDate": "Tue, 10 Jun 2025 16:00:21 +0000",
+      "author": "Kanwal Mehreen",
       "source": "KDnuggets"
     },
     {
-      "title": "5 Error Handling Patterns in Python (Beyond Try-Except)",
-      "link": "https://www.kdnuggets.com/5-error-handling-patterns-in-python-beyond-try-except",
-      "pubDate": "Fri, 06 Jun 2025 14:00:14 +0000",
-      "author": "Kanwal Mehreen",
+      "title": "Integrating DuckDB & Python: An Analytics Guide",
+      "link": "https://www.kdnuggets.com/integrating-duckdb-python-an-analytics-guide",
+      "pubDate": "Tue, 10 Jun 2025 14:00:36 +0000",
+      "author": "Josep Ferrer",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Is Your Website Built for LLMs? Why Analytics Needs to Rethink the Funnel",
+      "link": "https://www.r-bloggers.com/2025/06/is-your-website-built-for-llms-why-analytics-needs-to-rethink-the-funnel/",
+      "pubDate": "Mon, 09 Jun 2025 00:00:00 +0000",
+      "author": "Stencilled",
+      "source": "R-bloggers"
     },
     {
       "title": "Free R, Python and SQL editors in techtonique dot net",
       "link": "https://www.r-bloggers.com/2025/06/free-r-python-and-sql-editors-in-techtonique-dot-net/",
       "pubDate": "Mon, 09 Jun 2025 00:00:00 +0000",
       "author": "T. Moudiki",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Get Your Data On 2025-06-08 15:38:00",
-      "link": "https://www.r-bloggers.com/2025/06/get-your-data-on-2025-06-08-153800/",
-      "pubDate": "Sun, 08 Jun 2025 21:38:00 +0000",
-      "author": "Chris Carbone",
       "source": "R-bloggers"
     },
     {
