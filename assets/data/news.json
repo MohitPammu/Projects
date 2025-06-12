@@ -1,34 +1,57 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-11T00:43:19.077Z",
+  "lastUpdated": "2025-06-12T00:42:55.877Z",
   "items": [
     {
-      "title": "Selling Your Side Project? 10 Marketplaces Data Scientists Need to Know",
-      "link": "https://www.kdnuggets.com/selling-your-side-project-10-marketplaces-data-scientists-need-to-know",
-      "pubDate": "Tue, 10 Jun 2025 16:00:21 +0000",
-      "author": "Kanwal Mehreen",
+      "title": "Bridging the Gap: New Datasets Push Recommender Research Toward Real-World Scale",
+      "link": "https://www.kdnuggets.com/2025/06/nettresults/bridging-the-gap-new-datasets-push-recommender-research-toward-real-world-scale",
+      "pubDate": "Wed, 11 Jun 2025 17:00:34 +0000",
+      "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
-      "title": "Integrating DuckDB & Python: An Analytics Guide",
-      "link": "https://www.kdnuggets.com/integrating-duckdb-python-an-analytics-guide",
-      "pubDate": "Tue, 10 Jun 2025 14:00:36 +0000",
-      "author": "Josep Ferrer",
+      "title": "Top 7 MCP Clients for AI Tooling",
+      "link": "https://www.kdnuggets.com/top-7-mcp-clients-for-ai-tooling",
+      "pubDate": "Wed, 11 Jun 2025 16:00:02 +0000",
+      "author": "Abid Ali Awan",
       "source": "KDnuggets"
     },
     {
-      "title": "Is Your Website Built for LLMs? Why Analytics Needs to Rethink the Funnel",
-      "link": "https://www.r-bloggers.com/2025/06/is-your-website-built-for-llms-why-analytics-needs-to-rethink-the-funnel/",
-      "pubDate": "Mon, 09 Jun 2025 00:00:00 +0000",
-      "author": "Stencilled",
+      "title": "Spatial machine learning with mlr3",
+      "link": "https://www.r-bloggers.com/2025/06/spatial-machine-learning-with-mlr3/",
+      "pubDate": "Wed, 11 Jun 2025 00:00:00 +0000",
+      "author": "Marvin Ludwig",
       "source": "R-bloggers"
     },
     {
-      "title": "Free R, Python and SQL editors in techtonique dot net",
-      "link": "https://www.r-bloggers.com/2025/06/free-r-python-and-sql-editors-in-techtonique-dot-net/",
-      "pubDate": "Mon, 09 Jun 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
+      "title": "Open repo of ecological data for use in teaching",
+      "link": "https://www.r-bloggers.com/2025/06/open-repo-of-ecological-data-for-use-in-teaching/",
+      "pubDate": "Tue, 10 Jun 2025 00:00:00 +0000",
+      "author": "Bluecology blog",
       "source": "R-bloggers"
+    },
+    {
+      "title": "Google for Nonprofits will expand to 100+ new countries and launch 10+ new no-cost AI features",
+      "link": "https://blog.google/outreach-initiatives/google-org/google-nonprofits-updates-june-2025/",
+      "pubDate": "Wed, 11 Jun 2025 16:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Maggie Johnson"
+        ],
+        "title": [
+          "VP and Global Head of Google.org"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "How we built one of the most ambitious datasets in brain activity research",
@@ -46,29 +69,6 @@
         ],
         "department": [
           ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Try new data visualizations and graphs for finance queries in AI Mode.",
-      "link": "https://blog.google/products/search/ai-mode-data-visualization/",
-      "pubDate": "Thu, 05 Jun 2025 19:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Soufi Esmaeilzadeh"
-        ],
-        "title": [
-          "Director, Product Management"
-        ],
-        "department": [
-          "Search"
         ],
         "company": [
           ""
