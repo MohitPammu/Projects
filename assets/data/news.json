@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-14T00:41:38.550Z",
+  "lastUpdated": "2025-06-15T00:49:27.097Z",
   "items": [
     {
       "title": "AI Agents in Analytics Workflows: Too Early or Already Behind?",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Programming language-agnostic reserving using RidgeCV, LightGBM, XGBoost, and ExtraTrees Machine Learning models",
+      "link": "https://www.r-bloggers.com/2025/06/programming-language-agnostic-reserving-using-ridgecv-lightgbm-xgboost-and-extratrees-machine-learning-models/",
+      "pubDate": "Fri, 13 Jun 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Setting up VScode for R and generative AI tools",
       "link": "https://www.r-bloggers.com/2025/06/setting-up-vscode-for-r-and-generative-ai-tools/",
       "pubDate": "Thu, 12 Jun 2025 00:00:00 +0000",
       "author": "Bluecology blog",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Australian No Deposit Bonuses In 2025 Claim Free Cash & Spins",
-      "link": "https://www.r-bloggers.com/2025/06/australian-no-deposit-bonuses-in-2025-claim-free-cash-spins/",
-      "pubDate": "Wed, 11 Jun 2025 23:47:53 +0000",
-      "author": "Appsilon &#124; Enterprise R Shiny Dashboards",
       "source": "R-bloggers"
     },
     {
