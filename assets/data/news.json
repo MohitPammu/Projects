@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-17T00:43:21.186Z",
+  "lastUpdated": "2025-06-18T00:43:37.159Z",
   "items": [
     {
-      "title": "Polars for Pandas Users: A Blazing Fast DataFrame Alternative",
-      "link": "https://www.kdnuggets.com/polars-for-pandas-users-a-blazing-fast-dataframe-alternative",
-      "pubDate": "Mon, 16 Jun 2025 16:00:56 +0000",
-      "author": "Vinod Chugani",
+      "title": "A Practical Guide to Multimodal Data Analytics",
+      "link": "https://www.kdnuggets.com/2025/06/google/a-practical-guide-to-multimodal-data-analytics",
+      "pubDate": "Tue, 17 Jun 2025 17:00:08 +0000",
+      "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
-      "title": "10 Large Language Model Key Concepts Explained",
-      "link": "https://www.kdnuggets.com/10-large-language-model-key-concepts-explained",
-      "pubDate": "Mon, 16 Jun 2025 14:00:55 +0000",
-      "author": "Iván Palomares Carrascosa",
+      "title": "NotebookLM + Deep Research: The Ultimate Learning Hack",
+      "link": "https://www.kdnuggets.com/notebooklm-deep-research-the-ultimate-learning-hack",
+      "pubDate": "Tue, 17 Jun 2025 16:00:57 +0000",
+      "author": "Jayita Gulati",
       "source": "KDnuggets"
     },
     {
-      "title": "Building Your Own Mini-ChatGPT with R: From Markov Chains to Transformers!",
-      "link": "https://www.r-bloggers.com/2025/06/building-your-own-mini-chatgpt-with-r-from-markov-chains-to-transformers/",
-      "pubDate": "Mon, 16 Jun 2025 06:25:54 +0000",
-      "author": "Learning Machines",
+      "title": "Correlation Analysis of Silver, Bitcoin, SOXX, and Blockchain Index with {corrr} package",
+      "link": "https://www.r-bloggers.com/2025/06/correlation-analysis-of-silver-bitcoin-soxx-and-blockchain-index-with-corrr-package/",
+      "pubDate": "Tue, 17 Jun 2025 09:36:40 +0000",
+      "author": "Selcuk Disci",
       "source": "R-bloggers"
     },
     {
-      "title": "Programming language-agnostic reserving using RidgeCV, LightGBM, XGBoost, and ExtraTrees Machine Learning models",
-      "link": "https://www.r-bloggers.com/2025/06/programming-language-agnostic-reserving-using-ridgecv-lightgbm-xgboost-and-extratrees-machine-learning-models/",
-      "pubDate": "Fri, 13 Jun 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
+      "title": "My data science internship with the openwashdata team",
+      "link": "https://www.r-bloggers.com/2025/06/my-data-science-internship-with-the-openwashdata-team-2/",
+      "pubDate": "Tue, 17 Jun 2025 00:00:00 +0000",
+      "author": "Yash Dubey",
       "source": "R-bloggers"
     },
     {
