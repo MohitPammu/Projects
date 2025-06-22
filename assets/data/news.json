@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-21T00:42:38.418Z",
+  "lastUpdated": "2025-06-22T00:49:18.663Z",
   "items": [
     {
       "title": "Data Science, No Degree",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Stacked generalization (Machine Learning model stacking) + conformal prediction for forecasting with ahead::mlf",
-      "link": "https://www.r-bloggers.com/2025/06/stacked-generalization-machine-learning-model-stacking-conformal-prediction-for-forecasting-with-aheadmlf/",
-      "pubDate": "Wed, 18 Jun 2025 00:00:00 +0000",
+      "title": "Beyond ARMA-GARCH: leveraging any statistical model for volatility forecasting",
+      "link": "https://www.r-bloggers.com/2025/06/beyond-arma-garch-leveraging-any-statistical-model-for-volatility-forecasting/",
+      "pubDate": "Sat, 21 Jun 2025 00:00:00 +0000",
       "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
-      "title": "Correlation Analysis of Silver, Bitcoin, SOXX, and Blockchain Index with {corrr} package",
-      "link": "https://www.r-bloggers.com/2025/06/correlation-analysis-of-silver-bitcoin-soxx-and-blockchain-index-with-corrr-package/",
-      "pubDate": "Tue, 17 Jun 2025 09:36:40 +0000",
-      "author": "Selcuk Disci",
+      "title": "Stacked generalization (Machine Learning model stacking) + conformal prediction for forecasting with ahead::mlf",
+      "link": "https://www.r-bloggers.com/2025/06/stacked-generalization-machine-learning-model-stacking-conformal-prediction-for-forecasting-with-aheadmlf/",
+      "pubDate": "Wed, 18 Jun 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
