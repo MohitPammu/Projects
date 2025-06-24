@@ -1,32 +1,32 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-23T00:47:00.704Z",
+  "lastUpdated": "2025-06-24T00:43:53.536Z",
   "items": [
     {
-      "title": "Data Science, No Degree",
-      "link": "https://www.kdnuggets.com/data-science-no-degree",
-      "pubDate": "Fri, 20 Jun 2025 14:00:21 +0000",
-      "author": "Nisha Arya",
+      "title": "MLFlow Mastery: A Complete Guide to Experiment Tracking and Model Management",
+      "link": "https://www.kdnuggets.com/mlflow-mastery-a-complete-guide-to-experiment-tracking-and-model-management",
+      "pubDate": "Mon, 23 Jun 2025 16:00:52 +0000",
+      "author": "Jayita Gulati",
       "source": "KDnuggets"
     },
     {
-      "title": "Top 5 Frameworks for Distributed Machine Learning",
-      "link": "https://www.kdnuggets.com/top-5-frameworks-for-distributed-machine-learning",
-      "pubDate": "Fri, 20 Jun 2025 12:00:19 +0000",
-      "author": "Abid Ali Awan",
+      "title": "How to Learn Programming for Data Science: A Roadmap for Beginners",
+      "link": "https://www.kdnuggets.com/how-to-learn-programming-for-data-science-a-roadmap-for-beginners",
+      "pubDate": "Mon, 23 Jun 2025 14:00:32 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Understanding the Link Between Uncertainty and Imports by glmnet",
+      "link": "https://www.r-bloggers.com/2025/06/understanding-the-link-between-uncertainty-and-imports-by-glmnet/",
+      "pubDate": "Mon, 23 Jun 2025 10:07:45 +0000",
+      "author": "Selcuk Disci",
+      "source": "R-bloggers"
     },
     {
       "title": "Beyond ARMA-GARCH: leveraging any statistical model for volatility forecasting",
       "link": "https://www.r-bloggers.com/2025/06/beyond-arma-garch-leveraging-any-statistical-model-for-volatility-forecasting/",
       "pubDate": "Sat, 21 Jun 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Stacked generalization (Machine Learning model stacking) + conformal prediction for forecasting with ahead::mlf",
-      "link": "https://www.r-bloggers.com/2025/06/stacked-generalization-machine-learning-model-stacking-conformal-prediction-for-forecasting-with-aheadmlf/",
-      "pubDate": "Wed, 18 Jun 2025 00:00:00 +0000",
       "author": "T. Moudiki",
       "source": "R-bloggers"
     },
