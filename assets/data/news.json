@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-24T00:43:53.536Z",
+  "lastUpdated": "2025-06-25T00:44:35.830Z",
   "items": [
     {
-      "title": "MLFlow Mastery: A Complete Guide to Experiment Tracking and Model Management",
-      "link": "https://www.kdnuggets.com/mlflow-mastery-a-complete-guide-to-experiment-tracking-and-model-management",
-      "pubDate": "Mon, 23 Jun 2025 16:00:52 +0000",
-      "author": "Jayita Gulati",
+      "title": "Build a Data Cleaning & Validation Pipeline in Under 50 Lines of Python",
+      "link": "https://www.kdnuggets.com/build-a-data-cleaning-validation-pipeline-in-under-50-lines-of-python",
+      "pubDate": "Tue, 24 Jun 2025 14:00:21 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
-      "title": "How to Learn Programming for Data Science: A Roadmap for Beginners",
-      "link": "https://www.kdnuggets.com/how-to-learn-programming-for-data-science-a-roadmap-for-beginners",
-      "pubDate": "Mon, 23 Jun 2025 14:00:32 +0000",
-      "author": "Bala Priya C",
+      "title": "Building AI Agents with llama.cpp",
+      "link": "https://www.kdnuggets.com/building-ai-agent-with-llama-cpp",
+      "pubDate": "Tue, 24 Jun 2025 12:00:55 +0000",
+      "author": "Abid Ali Awan",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Specialized R packages for spatial machine learning: An introduction to RandomForestsGLS, spatialRF, and meteo",
+      "link": "https://www.r-bloggers.com/2025/06/specialized-r-packages-for-spatial-machine-learning-an-introduction-to-randomforestsgls-spatialrf-and-meteo/",
+      "pubDate": "Wed, 25 Jun 2025 00:00:00 +0000",
+      "author": "Jakub Nowosad",
+      "source": "R-bloggers"
     },
     {
       "title": "Understanding the Link Between Uncertainty and Imports by glmnet",
       "link": "https://www.r-bloggers.com/2025/06/understanding-the-link-between-uncertainty-and-imports-by-glmnet/",
       "pubDate": "Mon, 23 Jun 2025 10:07:45 +0000",
       "author": "Selcuk Disci",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Beyond ARMA-GARCH: leveraging any statistical model for volatility forecasting",
-      "link": "https://www.r-bloggers.com/2025/06/beyond-arma-garch-leveraging-any-statistical-model-for-volatility-forecasting/",
-      "pubDate": "Sat, 21 Jun 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
