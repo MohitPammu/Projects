@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-25T00:44:35.830Z",
+  "lastUpdated": "2025-06-26T00:43:40.684Z",
   "items": [
+    {
+      "title": "Vibe Coding a Speed Reading App with Python in Just 15 Minutes",
+      "link": "https://www.kdnuggets.com/vibe-coding-a-speed-reading-app-with-python-in-just-15-minutes",
+      "pubDate": "Wed, 25 Jun 2025 14:00:51 +0000",
+      "author": "Bala Priya C",
+      "source": "KDnuggets"
+    },
     {
       "title": "Build a Data Cleaning & Validation Pipeline in Under 50 Lines of Python",
       "link": "https://www.kdnuggets.com/build-a-data-cleaning-validation-pipeline-in-under-50-lines-of-python",
@@ -10,11 +17,11 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Building AI Agents with llama.cpp",
-      "link": "https://www.kdnuggets.com/building-ai-agent-with-llama-cpp",
-      "pubDate": "Tue, 24 Jun 2025 12:00:55 +0000",
-      "author": "Abid Ali Awan",
-      "source": "KDnuggets"
+      "title": "A Simple Bayesian Multi-state Survival Model for a Clinical Trial",
+      "link": "https://www.r-bloggers.com/2025/06/a-simple-bayesian-multi-state-survival-model-for-a-clinical-trial/",
+      "pubDate": "Wed, 25 Jun 2025 00:00:00 +0000",
+      "author": "Joseph Rickert",
+      "source": "R-bloggers"
     },
     {
       "title": "Specialized R packages for spatial machine learning: An introduction to RandomForestsGLS, spatialRF, and meteo",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Understanding the Link Between Uncertainty and Imports by glmnet",
-      "link": "https://www.r-bloggers.com/2025/06/understanding-the-link-between-uncertainty-and-imports-by-glmnet/",
-      "pubDate": "Mon, 23 Jun 2025 10:07:45 +0000",
-      "author": "Selcuk Disci",
-      "source": "R-bloggers"
+      "title": "Gemini CLI: your open-source AI agent",
+      "link": "https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/",
+      "pubDate": "Wed, 25 Jun 2025 13:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Taylor Mullen"
+        ],
+        "title": [
+          "Senior Staff Software Engineer"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Search Live: Talk, listen and explore in real time with AI Mode",
@@ -46,29 +69,6 @@
         ],
         "department": [
           "Search"
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Google for Nonprofits will expand to 100+ new countries and launch 10+ new no-cost AI features",
-      "link": "https://blog.google/outreach-initiatives/google-org/google-nonprofits-updates-june-2025/",
-      "pubDate": "Wed, 11 Jun 2025 16:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Maggie Johnson"
-        ],
-        "title": [
-          "VP and Global Head of Google.org"
-        ],
-        "department": [
-          ""
         ],
         "company": [
           ""
