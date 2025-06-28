@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-27T00:44:21.688Z",
+  "lastUpdated": "2025-06-28T00:42:16.402Z",
   "items": [
     {
-      "title": "Automate Data Quality Reports with n8n: From CSV to Professional Analysis",
-      "link": "https://www.kdnuggets.com/automate-data-quality-reports-with-n8n-from-csv-to-professional-analysis",
-      "pubDate": "Thu, 26 Jun 2025 14:00:21 +0000",
+      "title": "How to Combine Streamlit, Pandas, and Plotly for Interactive Data Apps",
+      "link": "https://www.kdnuggets.com/how-to-combine-streamlit-pandas-and-plotly-for-interactive-data-apps",
+      "pubDate": "Fri, 27 Jun 2025 14:00:48 +0000",
       "author": "Vinod Chugani",
       "source": "KDnuggets"
     },
     {
-      "title": "7 Popular LLMs Explained in 7 Minutes",
-      "link": "https://www.kdnuggets.com/7-popular-llms-explained-in-7-minutes",
-      "pubDate": "Thu, 26 Jun 2025 12:00:19 +0000",
-      "author": "Kanwal Mehreen",
+      "title": "How to Learn AI for Data Analytics in 2025",
+      "link": "https://www.kdnuggets.com/how-to-learn-ai-for-data-analytics-in-2025",
+      "pubDate": "Fri, 27 Jun 2025 12:00:19 +0000",
+      "author": "Natassha Selvaraj",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Prompting large language models for quality ecological statistics",
+      "link": "https://www.r-bloggers.com/2025/06/prompting-large-language-models-for-quality-ecological-statistics/",
+      "pubDate": "Fri, 27 Jun 2025 00:00:00 +0000",
+      "author": "Bluecology blog",
+      "source": "R-bloggers"
     },
     {
       "title": "A Simple Bayesian Multi-state Survival Model for a Clinical Trial",
       "link": "https://www.r-bloggers.com/2025/06/a-simple-bayesian-multi-state-survival-model-for-a-clinical-trial/",
       "pubDate": "Wed, 25 Jun 2025 00:00:00 +0000",
       "author": "Joseph Rickert",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Specialized R packages for spatial machine learning: An introduction to RandomForestsGLS, spatialRF, and meteo",
-      "link": "https://www.r-bloggers.com/2025/06/specialized-r-packages-for-spatial-machine-learning-an-introduction-to-randomforestsgls-spatialrf-and-meteo/",
-      "pubDate": "Wed, 25 Jun 2025 00:00:00 +0000",
-      "author": "Jakub Nowosad",
       "source": "R-bloggers"
     },
     {
