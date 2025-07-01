@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-06-30T00:47:34.052Z",
+  "lastUpdated": "2025-07-01T00:51:22.639Z",
   "items": [
     {
       "title": "How to Combine Streamlit, Pandas, and Plotly for Interactive Data Apps",
@@ -17,18 +17,41 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Prompting large language models for quality ecological statistics",
-      "link": "https://www.r-bloggers.com/2025/06/prompting-large-language-models-for-quality-ecological-statistics/",
-      "pubDate": "Fri, 27 Jun 2025 00:00:00 +0000",
-      "author": "Bluecology blog",
+      "title": "Predicting Gold Prices: Backtesting of ML Models",
+      "link": "https://www.r-bloggers.com/2025/06/predicting-gold-prices-backtesting-of-ml-models/",
+      "pubDate": "Mon, 30 Jun 2025 09:40:19 +0000",
+      "author": "Selcuk Disci",
       "source": "R-bloggers"
     },
     {
-      "title": "A Simple Bayesian Multi-state Survival Model for a Clinical Trial",
-      "link": "https://www.r-bloggers.com/2025/06/a-simple-bayesian-multi-state-survival-model-for-a-clinical-trial/",
-      "pubDate": "Wed, 25 Jun 2025 00:00:00 +0000",
-      "author": "Joseph Rickert",
+      "title": "Did my eyes just see Python in the pharmaverse?",
+      "link": "https://www.r-bloggers.com/2025/06/did-my-eyes-just-see-python-in-the-pharmaverse/",
+      "pubDate": "Mon, 30 Jun 2025 00:00:00 +0000",
+      "author": "Ross Farrugia",
       "source": "R-bloggers"
+    },
+    {
+      "title": "Expanded access to Google Vids and no-cost AI tools in Classroom",
+      "link": "https://blog.google/outreach-initiatives/education/expanded-access-to-google-vids-and-no-cost-ai-tools-in-classroom/",
+      "pubDate": "Mon, 30 Jun 2025 13:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Brian Hendricks"
+        ],
+        "title": [
+          "Director, Product Management, Google Workspace for Education"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Gemini CLI: your open-source AI agent",
@@ -46,29 +69,6 @@
         ],
         "department": [
           ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Search Live: Talk, listen and explore in real time with AI Mode",
-      "link": "https://blog.google/products/search/search-live-ai-mode/",
-      "pubDate": "Wed, 18 Jun 2025 16:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Liza Ma"
-        ],
-        "title": [
-          "Director, Product Management"
-        ],
-        "department": [
-          "Search"
         ],
         "company": [
           ""
