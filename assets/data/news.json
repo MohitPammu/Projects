@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-01T00:51:22.639Z",
+  "lastUpdated": "2025-07-02T00:43:37.768Z",
   "items": [
+    {
+      "title": "10 GitHub Awesome Lists for Data Science",
+      "link": "https://www.kdnuggets.com/10-github-awesome-lists-for-data-science",
+      "pubDate": "Tue, 01 Jul 2025 12:00:18 +0000",
+      "author": "Abid Ali Awan",
+      "source": "KDnuggets"
+    },
     {
       "title": "How to Combine Streamlit, Pandas, and Plotly for Interactive Data Apps",
       "link": "https://www.kdnuggets.com/how-to-combine-streamlit-pandas-and-plotly-for-interactive-data-apps",
@@ -10,24 +17,17 @@
       "source": "KDnuggets"
     },
     {
-      "title": "How to Learn AI for Data Analytics in 2025",
-      "link": "https://www.kdnuggets.com/how-to-learn-ai-for-data-analytics-in-2025",
-      "pubDate": "Fri, 27 Jun 2025 12:00:19 +0000",
-      "author": "Natassha Selvaraj",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "Predicting Gold Prices: Backtesting of ML Models",
-      "link": "https://www.r-bloggers.com/2025/06/predicting-gold-prices-backtesting-of-ml-models/",
-      "pubDate": "Mon, 30 Jun 2025 09:40:19 +0000",
-      "author": "Selcuk Disci",
+      "title": "Random Vector Functional Link (RVFL) artificial neural network with 2 regularization parameters successfully used for forecasting/synthetic simulation in professional settings: Extensions (including Bayesian)",
+      "link": "https://www.r-bloggers.com/2025/06/random-vector-functional-link-rvfl-artificial-neural-network-with-2-regularization-parameters-successfully-used-for-forecasting-synthetic-simulation-in-professional-settings-extensions-including-b/",
+      "pubDate": "Tue, 01 Jul 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
-      "title": "Did my eyes just see Python in the pharmaverse?",
-      "link": "https://www.r-bloggers.com/2025/06/did-my-eyes-just-see-python-in-the-pharmaverse/",
-      "pubDate": "Mon, 30 Jun 2025 00:00:00 +0000",
-      "author": "Ross Farrugia",
+      "title": "Explore Neural Networks Interactively with Quarto Live!",
+      "link": "https://www.r-bloggers.com/2025/06/explore-neural-networks-interactively-with-quarto-live/",
+      "pubDate": "Mon, 30 Jun 2025 18:30:00 +0000",
+      "author": "R&#039;tichoke",
       "source": "R-bloggers"
     },
     {
