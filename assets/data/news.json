@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-03T00:43:52.918Z",
+  "lastUpdated": "2025-07-04T00:43:19.871Z",
   "items": [
+    {
+      "title": "AI-First Google Colab is All You Need",
+      "link": "https://www.kdnuggets.com/ai-first-google-colab-is-all-you-need",
+      "pubDate": "Thu, 03 Jul 2025 14:00:30 +0000",
+      "author": "Matthew Mayo",
+      "source": "KDnuggets"
+    },
     {
       "title": "7 Mistakes Data Scientists Make When Applying for Jobs",
       "link": "https://www.kdnuggets.com/7-mistakes-data-scientists-make-when-applying-for-jobs",
@@ -10,24 +17,17 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Python functools & itertools: 7 Super Handy Tools for Smarter Code",
-      "link": "https://www.kdnuggets.com/python-functools-itertools-7-super-handy-tools-for-smarter-code",
-      "pubDate": "Wed, 02 Jul 2025 14:00:17 +0000",
-      "author": "Bala Priya C",
-      "source": "KDnuggets"
+      "title": "latent: R package for the efficient estimation of large latent variable models",
+      "link": "https://www.r-bloggers.com/2025/07/latent-r-package-for-the-efficient-estimation-of-large-latent-variable-models/",
+      "pubDate": "Thu, 03 Jul 2025 11:06:00 +0000",
+      "author": "Dariia Mykhailyshyna",
+      "source": "R-bloggers"
     },
     {
       "title": "against modern sl[AI]very",
       "link": "https://www.r-bloggers.com/2025/07/against-modern-slaivery/",
       "pubDate": "Tue, 01 Jul 2025 22:25:22 +0000",
       "author": "xi'an",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Random Vector Functional Link (RVFL) artificial neural network with 2 regularization parameters successfully used for forecasting/synthetic simulation in professional settings: Extensions (including Bayesian)",
-      "link": "https://www.r-bloggers.com/2025/06/random-vector-functional-link-rvfl-artificial-neural-network-with-2-regularization-parameters-successfully-used-for-forecasting-synthetic-simulation-in-professional-settings-extensions-including-b/",
-      "pubDate": "Tue, 01 Jul 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
