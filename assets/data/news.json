@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-07T00:48:05.374Z",
+  "lastUpdated": "2025-07-08T00:43:40.138Z",
   "items": [
+    {
+      "title": "Large Language Models: A Self-Study Roadmap",
+      "link": "https://www.kdnuggets.com/large-language-models-a-self-study-roadmap",
+      "pubDate": "Mon, 07 Jul 2025 12:00:47 +0000",
+      "author": "Kanwal Mehreen",
+      "source": "KDnuggets"
+    },
     {
       "title": "Serve Machine Learning Models via REST APIs in Under 10 Minutes",
       "link": "https://www.kdnuggets.com/serve-machine-learning-models-via-rest-apis-in-under-10-minutes",
@@ -10,11 +17,11 @@
       "source": "KDnuggets"
     },
     {
-      "title": "A Gentle Introduction to Principal Component Analysis (PCA) in Python",
-      "link": "https://www.kdnuggets.com/gentle-introduction-principal-component-analysis-pca-in-python",
-      "pubDate": "Fri, 04 Jul 2025 12:00:47 +0000",
-      "author": "Iván Palomares Carrascosa",
-      "source": "KDnuggets"
+      "title": "Raw data for domains in the pharmaversesdtm package",
+      "link": "https://www.r-bloggers.com/2025/07/raw-data-for-domains-in-the-pharmaversesdtm-package/",
+      "pubDate": "Mon, 07 Jul 2025 00:00:00 +0000",
+      "author": "Shiyu Chen",
+      "source": "R-bloggers"
     },
     {
       "title": "latent: R package for the efficient estimation of large latent variable models",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Open Science with a Latin American Identity: Meet the New Cohort of the rOpenSci Champions Program",
-      "link": "https://www.r-bloggers.com/2025/07/open-science-with-a-latin-american-identity-meet-the-new-cohort-of-the-ropensci-champions-program/",
-      "pubDate": "Thu, 03 Jul 2025 00:00:00 +0000",
-      "author": "rOpenSci - open tools for open science",
-      "source": "R-bloggers"
+      "title": "New AI tools for mental health research and treatment",
+      "link": "https://blog.google/technology/health/new-mental-health-ai-tools-research-treatment/",
+      "pubDate": "Mon, 07 Jul 2025 19:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Dr. Megan Jones Bell"
+        ],
+        "title": [
+          "Clinical Director"
+        ],
+        "department": [
+          "Consumer and Mental Health"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "The latest AI news we announced in June",
@@ -43,29 +66,6 @@
         ],
         "title": [
           ""
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Expanded access to Google Vids and no-cost AI tools in Classroom",
-      "link": "https://blog.google/outreach-initiatives/education/expanded-access-to-google-vids-and-no-cost-ai-tools-in-classroom/",
-      "pubDate": "Mon, 30 Jun 2025 13:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Brian Hendricks"
-        ],
-        "title": [
-          "Director, Product Management, Google Workspace for Education"
         ],
         "department": [
           ""
