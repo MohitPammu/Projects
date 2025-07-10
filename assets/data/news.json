@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-09T00:44:49.058Z",
+  "lastUpdated": "2025-07-10T00:44:16.273Z",
   "items": [
+    {
+      "title": "5 Ways to Transition Into AI from a Non-Tech Background",
+      "link": "https://www.kdnuggets.com/5-ways-to-transition-into-ai-from-a-non-tech-background",
+      "pubDate": "Wed, 09 Jul 2025 15:00:16 +0000",
+      "author": "Nate Rosidi",
+      "source": "KDnuggets"
+    },
     {
       "title": "Building Modern Data Lakehouses on Google Cloud with Apache Iceberg and Apache Spark",
       "link": "https://www.kdnuggets.com/2025/07/google/building-modern-data-lakehouses-on-google-cloud-with-apache-iceberg-and-apache-spark",
       "pubDate": "Tue, 08 Jul 2025 17:00:12 +0000",
       "author": "KDnuggets",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "Build ETL Pipelines for Data Science Workflows in About 30 Lines of Python",
-      "link": "https://www.kdnuggets.com/build-etl-pipelines-for-data-science-workflows-in-about-30-lines-of-python",
-      "pubDate": "Tue, 08 Jul 2025 16:00:42 +0000",
-      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
@@ -31,21 +31,21 @@
       "source": "R-bloggers"
     },
     {
-      "title": "New AI tools for mental health research and treatment",
-      "link": "https://blog.google/technology/health/new-mental-health-ai-tools-research-treatment/",
-      "pubDate": "Mon, 07 Jul 2025 19:00:00 +0000",
+      "title": "Dive deeper with AI Mode and get gaming help in Circle to Search",
+      "link": "https://blog.google/products/search/circle-to-search-ai-mode-gaming/",
+      "pubDate": "Wed, 09 Jul 2025 14:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Dr. Megan Jones Bell"
+          "Harsh Kharbanda"
         ],
         "title": [
-          "Clinical Director"
+          "Director, Product Management, Search"
         ],
         "department": [
-          "Consumer and Mental Health"
+          ""
         ],
         "company": [
           ""
@@ -54,21 +54,21 @@
       "source": "Blog"
     },
     {
-      "title": "The latest AI news we announced in June",
-      "link": "https://blog.google/technology/ai/google-ai-updates-june-2025/",
-      "pubDate": "Wed, 02 Jul 2025 16:00:00 +0000",
+      "title": "How Lush and Google Cloud AI are reinventing retail checkout",
+      "link": "https://blog.google/around-the-globe/google-europe/united-kingdom/how-lush-and-google-cloud-ai-are-reinventing-retail-checkout/",
+      "pubDate": "Wed, 09 Jul 2025 08:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Keyword Team"
+          "Mark Steel"
         ],
         "title": [
-          ""
+          "Director, Global Strategic Industries"
         ],
         "department": [
-          ""
+          "Retail & Consumer, EMEA"
         ],
         "company": [
           ""
