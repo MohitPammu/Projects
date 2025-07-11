@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-10T00:44:16.273Z",
+  "lastUpdated": "2025-07-11T00:45:02.560Z",
   "items": [
+    {
+      "title": "Automate SQL Workflows with n8n: Scheduled Database Reports via Email",
+      "link": "https://www.kdnuggets.com/automate-sql-workflows-with-n8n-scheduled-database-reports-via-email",
+      "pubDate": "Thu, 10 Jul 2025 12:00:26 +0000",
+      "author": "Vinod Chugani",
+      "source": "KDnuggets"
+    },
     {
       "title": "5 Ways to Transition Into AI from a Non-Tech Background",
       "link": "https://www.kdnuggets.com/5-ways-to-transition-into-ai-from-a-non-tech-background",
       "pubDate": "Wed, 09 Jul 2025 15:00:16 +0000",
       "author": "Nate Rosidi",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "Building Modern Data Lakehouses on Google Cloud with Apache Iceberg and Apache Spark",
-      "link": "https://www.kdnuggets.com/2025/07/google/building-modern-data-lakehouses-on-google-cloud-with-apache-iceberg-and-apache-spark",
-      "pubDate": "Tue, 08 Jul 2025 17:00:12 +0000",
-      "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
