@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-12T00:45:31.584Z",
+  "lastUpdated": "2025-07-13T00:01:57.986Z",
   "items": [
     {
       "title": "Generative AI: A Self-Study Roadmap",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "A modern introduction to probability and statistics [book review]",
+      "link": "https://www.r-bloggers.com/2025/07/a-modern-introduction-to-probability-and-statistics-book-review/",
+      "pubDate": "Fri, 11 Jul 2025 22:25:44 +0000",
+      "author": "xi'an",
+      "source": "R-bloggers"
+    },
+    {
       "title": "data.table is a NumFOCUS project!",
       "link": "https://www.r-bloggers.com/2025/07/data-table-is-a-numfocus-project/",
       "pubDate": "Thu, 10 Jul 2025 07:00:00 +0000",
       "author": "Community Team",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Writing scientific papers with quarto and AI assistants",
-      "link": "https://www.r-bloggers.com/2025/07/writing-scientific-papers-with-quarto-and-ai-assistants/",
-      "pubDate": "Mon, 07 Jul 2025 00:00:00 +0000",
-      "author": "Bluecology blog",
       "source": "R-bloggers"
     },
     {
