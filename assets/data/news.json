@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-13T00:01:57.986Z",
+  "lastUpdated": "2025-07-14T00:01:51.812Z",
   "items": [
     {
       "title": "Generative AI: A Self-Study Roadmap",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "What We Learned from Our First Data Science for Open WASH Data Course",
+      "link": "https://www.r-bloggers.com/2025/07/what-we-learned-from-our-first-data-science-for-open-wash-data-course/",
+      "pubDate": "Mon, 14 Jul 2025 00:00:00 +0000",
+      "author": "Adriana Clavijo Daza",
+      "source": "R-bloggers"
+    },
+    {
       "title": "A modern introduction to probability and statistics [book review]",
       "link": "https://www.r-bloggers.com/2025/07/a-modern-introduction-to-probability-and-statistics-book-review/",
       "pubDate": "Fri, 11 Jul 2025 22:25:44 +0000",
       "author": "xi'an",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "data.table is a NumFOCUS project!",
-      "link": "https://www.r-bloggers.com/2025/07/data-table-is-a-numfocus-project/",
-      "pubDate": "Thu, 10 Jul 2025 07:00:00 +0000",
-      "author": "Community Team",
       "source": "R-bloggers"
     },
     {
