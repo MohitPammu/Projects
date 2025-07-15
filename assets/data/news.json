@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-14T00:01:51.812Z",
+  "lastUpdated": "2025-07-15T00:01:50.820Z",
   "items": [
     {
-      "title": "Generative AI: A Self-Study Roadmap",
-      "link": "https://www.kdnuggets.com/generative-ai-a-self-study-roadmap",
-      "pubDate": "Fri, 11 Jul 2025 12:00:46 +0000",
-      "author": "Vinod Chugani",
+      "title": "PyNarrative: An Excellent Python Library for Data Storytelling",
+      "link": "https://www.kdnuggets.com/pynarrative-an-excellent-python-library-for-data-storytelling",
+      "pubDate": "Mon, 14 Jul 2025 14:00:01 +0000",
+      "author": "Kanwal Mehreen",
       "source": "KDnuggets"
     },
     {
-      "title": "Automate SQL Workflows with n8n: Scheduled Database Reports via Email",
-      "link": "https://www.kdnuggets.com/automate-sql-workflows-with-n8n-scheduled-database-reports-via-email",
-      "pubDate": "Thu, 10 Jul 2025 12:00:26 +0000",
-      "author": "Vinod Chugani",
+      "title": "7 Python Statistics Tools That Data Scientists Actually Use in 2025",
+      "link": "https://www.kdnuggets.com/7-python-statistics-tools-that-data-scientists-actually-use-in-2025",
+      "pubDate": "Mon, 14 Jul 2025 11:49:37 +0000",
+      "author": "Abid Ali Awan",
       "source": "KDnuggets"
+    },
+    {
+      "title": "From Model to Meaning: How to use the marginaleffects R package to interpret results from statistical or machine learning models workshop",
+      "link": "https://www.r-bloggers.com/2025/07/from-model-to-meaning-how-to-use-the-marginaleffects-r-package-to-interpret-results-from-statistical-or-machine-learning-models-workshop/",
+      "pubDate": "Mon, 14 Jul 2025 13:33:02 +0000",
+      "author": "Dariia Mykhailyshyna",
+      "source": "R-bloggers"
     },
     {
       "title": "What We Learned from Our First Data Science for Open WASH Data Course",
       "link": "https://www.r-bloggers.com/2025/07/what-we-learned-from-our-first-data-science-for-open-wash-data-course/",
       "pubDate": "Mon, 14 Jul 2025 00:00:00 +0000",
       "author": "Adriana Clavijo Daza",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "A modern introduction to probability and statistics [book review]",
-      "link": "https://www.r-bloggers.com/2025/07/a-modern-introduction-to-probability-and-statistics-book-review/",
-      "pubDate": "Fri, 11 Jul 2025 22:25:44 +0000",
-      "author": "xi'an",
       "source": "R-bloggers"
     },
     {
