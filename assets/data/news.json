@@ -1,34 +1,57 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-15T00:01:50.820Z",
+  "lastUpdated": "2025-07-16T00:02:08.080Z",
   "items": [
     {
-      "title": "PyNarrative: An Excellent Python Library for Data Storytelling",
-      "link": "https://www.kdnuggets.com/pynarrative-an-excellent-python-library-for-data-storytelling",
-      "pubDate": "Mon, 14 Jul 2025 14:00:01 +0000",
-      "author": "Kanwal Mehreen",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "7 Python Statistics Tools That Data Scientists Actually Use in 2025",
-      "link": "https://www.kdnuggets.com/7-python-statistics-tools-that-data-scientists-actually-use-in-2025",
-      "pubDate": "Mon, 14 Jul 2025 11:49:37 +0000",
+      "title": "10 GitHub Repositories for Python Projects",
+      "link": "https://www.kdnuggets.com/10-github-repositories-for-python-projects",
+      "pubDate": "Tue, 15 Jul 2025 16:00:41 +0000",
       "author": "Abid Ali Awan",
       "source": "KDnuggets"
     },
     {
-      "title": "From Model to Meaning: How to use the marginaleffects R package to interpret results from statistical or machine learning models workshop",
-      "link": "https://www.r-bloggers.com/2025/07/from-model-to-meaning-how-to-use-the-marginaleffects-r-package-to-interpret-results-from-statistical-or-machine-learning-models-workshop/",
-      "pubDate": "Mon, 14 Jul 2025 13:33:02 +0000",
-      "author": "Dariia Mykhailyshyna",
+      "title": "Building End-to-End Data Pipelines: From Data Ingestion to Analysis",
+      "link": "https://www.kdnuggets.com/building-end-to-end-data-pipelines-from-data-ingestion-to-analysis",
+      "pubDate": "Tue, 15 Jul 2025 14:00:26 +0000",
+      "author": "Josep Ferrer",
+      "source": "KDnuggets"
+    },
+    {
+      "title": "R Package Quality: Maintainer Criteria",
+      "link": "https://www.r-bloggers.com/2025/07/r-package-quality-maintainer-criteria/",
+      "pubDate": "Tue, 15 Jul 2025 23:59:00 +0000",
+      "author": "The Jumping Rivers Blog",
       "source": "R-bloggers"
     },
     {
-      "title": "What We Learned from Our First Data Science for Open WASH Data Course",
-      "link": "https://www.r-bloggers.com/2025/07/what-we-learned-from-our-first-data-science-for-open-wash-data-course/",
-      "pubDate": "Mon, 14 Jul 2025 00:00:00 +0000",
-      "author": "Adriana Clavijo Daza",
+      "title": "With help from LLMs (e.g. Deepseek) ! an R function that filters a list of vectors using indices from the unlisted data",
+      "link": "https://www.r-bloggers.com/2025/07/with-help-from-llms-e-g-deepseek-an-r-function-that-filters-a-list-of-vectors-using-indices-from-the-unlisted-data/",
+      "pubDate": "Tue, 15 Jul 2025 07:30:00 +0000",
+      "author": "Di Cook",
       "source": "R-bloggers"
+    },
+    {
+      "title": "A summer of security: empowering cyber defenders with AI",
+      "link": "https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/",
+      "pubDate": "Tue, 15 Jul 2025 10:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Kent Walker"
+        ],
+        "title": [
+          "President of Global Affairs"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          "Google & Alphabet"
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Dive deeper with AI Mode and get gaming help in Circle to Search",
@@ -46,29 +69,6 @@
         ],
         "department": [
           ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "How Lush and Google Cloud AI are reinventing retail checkout",
-      "link": "https://blog.google/around-the-globe/google-europe/united-kingdom/how-lush-and-google-cloud-ai-are-reinventing-retail-checkout/",
-      "pubDate": "Wed, 09 Jul 2025 08:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Mark Steel"
-        ],
-        "title": [
-          "Director, Global Strategic Industries"
-        ],
-        "department": [
-          "Retail & Consumer, EMEA"
         ],
         "company": [
           ""
