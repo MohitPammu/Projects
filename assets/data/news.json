@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-16T00:02:08.080Z",
+  "lastUpdated": "2025-07-17T00:01:50.804Z",
   "items": [
     {
-      "title": "10 GitHub Repositories for Python Projects",
-      "link": "https://www.kdnuggets.com/10-github-repositories-for-python-projects",
-      "pubDate": "Tue, 15 Jul 2025 16:00:41 +0000",
-      "author": "Abid Ali Awan",
+      "title": "The Lifecycle of Feature Engineering: From Raw Data to Model-Ready Inputs",
+      "link": "https://www.kdnuggets.com/the-lifecycle-of-feature-engineering-from-raw-data-to-model-ready-inputs",
+      "pubDate": "Wed, 16 Jul 2025 14:00:30 +0000",
+      "author": "Jayita Gulati",
       "source": "KDnuggets"
     },
     {
-      "title": "Building End-to-End Data Pipelines: From Data Ingestion to Analysis",
-      "link": "https://www.kdnuggets.com/building-end-to-end-data-pipelines-from-data-ingestion-to-analysis",
-      "pubDate": "Tue, 15 Jul 2025 14:00:26 +0000",
-      "author": "Josep Ferrer",
+      "title": "10 Python Math & Statistical Analysis One-Liners",
+      "link": "https://www.kdnuggets.com/10-python-math-statistical-analysis-one-liners",
+      "pubDate": "Wed, 16 Jul 2025 12:00:17 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
@@ -29,6 +29,29 @@
       "pubDate": "Tue, 15 Jul 2025 07:30:00 +0000",
       "author": "Di Cook",
       "source": "R-bloggers"
+    },
+    {
+      "title": "More advanced AI capabilities are coming to Search",
+      "link": "https://blog.google/products/search/deep-search-business-calling-google-search/",
+      "pubDate": "Wed, 16 Jul 2025 16:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Robby Stein"
+        ],
+        "title": [
+          "VP of Product, Google Search"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "A summer of security: empowering cyber defenders with AI",
@@ -49,29 +72,6 @@
         ],
         "company": [
           "Google & Alphabet"
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Dive deeper with AI Mode and get gaming help in Circle to Search",
-      "link": "https://blog.google/products/search/circle-to-search-ai-mode-gaming/",
-      "pubDate": "Wed, 09 Jul 2025 14:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Harsh Kharbanda"
-        ],
-        "title": [
-          "Director, Product Management, Search"
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
         ]
       },
       "source": "Blog"
