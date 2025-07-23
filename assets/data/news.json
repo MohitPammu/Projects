@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-22T00:01:43.863Z",
+  "lastUpdated": "2025-07-23T00:02:05.924Z",
   "items": [
     {
-      "title": "The Basics of Debugging Python Problems",
-      "link": "https://www.kdnuggets.com/the-basics-of-debugging-python-problems",
-      "pubDate": "Mon, 21 Jul 2025 16:00:34 +0000",
-      "author": "Nate Rosidi",
+      "title": "8 Ways to Scale your Data Science Workloads",
+      "link": "https://www.kdnuggets.com/2025/07/google/8-ways-to-scale-your-data-science-workloads",
+      "pubDate": "Tue, 22 Jul 2025 17:00:57 +0000",
+      "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
-      "title": "10 GitHub Repositories for Machine Learning Projects",
-      "link": "https://www.kdnuggets.com/10-github-repositories-for-machine-learning-projects",
-      "pubDate": "Mon, 21 Jul 2025 12:00:53 +0000",
-      "author": "Abid Ali Awan",
+      "title": "10 Python One-Liners for JSON Parsing and Processing",
+      "link": "https://www.kdnuggets.com/10-python-one-liners-for-json-parsing-and-processing",
+      "pubDate": "Tue, 22 Jul 2025 14:00:31 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
