@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-07-31T00:01:46.243Z",
+  "lastUpdated": "2025-08-01T00:01:56.247Z",
   "items": [
     {
       "title": "Top Skills Data Scientists Should Learn in 2025",
@@ -21,13 +21,6 @@
       "link": "https://www.r-bloggers.com/2025/07/r-package-quality-maintainer-criteria/",
       "pubDate": "Tue, 15 Jul 2025 23:59:00 +0000",
       "author": "The Jumping Rivers Blog",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "With help from LLMs (e.g. Deepseek) ! an R function that filters a list of vectors using indices from the unlisted data",
-      "link": "https://www.r-bloggers.com/2025/07/with-help-from-llms-e-g-deepseek-an-r-function-that-filters-a-list-of-vectors-using-indices-from-the-unlisted-data/",
-      "pubDate": "Tue, 15 Jul 2025 07:30:00 +0000",
-      "author": "Di Cook",
       "source": "R-bloggers"
     },
     {
@@ -75,6 +68,13 @@
         ]
       },
       "source": "Blog"
+    },
+    {
+      "title": "Data Science vs Machine Learning vs Data Analytics [2025] - Simplilearn.com",
+      "link": "https://simplilearn.com/data-science-vs-machine-learning-vs-data-analytics",
+      "pubDate": "2025-07-31T00:01:54.402Z",
+      "author": "Data Science Team",
+      "source": "Simplilearn"
     }
   ]
 }
