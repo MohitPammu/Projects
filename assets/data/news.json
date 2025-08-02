@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-01T00:01:56.247Z",
+  "lastUpdated": "2025-08-02T00:01:55.121Z",
   "items": [
     {
       "title": "Top Skills Data Scientists Should Learn in 2025",
@@ -17,10 +17,10 @@
       "source": "KDnuggets"
     },
     {
-      "title": "R Package Quality: Maintainer Criteria",
-      "link": "https://www.r-bloggers.com/2025/07/r-package-quality-maintainer-criteria/",
-      "pubDate": "Tue, 15 Jul 2025 23:59:00 +0000",
-      "author": "The Jumping Rivers Blog",
+      "title": "How to Test R Code That Uses LLMs, APIs, or Databases",
+      "link": "https://www.r-bloggers.com/2025/07/how-to-test-r-code-that-uses-llms-apis-or-databases/",
+      "pubDate": "Fri, 01 Aug 2025 00:00:00 +0000",
+      "author": "jakub::sobolewski",
       "source": "R-bloggers"
     },
     {
@@ -72,7 +72,7 @@
     {
       "title": "Data Science vs Machine Learning vs Data Analytics [2025] - Simplilearn.com",
       "link": "https://simplilearn.com/data-science-vs-machine-learning-vs-data-analytics",
-      "pubDate": "2025-07-31T00:01:54.402Z",
+      "pubDate": "2025-07-30T00:01:53.983Z",
       "author": "Data Science Team",
       "source": "Simplilearn"
     }
