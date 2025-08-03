@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-02T00:01:55.121Z",
+  "lastUpdated": "2025-08-03T00:01:45.725Z",
   "items": [
     {
       "title": "Top Skills Data Scientists Should Learn in 2025",
@@ -15,6 +15,13 @@
       "pubDate": "Mon, 28 Jul 2025 14:00:50 +0000",
       "author": "Josep Ferrer",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Introduction to Generalised Linear Models with Prussian Horse Kicks",
+      "link": "https://www.r-bloggers.com/2025/08/introduction-to-generalised-linear-models-with-prussian-horse-kicks/",
+      "pubDate": "Fri, 01 Aug 2025 23:00:00 +0000",
+      "author": "Chris Bowdon",
+      "source": "R-bloggers"
     },
     {
       "title": "How to Test R Code That Uses LLMs, APIs, or Databases",
@@ -68,13 +75,6 @@
         ]
       },
       "source": "Blog"
-    },
-    {
-      "title": "Data Science vs Machine Learning vs Data Analytics [2025] - Simplilearn.com",
-      "link": "https://simplilearn.com/data-science-vs-machine-learning-vs-data-analytics",
-      "pubDate": "2025-07-30T00:01:53.983Z",
-      "author": "Data Science Team",
-      "source": "Simplilearn"
     }
   ]
 }
