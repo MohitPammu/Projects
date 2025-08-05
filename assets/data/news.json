@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-04T00:01:54.642Z",
+  "lastUpdated": "2025-08-05T00:01:52.425Z",
   "items": [
     {
-      "title": "Top Skills Data Scientists Should Learn in 2025",
-      "link": "https://www.kdnuggets.com/top-skills-data-scientists-should-learn-in-2025",
-      "pubDate": "Mon, 28 Jul 2025 16:00:42 +0000",
-      "author": "Kanwal Mehreen",
+      "title": "10 Python Libraries Every MLOps Engineer Should Know",
+      "link": "https://www.kdnuggets.com/10-python-libraries-every-mlops-engineer-should-know",
+      "pubDate": "Mon, 04 Aug 2025 14:00:42 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
-      "title": "Create an Analytics Dashboard for Your Google Sheets",
-      "link": "https://www.kdnuggets.com/create-an-analytics-dashboard-for-your-google-sheets",
-      "pubDate": "Mon, 28 Jul 2025 14:00:50 +0000",
-      "author": "Josep Ferrer",
+      "title": "5 Routine Tasks That ChatGPT Can Handle for Data Scientists",
+      "link": "https://www.kdnuggets.com/5-routine-tasks-that-chatgpt-can-handle-for-data-scientists",
+      "pubDate": "Mon, 04 Aug 2025 12:00:28 +0000",
+      "author": "Nate Rosidi",
       "source": "KDnuggets"
     },
     {
@@ -31,6 +31,29 @@
       "source": "R-bloggers"
     },
     {
+      "title": "Rethinking how we measure AI intelligence",
+      "link": "https://blog.google/technology/ai/kaggle-game-arena/",
+      "pubDate": "Mon, 04 Aug 2025 16:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Kate Olszewska"
+        ],
+        "title": [
+          "Product Manager"
+        ],
+        "department": [
+          "Google DeepMind"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
+    },
+    {
       "title": "Google Earth AI: Our state-of-the-art geospatial AI models",
       "link": "https://blog.google/technology/ai/google-earth-ai/",
       "pubDate": "Wed, 30 Jul 2025 14:00:00 +0000",
@@ -43,29 +66,6 @@
         ],
         "title": [
           "VP & GM, Geo"
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "New ways to learn and explore with AI Mode in Search",
-      "link": "https://blog.google/products/search/ai-mode-updates-back-to-school/",
-      "pubDate": "Tue, 29 Jul 2025 16:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Robby Stein"
-        ],
-        "title": [
-          "VP of Product, Google Search"
         ],
         "department": [
           ""
