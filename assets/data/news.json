@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-05T00:01:52.425Z",
+  "lastUpdated": "2025-08-06T00:01:53.140Z",
   "items": [
     {
-      "title": "10 Python Libraries Every MLOps Engineer Should Know",
-      "link": "https://www.kdnuggets.com/10-python-libraries-every-mlops-engineer-should-know",
-      "pubDate": "Mon, 04 Aug 2025 14:00:42 +0000",
+      "title": "The Case for Makefiles in Python Projects (And How to Get Started)",
+      "link": "https://www.kdnuggets.com/the-case-for-makefiles-in-python-projects-and-how-to-get-started",
+      "pubDate": "Tue, 05 Aug 2025 14:00:53 +0000",
       "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
-      "title": "5 Routine Tasks That ChatGPT Can Handle for Data Scientists",
-      "link": "https://www.kdnuggets.com/5-routine-tasks-that-chatgpt-can-handle-for-data-scientists",
-      "pubDate": "Mon, 04 Aug 2025 12:00:28 +0000",
-      "author": "Nate Rosidi",
+      "title": "Getting The Most From The LangChain Ecosystem",
+      "link": "https://www.kdnuggets.com/getting-the-most-from-the-langchain-ecosystem",
+      "pubDate": "Tue, 05 Aug 2025 12:00:06 +0000",
+      "author": "Abid Ali Awan",
       "source": "KDnuggets"
+    },
+    {
+      "title": "AI Replacement and Wash Hires",
+      "link": "https://www.r-bloggers.com/2025/08/ai-replacement-and-wash-hires/",
+      "pubDate": "Tue, 05 Aug 2025 00:00:00 +0000",
+      "author": "datascienceconfidential - r",
+      "source": "R-bloggers"
     },
     {
       "title": "Global Modeling with Automated ML: Impact of One Big Beautiful Bill on Big Tech",
       "link": "https://www.r-bloggers.com/2025/08/global-modeling-with-automated-ml-impact-of-one-big-beautiful-bill-on-big-tech/",
       "pubDate": "Sun, 03 Aug 2025 08:27:17 +0000",
       "author": "Selcuk Disci",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Introduction to Generalised Linear Models with Prussian Horse Kicks",
-      "link": "https://www.r-bloggers.com/2025/08/introduction-to-generalised-linear-models-with-prussian-horse-kicks/",
-      "pubDate": "Fri, 01 Aug 2025 23:00:00 +0000",
-      "author": "Chris Bowdon",
       "source": "R-bloggers"
     },
     {
