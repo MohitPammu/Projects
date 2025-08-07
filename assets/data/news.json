@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-06T00:01:53.140Z",
+  "lastUpdated": "2025-08-07T00:01:48.436Z",
   "items": [
+    {
+      "title": "The Importance of Visualization in Data Storytelling",
+      "link": "https://www.kdnuggets.com/the-importance-of-visualization-in-data-storytelling",
+      "pubDate": "Wed, 06 Aug 2025 16:00:37 +0000",
+      "author": "Iván Palomares Carrascosa",
+      "source": "KDnuggets"
+    },
     {
       "title": "The Case for Makefiles in Python Projects (And How to Get Started)",
       "link": "https://www.kdnuggets.com/the-case-for-makefiles-in-python-projects-and-how-to-get-started",
       "pubDate": "Tue, 05 Aug 2025 14:00:53 +0000",
       "author": "Bala Priya C",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "Getting The Most From The LangChain Ecosystem",
-      "link": "https://www.kdnuggets.com/getting-the-most-from-the-langchain-ecosystem",
-      "pubDate": "Tue, 05 Aug 2025 12:00:06 +0000",
-      "author": "Abid Ali Awan",
       "source": "KDnuggets"
     },
     {
@@ -31,6 +31,29 @@
       "source": "R-bloggers"
     },
     {
+      "title": "Meet your new AI coding teammate: Gemini CLI GitHub Actions",
+      "link": "https://blog.google/technology/developers/introducing-gemini-cli-github-actions/",
+      "pubDate": "Wed, 06 Aug 2025 01:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Jerop Kipruto"
+        ],
+        "title": [
+          "Senior Software Engineer"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
+    },
+    {
       "title": "Rethinking how we measure AI intelligence",
       "link": "https://blog.google/technology/ai/kaggle-game-arena/",
       "pubDate": "Mon, 04 Aug 2025 16:00:00 +0000",
@@ -46,29 +69,6 @@
         ],
         "department": [
           "Google DeepMind"
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Google Earth AI: Our state-of-the-art geospatial AI models",
-      "link": "https://blog.google/technology/ai/google-earth-ai/",
-      "pubDate": "Wed, 30 Jul 2025 14:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Chris Phillips"
-        ],
-        "title": [
-          "VP & GM, Geo"
-        ],
-        "department": [
-          ""
         ],
         "company": [
           ""
