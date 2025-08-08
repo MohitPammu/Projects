@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-07T00:01:48.436Z",
+  "lastUpdated": "2025-08-08T00:01:44.792Z",
   "items": [
     {
       "title": "The Importance of Visualization in Data Storytelling",
@@ -31,18 +31,18 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Meet your new AI coding teammate: Gemini CLI GitHub Actions",
-      "link": "https://blog.google/technology/developers/introducing-gemini-cli-github-actions/",
-      "pubDate": "Wed, 06 Aug 2025 01:00:00 +0000",
+      "title": "The AI model Perch, updated today, uses audio to help protect endangered species.",
+      "link": "https://blog.google/technology/google-deepmind/perch-ai-model/",
+      "pubDate": "Thu, 07 Aug 2025 15:34:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Jerop Kipruto"
+          "TK Breuer"
         ],
         "title": [
-          "Senior Software Engineer"
+          "Keyword contributor"
         ],
         "department": [
           ""
@@ -54,21 +54,21 @@
       "source": "Blog"
     },
     {
-      "title": "Rethinking how we measure AI intelligence",
-      "link": "https://blog.google/technology/ai/kaggle-game-arena/",
-      "pubDate": "Mon, 04 Aug 2025 16:00:00 +0000",
+      "title": "The latest AI news we announced in July",
+      "link": "https://blog.google/technology/ai/google-ai-updates-july-2025/",
+      "pubDate": "Thu, 07 Aug 2025 14:30:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Kate Olszewska"
+          "Keyword Team"
         ],
         "title": [
-          "Product Manager"
+          ""
         ],
         "department": [
-          "Google DeepMind"
+          ""
         ],
         "company": [
           ""
