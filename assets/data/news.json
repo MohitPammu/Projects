@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-08T00:01:44.792Z",
+  "lastUpdated": "2025-08-09T00:01:39.614Z",
   "items": [
+    {
+      "title": "AI-Powered Feature Engineering with n8n: Scaling Data Science Intelligence",
+      "link": "https://www.kdnuggets.com/ai-powered-feature-engineering-with-n8n-scaling-data-science-intelligence",
+      "pubDate": "Fri, 08 Aug 2025 12:00:34 +0000",
+      "author": "Vinod Chugani",
+      "source": "KDnuggets"
+    },
     {
       "title": "The Importance of Visualization in Data Storytelling",
       "link": "https://www.kdnuggets.com/the-importance-of-visualization-in-data-storytelling",
       "pubDate": "Wed, 06 Aug 2025 16:00:37 +0000",
       "author": "Iván Palomares Carrascosa",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "The Case for Makefiles in Python Projects (And How to Get Started)",
-      "link": "https://www.kdnuggets.com/the-case-for-makefiles-in-python-projects-and-how-to-get-started",
-      "pubDate": "Tue, 05 Aug 2025 14:00:53 +0000",
-      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
