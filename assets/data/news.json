@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-09T00:01:39.614Z",
+  "lastUpdated": "2025-08-10T00:01:58.064Z",
   "items": [
     {
       "title": "AI-Powered Feature Engineering with n8n: Scaling Data Science Intelligence",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Predictive Modeling with Missing Data",
+      "link": "https://www.r-bloggers.com/2025/08/predictive-modeling-with-missing-data/",
+      "pubDate": "Sat, 09 Aug 2025 04:00:00 +0000",
+      "author": "Jason Bryer",
+      "source": "R-bloggers"
+    },
+    {
       "title": "AI Replacement and Wash Hires",
       "link": "https://www.r-bloggers.com/2025/08/ai-replacement-and-wash-hires/",
       "pubDate": "Tue, 05 Aug 2025 00:00:00 +0000",
       "author": "datascienceconfidential - r",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Global Modeling with Automated ML: Impact of One Big Beautiful Bill on Big Tech",
-      "link": "https://www.r-bloggers.com/2025/08/global-modeling-with-automated-ml-impact-of-one-big-beautiful-bill-on-big-tech/",
-      "pubDate": "Sun, 03 Aug 2025 08:27:17 +0000",
-      "author": "Selcuk Disci",
       "source": "R-bloggers"
     },
     {
