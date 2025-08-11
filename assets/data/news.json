@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-10T00:01:58.064Z",
+  "lastUpdated": "2025-08-11T00:01:45.292Z",
   "items": [
     {
       "title": "AI-Powered Feature Engineering with n8n: Scaling Data Science Intelligence",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Managing Remote Database Connections from Quarto Documents",
+      "link": "https://www.r-bloggers.com/2025/08/managing-remote-database-connections-from-quarto-documents/",
+      "pubDate": "Sat, 09 Aug 2025 14:00:00 +0000",
+      "author": "Boyd Tarlinton",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Predictive Modeling with Missing Data",
       "link": "https://www.r-bloggers.com/2025/08/predictive-modeling-with-missing-data/",
       "pubDate": "Sat, 09 Aug 2025 04:00:00 +0000",
       "author": "Jason Bryer",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "AI Replacement and Wash Hires",
-      "link": "https://www.r-bloggers.com/2025/08/ai-replacement-and-wash-hires/",
-      "pubDate": "Tue, 05 Aug 2025 00:00:00 +0000",
-      "author": "datascienceconfidential - r",
       "source": "R-bloggers"
     },
     {
