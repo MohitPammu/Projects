@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-11T00:01:45.292Z",
+  "lastUpdated": "2025-08-12T00:01:54.019Z",
   "items": [
     {
-      "title": "AI-Powered Feature Engineering with n8n: Scaling Data Science Intelligence",
-      "link": "https://www.kdnuggets.com/ai-powered-feature-engineering-with-n8n-scaling-data-science-intelligence",
-      "pubDate": "Fri, 08 Aug 2025 12:00:34 +0000",
-      "author": "Vinod Chugani",
+      "title": "AI-Driven Data Governance and Compliance Best Practices",
+      "link": "https://www.kdnuggets.com/2025/08/roihigh/ai-driven-data-governance-and-compliance-best-practices",
+      "pubDate": "Mon, 11 Aug 2025 17:00:46 +0000",
+      "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
-      "title": "The Importance of Visualization in Data Storytelling",
-      "link": "https://www.kdnuggets.com/the-importance-of-visualization-in-data-storytelling",
-      "pubDate": "Wed, 06 Aug 2025 16:00:37 +0000",
-      "author": "Iván Palomares Carrascosa",
+      "title": "5 Useful Python Scripts for Busy Data Scientists",
+      "link": "https://www.kdnuggets.com/5-useful-python-scripts-for-busy-data-scientists",
+      "pubDate": "Mon, 11 Aug 2025 16:00:01 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
@@ -31,9 +31,9 @@
       "source": "R-bloggers"
     },
     {
-      "title": "The AI model Perch, updated today, uses audio to help protect endangered species.",
-      "link": "https://blog.google/technology/google-deepmind/perch-ai-model/",
-      "pubDate": "Thu, 07 Aug 2025 15:34:00 +0000",
+      "title": "Hear Google DeepMind CEO Demis Hassabis discuss how world model capabilities are helping AI understand reality.",
+      "link": "https://blog.google/technology/google-deepmind/ai-release-notes-podcast-demis-hassabis/",
+      "pubDate": "Mon, 11 Aug 2025 20:35:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
@@ -54,18 +54,18 @@
       "source": "Blog"
     },
     {
-      "title": "The latest AI news we announced in July",
-      "link": "https://blog.google/technology/ai/google-ai-updates-july-2025/",
-      "pubDate": "Thu, 07 Aug 2025 14:30:00 +0000",
+      "title": "The AI model Perch, updated today, uses audio to help protect endangered species.",
+      "link": "https://blog.google/technology/google-deepmind/perch-ai-model/",
+      "pubDate": "Thu, 07 Aug 2025 15:34:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Keyword Team"
+          "TK Breuer"
         ],
         "title": [
-          ""
+          "Keyword contributor"
         ],
         "department": [
           ""
