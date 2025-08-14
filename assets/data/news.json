@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-13T00:02:01.080Z",
+  "lastUpdated": "2025-08-14T00:01:57.153Z",
   "items": [
+    {
+      "title": "Diffusion Models Demystified: Understanding the Tech Behind DALL-E and Midjourney",
+      "link": "https://www.kdnuggets.com/diffusion-models-demystified-understanding-the-tech-behind-dall-e-and-midjourney",
+      "pubDate": "Wed, 13 Aug 2025 14:00:05 +0000",
+      "author": "Cornellius Yudha Wijaya",
+      "source": "KDnuggets"
+    },
     {
       "title": "AI-Driven Data Governance and Compliance Best Practices",
       "link": "https://www.kdnuggets.com/2025/08/roihigh/ai-driven-data-governance-and-compliance-best-practices",
@@ -10,11 +17,11 @@
       "source": "KDnuggets"
     },
     {
-      "title": "5 Useful Python Scripts for Busy Data Scientists",
-      "link": "https://www.kdnuggets.com/5-useful-python-scripts-for-busy-data-scientists",
-      "pubDate": "Mon, 11 Aug 2025 16:00:01 +0000",
-      "author": "Bala Priya C",
-      "source": "KDnuggets"
+      "title": "rtflite 1.0.0: Production-Ready Clinical TLFs in Python",
+      "link": "https://www.r-bloggers.com/2025/08/rtflite-1-0-0-production-ready-clinical-tlfs-in-python/",
+      "pubDate": "Wed, 13 Aug 2025 00:00:00 +0000",
+      "author": "Yilong Zhang",
+      "source": "R-bloggers"
     },
     {
       "title": "How We Do Training at Jumping Rivers: Seamless, Expert-Led, and Tailored to You",
@@ -24,39 +31,16 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Managing Remote Database Connections from Quarto Documents",
-      "link": "https://www.r-bloggers.com/2025/08/managing-remote-database-connections-from-quarto-documents/",
-      "pubDate": "Sat, 09 Aug 2025 14:00:00 +0000",
-      "author": "Boyd Tarlinton",
-      "source": "R-bloggers"
+      "title": "Google is investing in infrastructure and an AI-ready workforce in Oklahoma.",
+      "link": "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/",
+      "pubDate": "Wed, 13 Aug 2025 20:05:00 +0000",
+      "author": "Staff Writer",
+      "source": "Blog"
     },
     {
       "title": "Hear Google DeepMind CEO Demis Hassabis discuss how world model capabilities are helping AI understand reality.",
       "link": "https://blog.google/technology/google-deepmind/ai-release-notes-podcast-demis-hassabis/",
       "pubDate": "Mon, 11 Aug 2025 20:35:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "TK Breuer"
-        ],
-        "title": [
-          "Keyword contributor"
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "The AI model Perch, updated today, uses audio to help protect endangered species.",
-      "link": "https://blog.google/technology/google-deepmind/perch-ai-model/",
-      "pubDate": "Thu, 07 Aug 2025 15:34:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
