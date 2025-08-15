@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-14T00:01:57.153Z",
+  "lastUpdated": "2025-08-15T00:01:53.065Z",
   "items": [
     {
       "title": "Diffusion Models Demystified: Understanding the Tech Behind DALL-E and Midjourney",
@@ -31,25 +31,18 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Google is investing in infrastructure and an AI-ready workforce in Oklahoma.",
-      "link": "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/",
-      "pubDate": "Wed, 13 Aug 2025 20:05:00 +0000",
-      "author": "Staff Writer",
-      "source": "Blog"
-    },
-    {
-      "title": "Hear Google DeepMind CEO Demis Hassabis discuss how world model capabilities are helping AI understand reality.",
-      "link": "https://blog.google/technology/google-deepmind/ai-release-notes-podcast-demis-hassabis/",
-      "pubDate": "Mon, 11 Aug 2025 20:35:00 +0000",
+      "title": "Flight Deals is our new, AI-powered flight search tool",
+      "link": "https://blog.google/products/search/google-flights-ai-flight-deals/",
+      "pubDate": "Thu, 14 Aug 2025 13:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "TK Breuer"
+          "Jade Kessler"
         ],
         "title": [
-          "Keyword contributor"
+          "Product Manager, Google Flights"
         ],
         "department": [
           ""
@@ -58,6 +51,13 @@
           ""
         ]
       },
+      "source": "Blog"
+    },
+    {
+      "title": "Google is investing in infrastructure and an AI-ready workforce in Oklahoma.",
+      "link": "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/",
+      "pubDate": "Wed, 13 Aug 2025 20:05:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
