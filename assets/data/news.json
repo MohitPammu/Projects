@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-16T00:01:45.965Z",
+  "lastUpdated": "2025-08-17T00:01:55.339Z",
   "items": [
     {
       "title": "How I Use AI Agents as a Data Scientist in 2025",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Personalized R and Shiny training sessions",
+      "link": "https://www.r-bloggers.com/2025/08/personalized-r-and-shiny-training-sessions/",
+      "pubDate": "Fri, 15 Aug 2025 04:00:00 +0000",
+      "author": "pacha.dev/blog",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Learning Antimicrobial Resistance (AMR) genes with Bioconductor",
       "link": "https://www.r-bloggers.com/2025/08/learning-antimicrobial-resistance-amr-genes-with-bioconductor/",
       "pubDate": "Fri, 15 Aug 2025 00:00:00 +0000",
       "author": "r on Everyday Is A School Day",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "rtflite 1.0.0: Production-Ready Clinical TLFs in Python",
-      "link": "https://www.r-bloggers.com/2025/08/rtflite-1-0-0-production-ready-clinical-tlfs-in-python/",
-      "pubDate": "Wed, 13 Aug 2025 00:00:00 +0000",
-      "author": "Yilong Zhang",
       "source": "R-bloggers"
     },
     {
