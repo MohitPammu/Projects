@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-17T00:01:55.339Z",
+  "lastUpdated": "2025-08-18T00:02:04.102Z",
   "items": [
     {
       "title": "How I Use AI Agents as a Data Scientist in 2025",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Global Modeling with GluonTS DeepAR: Future of Semiconductors in the U.S.",
+      "link": "https://www.r-bloggers.com/2025/08/global-modeling-with-gluonts-deepar-future-of-semiconductors-in-the-u-s/",
+      "pubDate": "Sun, 17 Aug 2025 10:21:21 +0000",
+      "author": "Selcuk Disci",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Personalized R and Shiny training sessions",
       "link": "https://www.r-bloggers.com/2025/08/personalized-r-and-shiny-training-sessions/",
       "pubDate": "Fri, 15 Aug 2025 04:00:00 +0000",
       "author": "pacha.dev/blog",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Learning Antimicrobial Resistance (AMR) genes with Bioconductor",
-      "link": "https://www.r-bloggers.com/2025/08/learning-antimicrobial-resistance-amr-genes-with-bioconductor/",
-      "pubDate": "Fri, 15 Aug 2025 00:00:00 +0000",
-      "author": "r on Everyday Is A School Day",
       "source": "R-bloggers"
     },
     {
