@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-18T00:02:04.102Z",
+  "lastUpdated": "2025-08-19T00:01:59.185Z",
   "items": [
     {
-      "title": "How I Use AI Agents as a Data Scientist in 2025",
-      "link": "https://www.kdnuggets.com/how-i-use-ai-agents-as-a-data-scientist-in-2025",
-      "pubDate": "Fri, 15 Aug 2025 12:00:06 +0000",
-      "author": "Natassha Selvaraj",
+      "title": "Writing Your First GPU Kernel in Python with Numba and CUDA",
+      "link": "https://www.kdnuggets.com/writing-your-first-gpu-kernel-in-python-with-numba-and-cuda",
+      "pubDate": "Mon, 18 Aug 2025 16:00:35 +0000",
+      "author": "Kanwal Mehreen",
       "source": "KDnuggets"
     },
     {
-      "title": "Diffusion Models Demystified: Understanding the Tech Behind DALL-E and Midjourney",
-      "link": "https://www.kdnuggets.com/diffusion-models-demystified-understanding-the-tech-behind-dall-e-and-midjourney",
-      "pubDate": "Wed, 13 Aug 2025 14:00:05 +0000",
-      "author": "Cornellius Yudha Wijaya",
+      "title": "5 Lesser-Known Python Features Every Data Scientist Should Know",
+      "link": "https://www.kdnuggets.com/5-lesser-known-python-features-every-data-scientist-should-know",
+      "pubDate": "Mon, 18 Aug 2025 12:00:14 +0000",
+      "author": "Jayita Gulati",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Handling Missing Data in R: A Comprehensive Guide",
+      "link": "https://www.r-bloggers.com/2025/08/handling-missing-data-in-r-a-comprehensive-guide/",
+      "pubDate": "Sun, 17 Aug 2025 21:00:00 +0000",
+      "author": "M. Fatih Tüzen",
+      "source": "R-bloggers"
     },
     {
       "title": "Global Modeling with GluonTS DeepAR: Future of Semiconductors in the U.S.",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Personalized R and Shiny training sessions",
-      "link": "https://www.r-bloggers.com/2025/08/personalized-r-and-shiny-training-sessions/",
-      "pubDate": "Fri, 15 Aug 2025 04:00:00 +0000",
-      "author": "pacha.dev/blog",
-      "source": "R-bloggers"
+      "title": "14 ways Googlers use AI to work smarter",
+      "link": "https://blog.google/technology/ai/google-ai-workplace-examples/",
+      "pubDate": "Mon, 18 Aug 2025 14:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Jen Fitzpatrick"
+        ],
+        "title": [
+          "Senior Vice President, Core Systems & Experiences"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Flight Deals is our new, AI-powered flight search tool",
@@ -51,13 +74,6 @@
           ""
         ]
       },
-      "source": "Blog"
-    },
-    {
-      "title": "Google is investing in infrastructure and an AI-ready workforce in Oklahoma.",
-      "link": "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/",
-      "pubDate": "Wed, 13 Aug 2025 20:05:00 +0000",
-      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
