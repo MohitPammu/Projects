@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-20T00:01:56.220Z",
+  "lastUpdated": "2025-08-21T00:01:10.755Z",
   "items": [
     {
-      "title": "Writing Your First GPU Kernel in Python with Numba and CUDA",
-      "link": "https://www.kdnuggets.com/writing-your-first-gpu-kernel-in-python-with-numba-and-cuda",
-      "pubDate": "Mon, 18 Aug 2025 16:00:35 +0000",
-      "author": "Kanwal Mehreen",
+      "title": "Debugging Python in Docker: A Tutorial for Beginners",
+      "link": "https://www.kdnuggets.com/debugging-python-in-docker-a-tutorial-for-beginners",
+      "pubDate": "Wed, 20 Aug 2025 14:00:03 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
-      "title": "5 Lesser-Known Python Features Every Data Scientist Should Know",
-      "link": "https://www.kdnuggets.com/5-lesser-known-python-features-every-data-scientist-should-know",
-      "pubDate": "Mon, 18 Aug 2025 12:00:14 +0000",
-      "author": "Jayita Gulati",
+      "title": "Leveraging Pandas and SQL Together for Efficient Data Analysis",
+      "link": "https://www.kdnuggets.com/leveraging-pandas-and-sql-together-for-efficient-data-analysis",
+      "pubDate": "Wed, 20 Aug 2025 12:00:41 +0000",
+      "author": "Nate Rosidi",
       "source": "KDnuggets"
+    },
+    {
+      "title": "ANES 2024 is Out! How to Analyze the Data with R",
+      "link": "https://www.r-bloggers.com/2025/08/anes-2024-is-out-how-to-analyze-the-data-with-r/",
+      "pubDate": "Wed, 20 Aug 2025 00:00:00 +0000",
+      "author": "Isabella Velásquez",
+      "source": "R-bloggers"
     },
     {
       "title": "Handling Missing Data in R: A Comprehensive Guide",
@@ -24,11 +31,11 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Global Modeling with GluonTS DeepAR: Future of Semiconductors in the U.S.",
-      "link": "https://www.r-bloggers.com/2025/08/global-modeling-with-gluonts-deepar-future-of-semiconductors-in-the-u-s/",
-      "pubDate": "Sun, 17 Aug 2025 10:21:21 +0000",
-      "author": "Selcuk Disci",
-      "source": "R-bloggers"
+      "title": "Hear how a decade-long bet on AI and hardware led to the new Pixel 10.",
+      "link": "https://blog.google/products/pixel/made-by-google-podcast-pixel-history/",
+      "pubDate": "Wed, 20 Aug 2025 22:00:00 +0000",
+      "author": "Staff Writer",
+      "source": "Blog"
     },
     {
       "title": "14 ways Googlers use AI to work smarter",
@@ -43,29 +50,6 @@
         ],
         "title": [
           "Senior Vice President, Core Systems & Experiences"
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Flight Deals is our new, AI-powered flight search tool",
-      "link": "https://blog.google/products/search/google-flights-ai-flight-deals/",
-      "pubDate": "Thu, 14 Aug 2025 13:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Jade Kessler"
-        ],
-        "title": [
-          "Product Manager, Google Flights"
         ],
         "department": [
           ""
