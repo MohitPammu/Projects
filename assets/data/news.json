@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-21T00:01:10.755Z",
+  "lastUpdated": "2025-08-22T00:01:48.808Z",
   "items": [
     {
-      "title": "Debugging Python in Docker: A Tutorial for Beginners",
-      "link": "https://www.kdnuggets.com/debugging-python-in-docker-a-tutorial-for-beginners",
-      "pubDate": "Wed, 20 Aug 2025 14:00:03 +0000",
-      "author": "Bala Priya C",
+      "title": "10 Python One-Liners to Optimize Your Machine Learning Pipelines",
+      "link": "https://www.kdnuggets.com/10-python-one-liners-to-optimize-your-machine-learning-pipelines",
+      "pubDate": "Thu, 21 Aug 2025 16:00:52 +0000",
+      "author": "Matthew Mayo",
       "source": "KDnuggets"
     },
     {
-      "title": "Leveraging Pandas and SQL Together for Efficient Data Analysis",
-      "link": "https://www.kdnuggets.com/leveraging-pandas-and-sql-together-for-efficient-data-analysis",
-      "pubDate": "Wed, 20 Aug 2025 12:00:41 +0000",
-      "author": "Nate Rosidi",
+      "title": "How to Build a Lightweight Data Pipeline with Airtable and Python",
+      "link": "https://www.kdnuggets.com/how-to-build-a-lightweight-data-pipeline-with-airtable-and-python",
+      "pubDate": "Thu, 21 Aug 2025 14:00:50 +0000",
+      "author": "Iván Palomares Carrascosa",
       "source": "KDnuggets"
     },
     {
@@ -31,25 +31,18 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Hear how a decade-long bet on AI and hardware led to the new Pixel 10.",
-      "link": "https://blog.google/products/pixel/made-by-google-podcast-pixel-history/",
-      "pubDate": "Wed, 20 Aug 2025 22:00:00 +0000",
-      "author": "Staff Writer",
-      "source": "Blog"
-    },
-    {
-      "title": "14 ways Googlers use AI to work smarter",
-      "link": "https://blog.google/technology/ai/google-ai-workplace-examples/",
-      "pubDate": "Mon, 18 Aug 2025 14:00:00 +0000",
+      "title": "AI Mode in Search gets new agentic features and expands globally",
+      "link": "https://blog.google/products/search/ai-mode-agentic-personalized/",
+      "pubDate": "Thu, 21 Aug 2025 11:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Jen Fitzpatrick"
+          "Robby Stein"
         ],
         "title": [
-          "Senior Vice President, Core Systems & Experiences"
+          "VP of Product, Google Search"
         ],
         "department": [
           ""
@@ -58,6 +51,13 @@
           ""
         ]
       },
+      "source": "Blog"
+    },
+    {
+      "title": "Hear how a decade-long bet on AI and hardware led to the new Pixel 10.",
+      "link": "https://blog.google/products/pixel/made-by-google-podcast-pixel-history/",
+      "pubDate": "Wed, 20 Aug 2025 22:00:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
