@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-22T00:01:48.808Z",
+  "lastUpdated": "2025-08-23T00:01:59.401Z",
   "items": [
     {
-      "title": "10 Python One-Liners to Optimize Your Machine Learning Pipelines",
-      "link": "https://www.kdnuggets.com/10-python-one-liners-to-optimize-your-machine-learning-pipelines",
-      "pubDate": "Thu, 21 Aug 2025 16:00:52 +0000",
-      "author": "Matthew Mayo",
+      "title": "Predictive Analytics in Healthcare: Improving Patient Outcomes",
+      "link": "https://www.kdnuggets.com/predictive-analytics-in-healthcare-improving-patient-outcomes",
+      "pubDate": "Fri, 22 Aug 2025 16:00:04 +0000",
+      "author": "Shittu Olumide",
       "source": "KDnuggets"
     },
     {
-      "title": "How to Build a Lightweight Data Pipeline with Airtable and Python",
-      "link": "https://www.kdnuggets.com/how-to-build-a-lightweight-data-pipeline-with-airtable-and-python",
-      "pubDate": "Thu, 21 Aug 2025 14:00:50 +0000",
-      "author": "Iván Palomares Carrascosa",
+      "title": "Shortcuts for the Long Run: Automated Workflows for Aspiring Data Engineers",
+      "link": "https://www.kdnuggets.com/shortcuts-for-the-long-run-automated-workflows-for-aspiring-data-engineers",
+      "pubDate": "Fri, 22 Aug 2025 14:00:35 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Python needs its CRAN",
+      "link": "https://www.r-bloggers.com/2025/08/python-needs-its-cran/",
+      "pubDate": "Fri, 22 Aug 2025 00:00:00 +0000",
+      "author": "Econometrics and Free Software",
+      "source": "R-bloggers"
     },
     {
       "title": "ANES 2024 is Out! How to Analyze the Data with R",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Handling Missing Data in R: A Comprehensive Guide",
-      "link": "https://www.r-bloggers.com/2025/08/handling-missing-data-in-r-a-comprehensive-guide/",
-      "pubDate": "Sun, 17 Aug 2025 21:00:00 +0000",
-      "author": "M. Fatih Tüzen",
-      "source": "R-bloggers"
+      "title": "AI breakthroughs are transforming industries, from healthcare to finance",
+      "link": "https://blog.google/technology/ai/ai-breakthroughs-transforming-industries-finance/",
+      "pubDate": "Fri, 22 Aug 2025 19:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Ruth Porat"
+        ],
+        "title": [
+          "President & Chief Investment Officer"
+        ],
+        "department": [
+          "Alphabet and Google"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "AI Mode in Search gets new agentic features and expands globally",
@@ -51,13 +74,6 @@
           ""
         ]
       },
-      "source": "Blog"
-    },
-    {
-      "title": "Hear how a decade-long bet on AI and hardware led to the new Pixel 10.",
-      "link": "https://blog.google/products/pixel/made-by-google-podcast-pixel-history/",
-      "pubDate": "Wed, 20 Aug 2025 22:00:00 +0000",
-      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
