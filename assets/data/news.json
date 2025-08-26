@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-25T00:01:50.252Z",
+  "lastUpdated": "2025-08-26T00:02:02.884Z",
   "items": [
     {
-      "title": "Predictive Analytics in Healthcare: Improving Patient Outcomes",
-      "link": "https://www.kdnuggets.com/predictive-analytics-in-healthcare-improving-patient-outcomes",
-      "pubDate": "Fri, 22 Aug 2025 16:00:04 +0000",
-      "author": "Shittu Olumide",
+      "title": "Learn Python (+ AI) and Become a Certified Data Analyst for FREE This Week",
+      "link": "https://www.kdnuggets.com/2025/08/datacamp/learn-python-ai-and-become-a-certified-data-analyst-for-free-this-week",
+      "pubDate": "Mon, 25 Aug 2025 17:00:05 +0000",
+      "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
-      "title": "Shortcuts for the Long Run: Automated Workflows for Aspiring Data Engineers",
-      "link": "https://www.kdnuggets.com/shortcuts-for-the-long-run-automated-workflows-for-aspiring-data-engineers",
-      "pubDate": "Fri, 22 Aug 2025 14:00:35 +0000",
-      "author": "Bala Priya C",
+      "title": "7 Steps to Mastering No Code Automation with n8n for Data Professionals",
+      "link": "https://www.kdnuggets.com/7-steps-to-mastering-no-code-automation-with-n8n-for-data-professionals",
+      "pubDate": "Mon, 25 Aug 2025 12:00:58 +0000",
+      "author": "Vinod Chugani",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Epiverse community engagement and software sustainability for research software",
+      "link": "https://www.r-bloggers.com/2025/08/epiverse-community-engagement-and-software-sustainability-for-research-software/",
+      "pubDate": "Mon, 25 Aug 2025 00:00:00 +0000",
+      "author": "Joshua W. Lambert",
+      "source": "R-bloggers"
     },
     {
       "title": "Python needs its CRAN",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "ANES 2024 is Out! How to Analyze the Data with R",
-      "link": "https://www.r-bloggers.com/2025/08/anes-2024-is-out-how-to-analyze-the-data-with-r/",
-      "pubDate": "Wed, 20 Aug 2025 00:00:00 +0000",
-      "author": "Isabella Velásquez",
-      "source": "R-bloggers"
+      "title": "NotebookLM's Video Overviews are now available in 80 languages",
+      "link": "https://blog.google/technology/google-labs/notebook-lm-audio-video-overviews-more-languages-longer-content/",
+      "pubDate": "Mon, 25 Aug 2025 16:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Sam Dealy"
+        ],
+        "title": [
+          "Engineer"
+        ],
+        "department": [
+          "Google Labs"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "AI breakthroughs are transforming industries, from healthcare to finance",
@@ -46,29 +69,6 @@
         ],
         "department": [
           "Alphabet and Google"
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "AI Mode in Search gets new agentic features and expands globally",
-      "link": "https://blog.google/products/search/ai-mode-agentic-personalized/",
-      "pubDate": "Thu, 21 Aug 2025 11:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Robby Stein"
-        ],
-        "title": [
-          "VP of Product, Google Search"
-        ],
-        "department": [
-          ""
         ],
         "company": [
           ""
