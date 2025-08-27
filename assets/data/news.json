@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-26T00:02:02.884Z",
+  "lastUpdated": "2025-08-27T00:01:36.933Z",
   "items": [
     {
-      "title": "Learn Python (+ AI) and Become a Certified Data Analyst for FREE This Week",
-      "link": "https://www.kdnuggets.com/2025/08/datacamp/learn-python-ai-and-become-a-certified-data-analyst-for-free-this-week",
-      "pubDate": "Mon, 25 Aug 2025 17:00:05 +0000",
-      "author": "KDnuggets",
+      "title": "Functional Programming in Python: Leveraging Lambda Functions and Higher-Order Functions",
+      "link": "https://www.kdnuggets.com/functional-programming-in-python-leveraging-lambda-functions-and-higher-order-functions",
+      "pubDate": "Tue, 26 Aug 2025 16:00:26 +0000",
+      "author": "Shittu Olumide",
       "source": "KDnuggets"
     },
     {
-      "title": "7 Steps to Mastering No Code Automation with n8n for Data Professionals",
-      "link": "https://www.kdnuggets.com/7-steps-to-mastering-no-code-automation-with-n8n-for-data-professionals",
-      "pubDate": "Mon, 25 Aug 2025 12:00:58 +0000",
-      "author": "Vinod Chugani",
+      "title": "Tips for Building Machine Learning Models That Are Actually Useful",
+      "link": "https://www.kdnuggets.com/tips-for-building-machine-learning-models-that-are-actually-useful",
+      "pubDate": "Tue, 26 Aug 2025 14:00:23 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Exploring Open Science, R Packages, and Research Software Development at the CSIDNet AGM 2025",
+      "link": "https://www.r-bloggers.com/2025/08/exploring-open-science-r-packages-and-research-software-development-at-the-csidnet-agm-2025/",
+      "pubDate": "Tue, 26 Aug 2025 00:00:00 +0000",
+      "author": "rOpenSci - open tools for open science",
+      "source": "R-bloggers"
     },
     {
       "title": "Epiverse community engagement and software sustainability for research software",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Python needs its CRAN",
-      "link": "https://www.r-bloggers.com/2025/08/python-needs-its-cran/",
-      "pubDate": "Fri, 22 Aug 2025 00:00:00 +0000",
-      "author": "Econometrics and Free Software",
-      "source": "R-bloggers"
+      "title": "New AI-powered live translation and language learning tools in Google Translate",
+      "link": "https://blog.google/products/translate/language-learning-live-translate/",
+      "pubDate": "Tue, 26 Aug 2025 16:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Matt Sheets"
+        ],
+        "title": [
+          "Product Manager"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "NotebookLM's Video Overviews are now available in 80 languages",
@@ -46,29 +69,6 @@
         ],
         "department": [
           "Google Labs"
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "AI breakthroughs are transforming industries, from healthcare to finance",
-      "link": "https://blog.google/technology/ai/ai-breakthroughs-transforming-industries-finance/",
-      "pubDate": "Fri, 22 Aug 2025 19:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Ruth Porat"
-        ],
-        "title": [
-          "President & Chief Investment Officer"
-        ],
-        "department": [
-          "Alphabet and Google"
         ],
         "company": [
           ""
