@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-27T00:01:36.933Z",
+  "lastUpdated": "2025-08-28T00:01:33.370Z",
   "items": [
+    {
+      "title": "Vibe Coding High-Performance Data Tools in Rust",
+      "link": "https://www.kdnuggets.com/vibe-coding-high-performance-data-tools-in-rust",
+      "pubDate": "Wed, 27 Aug 2025 14:00:44 +0000",
+      "author": "Jayita Gulati",
+      "source": "KDnuggets"
+    },
     {
       "title": "Functional Programming in Python: Leveraging Lambda Functions and Higher-Order Functions",
       "link": "https://www.kdnuggets.com/functional-programming-in-python-leveraging-lambda-functions-and-higher-order-functions",
@@ -10,24 +17,17 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Tips for Building Machine Learning Models That Are Actually Useful",
-      "link": "https://www.kdnuggets.com/tips-for-building-machine-learning-models-that-are-actually-useful",
-      "pubDate": "Tue, 26 Aug 2025 14:00:23 +0000",
-      "author": "Bala Priya C",
-      "source": "KDnuggets"
+      "title": "Capybara v1.8.0 is now available on CRAN",
+      "link": "https://www.r-bloggers.com/2025/08/capybara-v1-8-0-is-now-available-on-cran/",
+      "pubDate": "Wed, 27 Aug 2025 04:00:00 +0000",
+      "author": "pacha.dev/blog",
+      "source": "R-bloggers"
     },
     {
       "title": "Exploring Open Science, R Packages, and Research Software Development at the CSIDNet AGM 2025",
       "link": "https://www.r-bloggers.com/2025/08/exploring-open-science-r-packages-and-research-software-development-at-the-csidnet-agm-2025/",
       "pubDate": "Tue, 26 Aug 2025 00:00:00 +0000",
       "author": "rOpenSci - open tools for open science",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Epiverse community engagement and software sustainability for research software",
-      "link": "https://www.r-bloggers.com/2025/08/epiverse-community-engagement-and-software-sustainability-for-research-software/",
-      "pubDate": "Mon, 25 Aug 2025 00:00:00 +0000",
-      "author": "Joshua W. Lambert",
       "source": "R-bloggers"
     },
     {
