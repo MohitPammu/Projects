@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-30T00:01:27.436Z",
+  "lastUpdated": "2025-08-31T00:02:08.290Z",
   "items": [
     {
       "title": "5 Simple Steps to Mastering Docker for Data Science",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Capybara v1.8.0 is now available on CRAN",
-      "link": "https://www.r-bloggers.com/2025/08/capybara-v1-8-0-is-now-available-on-cran/",
-      "pubDate": "Wed, 27 Aug 2025 04:00:00 +0000",
+      "title": "How to import Zotero files and convert the data into a bibliographic class",
+      "link": "https://www.r-bloggers.com/2025/08/how-to-import-zotero-files-and-convert-the-data-into-a-bibliographic-class/",
+      "pubDate": "Fri, 29 Aug 2025 04:00:00 +0000",
       "author": "pacha.dev/blog",
       "source": "R-bloggers"
     },
     {
-      "title": "Exploring Open Science, R Packages, and Research Software Development at the CSIDNet AGM 2025",
-      "link": "https://www.r-bloggers.com/2025/08/exploring-open-science-r-packages-and-research-software-development-at-the-csidnet-agm-2025/",
-      "pubDate": "Tue, 26 Aug 2025 00:00:00 +0000",
-      "author": "rOpenSci - open tools for open science",
+      "title": "Capybara v1.8.0 is now available on CRAN",
+      "link": "https://www.r-bloggers.com/2025/08/capybara-v1-8-0-is-now-available-on-cran/",
+      "pubDate": "Wed, 27 Aug 2025 04:00:00 +0000",
+      "author": "pacha.dev/blog",
       "source": "R-bloggers"
     },
     {
