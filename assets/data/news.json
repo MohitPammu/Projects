@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-08-31T00:02:08.290Z",
+  "lastUpdated": "2025-09-01T00:02:17.342Z",
   "items": [
     {
       "title": "5 Simple Steps to Mastering Docker for Data Science",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
-      "title": "How to import Zotero files and convert the data into a bibliographic class",
-      "link": "https://www.r-bloggers.com/2025/08/how-to-import-zotero-files-and-convert-the-data-into-a-bibliographic-class/",
-      "pubDate": "Fri, 29 Aug 2025 04:00:00 +0000",
+      "title": "Efficiently merging multiple datasets",
+      "link": "https://www.r-bloggers.com/2025/08/efficiently-merging-multiple-datasets/",
+      "pubDate": "Sun, 31 Aug 2025 04:00:00 +0000",
       "author": "pacha.dev/blog",
       "source": "R-bloggers"
     },
     {
-      "title": "Capybara v1.8.0 is now available on CRAN",
-      "link": "https://www.r-bloggers.com/2025/08/capybara-v1-8-0-is-now-available-on-cran/",
-      "pubDate": "Wed, 27 Aug 2025 04:00:00 +0000",
-      "author": "pacha.dev/blog",
+      "title": "Learning The Basics of Phylogenetic Analysis",
+      "link": "https://www.r-bloggers.com/2025/08/learning-the-basics-of-phylogenetic-analysis/",
+      "pubDate": "Sun, 31 Aug 2025 00:00:00 +0000",
+      "author": "r on Everyday Is A School Day",
       "source": "R-bloggers"
     },
     {
