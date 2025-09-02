@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-01T00:02:17.342Z",
+  "lastUpdated": "2025-09-02T00:01:39.244Z",
   "items": [
     {
       "title": "5 Simple Steps to Mastering Docker for Data Science",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Linear Model with Feature Engineering: Silver Prices Surge",
+      "link": "https://www.r-bloggers.com/2025/09/linear-model-with-feature-engineering-silver-prices-surge/",
+      "pubDate": "Mon, 01 Sep 2025 11:21:04 +0000",
+      "author": "Selcuk Disci",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Efficiently merging multiple datasets",
       "link": "https://www.r-bloggers.com/2025/08/efficiently-merging-multiple-datasets/",
       "pubDate": "Sun, 31 Aug 2025 04:00:00 +0000",
       "author": "pacha.dev/blog",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Learning The Basics of Phylogenetic Analysis",
-      "link": "https://www.r-bloggers.com/2025/08/learning-the-basics-of-phylogenetic-analysis/",
-      "pubDate": "Sun, 31 Aug 2025 00:00:00 +0000",
-      "author": "r on Everyday Is A School Day",
       "source": "R-bloggers"
     },
     {
