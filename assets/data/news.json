@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-02T00:01:39.244Z",
+  "lastUpdated": "2025-09-03T00:01:59.182Z",
   "items": [
     {
-      "title": "5 Simple Steps to Mastering Docker for Data Science",
-      "link": "https://www.kdnuggets.com/5-simple-steps-to-mastering-docker-for-data-science",
-      "pubDate": "Thu, 28 Aug 2025 14:00:49 +0000",
-      "author": "Bala Priya C",
+      "title": "Creating Slick Data Dashboards with Python, Taipy & Google Sheets",
+      "link": "https://www.kdnuggets.com/creating-slick-data-dashboards-with-python-taipy-google-sheets",
+      "pubDate": "Tue, 02 Sep 2025 16:00:58 +0000",
+      "author": "Cornellius Yudha Wijaya",
       "source": "KDnuggets"
     },
     {
-      "title": "7 Beginner Machine Learning Projects To Complete This Weekend",
-      "link": "https://www.kdnuggets.com/7-beginner-machine-learning-projects-complete-this-weekend",
-      "pubDate": "Thu, 28 Aug 2025 12:00:27 +0000",
-      "author": "Jayita Gulati",
+      "title": "What is Data Science in Simple Words?",
+      "link": "https://www.kdnuggets.com/what-is-data-science-in-simple-words",
+      "pubDate": "Tue, 02 Sep 2025 14:00:49 +0000",
+      "author": "Iván Palomares Carrascosa",
       "source": "KDnuggets"
     },
     {
-      "title": "Linear Model with Feature Engineering: Silver Prices Surge",
-      "link": "https://www.r-bloggers.com/2025/09/linear-model-with-feature-engineering-silver-prices-surge/",
-      "pubDate": "Mon, 01 Sep 2025 11:21:04 +0000",
-      "author": "Selcuk Disci",
+      "title": "Sending plain text emails when communicating with CRAN",
+      "link": "https://www.r-bloggers.com/2025/09/sending-plain-text-emails-when-communicating-with-cran/",
+      "pubDate": "Tue, 02 Sep 2025 04:00:00 +0000",
+      "author": "pacha.dev/blog",
       "source": "R-bloggers"
     },
     {
-      "title": "Efficiently merging multiple datasets",
-      "link": "https://www.r-bloggers.com/2025/08/efficiently-merging-multiple-datasets/",
-      "pubDate": "Sun, 31 Aug 2025 04:00:00 +0000",
-      "author": "pacha.dev/blog",
+      "title": "Creating self-contained executable Python scripts for rendering Quarto documents using the Jupyter engine",
+      "link": "https://www.r-bloggers.com/2025/09/creating-self-contained-executable-python-scripts-for-rendering-quarto-documents-using-the-jupyter-engine/",
+      "pubDate": "Tue, 02 Sep 2025 00:00:00 +0000",
+      "author": "R &#124; Dr Tom Palmer",
       "source": "R-bloggers"
     },
     {
