@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-04T00:01:30.263Z",
+  "lastUpdated": "2025-09-05T00:01:29.209Z",
   "items": [
+    {
+      "title": "Top 7 Small Language Models",
+      "link": "https://www.kdnuggets.com/top-7-small-language-models",
+      "pubDate": "Thu, 04 Sep 2025 12:00:50 +0000",
+      "author": "Abid Ali Awan",
+      "source": "KDnuggets"
+    },
     {
       "title": "How to Become a Machine Learning Engineer",
       "link": "https://www.kdnuggets.com/how-to-become-a-machine-learning-engineer-2",
       "pubDate": "Wed, 03 Sep 2025 14:00:47 +0000",
       "author": "Jayita Gulati",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "Creating Slick Data Dashboards with Python, Taipy & Google Sheets",
-      "link": "https://www.kdnuggets.com/creating-slick-data-dashboards-with-python-taipy-google-sheets",
-      "pubDate": "Tue, 02 Sep 2025 16:00:58 +0000",
-      "author": "Cornellius Yudha Wijaya",
       "source": "KDnuggets"
     },
     {
