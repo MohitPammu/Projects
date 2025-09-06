@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-05T00:01:29.209Z",
+  "lastUpdated": "2025-09-06T00:01:34.875Z",
   "items": [
     {
-      "title": "Top 7 Small Language Models",
-      "link": "https://www.kdnuggets.com/top-7-small-language-models",
-      "pubDate": "Thu, 04 Sep 2025 12:00:50 +0000",
-      "author": "Abid Ali Awan",
+      "title": "Most Candidates Fail These SQL Concepts in Data Interviews",
+      "link": "https://www.kdnuggets.com/most-candidates-fail-these-sql-concepts-in-data-interviews",
+      "pubDate": "Fri, 05 Sep 2025 14:00:00 +0000",
+      "author": "Nate Rosidi",
       "source": "KDnuggets"
     },
     {
-      "title": "How to Become a Machine Learning Engineer",
-      "link": "https://www.kdnuggets.com/how-to-become-a-machine-learning-engineer-2",
-      "pubDate": "Wed, 03 Sep 2025 14:00:47 +0000",
-      "author": "Jayita Gulati",
+      "title": "Top Data Science Courses 2025",
+      "link": "https://www.kdnuggets.com/top-data-science-courses-2025",
+      "pubDate": "Fri, 05 Sep 2025 12:00:06 +0000",
+      "author": "Matthew Mayo",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Ensemble Model for Gold Futures",
+      "link": "https://www.r-bloggers.com/2025/09/ensemble-model-for-gold-futures/",
+      "pubDate": "Fri, 05 Sep 2025 11:02:52 +0000",
+      "author": "Selcuk Disci",
+      "source": "R-bloggers"
     },
     {
       "title": "Sending plain text emails when communicating with CRAN",
       "link": "https://www.r-bloggers.com/2025/09/sending-plain-text-emails-when-communicating-with-cran/",
       "pubDate": "Tue, 02 Sep 2025 04:00:00 +0000",
       "author": "pacha.dev/blog",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Creating self-contained executable Python scripts for rendering Quarto documents using the Jupyter engine",
-      "link": "https://www.r-bloggers.com/2025/09/creating-self-contained-executable-python-scripts-for-rendering-quarto-documents-using-the-jupyter-engine/",
-      "pubDate": "Tue, 02 Sep 2025 00:00:00 +0000",
-      "author": "R &#124; Dr Tom Palmer",
       "source": "R-bloggers"
     },
     {
