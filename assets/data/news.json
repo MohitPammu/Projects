@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-07T00:01:37.789Z",
+  "lastUpdated": "2025-09-08T00:01:32.935Z",
   "items": [
     {
       "title": "Most Candidates Fail These SQL Concepts in Data Interviews",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Some Papua New Guinea data doodles by @ellis2013nz",
+      "link": "https://www.r-bloggers.com/2025/09/some-papua-new-guinea-data-doodles-by-ellis2013nz/",
+      "pubDate": "Sat, 06 Sep 2025 13:00:00 +0000",
+      "author": "free range statistics - R",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Ensemble Model for Gold Futures",
       "link": "https://www.r-bloggers.com/2025/09/ensemble-model-for-gold-futures/",
       "pubDate": "Fri, 05 Sep 2025 11:02:52 +0000",
       "author": "Selcuk Disci",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Sending plain text emails when communicating with CRAN",
-      "link": "https://www.r-bloggers.com/2025/09/sending-plain-text-emails-when-communicating-with-cran/",
-      "pubDate": "Tue, 02 Sep 2025 04:00:00 +0000",
-      "author": "pacha.dev/blog",
       "source": "R-bloggers"
     },
     {
