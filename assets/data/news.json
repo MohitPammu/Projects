@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-08T00:01:32.935Z",
+  "lastUpdated": "2025-09-09T00:01:44.507Z",
   "items": [
     {
-      "title": "Most Candidates Fail These SQL Concepts in Data Interviews",
-      "link": "https://www.kdnuggets.com/most-candidates-fail-these-sql-concepts-in-data-interviews",
-      "pubDate": "Fri, 05 Sep 2025 14:00:00 +0000",
-      "author": "Nate Rosidi",
+      "title": "What is Artificial Intelligence in Simple Words?",
+      "link": "https://www.kdnuggets.com/what-is-artificial-intelligence-in-simple-words",
+      "pubDate": "Mon, 08 Sep 2025 14:00:40 +0000",
+      "author": "Iván Palomares Carrascosa",
       "source": "KDnuggets"
     },
     {
-      "title": "Top Data Science Courses 2025",
-      "link": "https://www.kdnuggets.com/top-data-science-courses-2025",
-      "pubDate": "Fri, 05 Sep 2025 12:00:06 +0000",
-      "author": "Matthew Mayo",
+      "title": "Top 7 AI Web Scraping Tools",
+      "link": "https://www.kdnuggets.com/top-7-ai-web-scraping-tools",
+      "pubDate": "Mon, 08 Sep 2025 12:00:22 +0000",
+      "author": "Abid Ali Awan",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Transfer Learning using ahead::ridge2f on synthetic stocks returns",
+      "link": "https://www.r-bloggers.com/2025/09/transfer-learning-using-aheadridge2f-on-synthetic-stocks-returns/",
+      "pubDate": "Mon, 08 Sep 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
+      "source": "R-bloggers"
     },
     {
       "title": "Some Papua New Guinea data doodles by @ellis2013nz",
@@ -24,51 +31,28 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Ensemble Model for Gold Futures",
-      "link": "https://www.r-bloggers.com/2025/09/ensemble-model-for-gold-futures/",
-      "pubDate": "Fri, 05 Sep 2025 11:02:52 +0000",
-      "author": "Selcuk Disci",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "New AI-powered live translation and language learning tools in Google Translate",
-      "link": "https://blog.google/products/translate/language-learning-live-translate/",
-      "pubDate": "Tue, 26 Aug 2025 16:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Matt Sheets"
-        ],
-        "title": [
-          "Product Manager"
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
-        ]
-      },
+      "title": "Google Doodles show how AI Mode can help you learn",
+      "link": "https://blog.google/products/search/google-doodles-show-how-ai-mode-can-help-you-learn/",
+      "pubDate": "Mon, 08 Sep 2025 17:00:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     },
     {
-      "title": "NotebookLM's Video Overviews are now available in 80 languages",
-      "link": "https://blog.google/technology/google-labs/notebook-lm-audio-video-overviews-more-languages-longer-content/",
-      "pubDate": "Mon, 25 Aug 2025 16:00:00 +0000",
+      "title": "AI Mode is now available in five new languages around the world.",
+      "link": "https://blog.google/products/search/ai-mode-expands-more-languages/",
+      "pubDate": "Mon, 08 Sep 2025 16:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Sam Dealy"
+          "Hema Budaraju"
         ],
         "title": [
-          "Engineer"
+          "Vice President, Product Management"
         ],
         "department": [
-          "Google Labs"
+          "Search"
         ],
         "company": [
           ""
