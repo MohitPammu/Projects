@@ -1,58 +1,74 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-09T00:01:44.507Z",
+  "lastUpdated": "2025-09-10T00:01:32.738Z",
   "items": [
     {
-      "title": "What is Artificial Intelligence in Simple Words?",
-      "link": "https://www.kdnuggets.com/what-is-artificial-intelligence-in-simple-words",
-      "pubDate": "Mon, 08 Sep 2025 14:00:40 +0000",
-      "author": "Iván Palomares Carrascosa",
+      "title": "A Gentle Introduction to Docker for Python Developers",
+      "link": "https://www.kdnuggets.com/a-gentle-introduction-to-docker-for-python-developers",
+      "pubDate": "Tue, 09 Sep 2025 16:00:11 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
-      "title": "Top 7 AI Web Scraping Tools",
-      "link": "https://www.kdnuggets.com/top-7-ai-web-scraping-tools",
-      "pubDate": "Mon, 08 Sep 2025 12:00:22 +0000",
-      "author": "Abid Ali Awan",
+      "title": "Ray or Dask? A Practical Guide for Data Scientists",
+      "link": "https://www.kdnuggets.com/ray-or-dask-a-practical-guide-for-data-scientists",
+      "pubDate": "Tue, 09 Sep 2025 14:00:05 +0000",
+      "author": "Jayita Gulati",
       "source": "KDnuggets"
     },
     {
-      "title": "Transfer Learning using ahead::ridge2f on synthetic stocks returns",
-      "link": "https://www.r-bloggers.com/2025/09/transfer-learning-using-aheadridge2f-on-synthetic-stocks-returns/",
-      "pubDate": "Mon, 08 Sep 2025 00:00:00 +0000",
+      "title": "Using OpenAI Codex in Positron",
+      "link": "https://www.r-bloggers.com/2025/09/using-openai-codex-in-positron/",
+      "pubDate": "Tue, 09 Sep 2025 10:19:00 +0000",
+      "author": "Stephen Turner",
+      "source": "R-bloggers"
+    },
+    {
+      "title": "Transfer Learning using ahead::ridge2f on synthetic stocks returns Pt.2: synthetic data generation",
+      "link": "https://www.r-bloggers.com/2025/09/transfer-learning-using-aheadridge2f-on-synthetic-stocks-returns-pt-2-synthetic-data-generation/",
+      "pubDate": "Tue, 09 Sep 2025 00:00:00 +0000",
       "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
-      "title": "Some Papua New Guinea data doodles by @ellis2013nz",
-      "link": "https://www.r-bloggers.com/2025/09/some-papua-new-guinea-data-doodles-by-ellis2013nz/",
-      "pubDate": "Sat, 06 Sep 2025 13:00:00 +0000",
-      "author": "free range statistics - R",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Google Doodles show how AI Mode can help you learn",
-      "link": "https://blog.google/products/search/google-doodles-show-how-ai-mode-can-help-you-learn/",
-      "pubDate": "Mon, 08 Sep 2025 17:00:00 +0000",
-      "author": "Staff Writer",
-      "source": "Blog"
-    },
-    {
-      "title": "AI Mode is now available in five new languages around the world.",
-      "link": "https://blog.google/products/search/ai-mode-expands-more-languages/",
-      "pubDate": "Mon, 08 Sep 2025 16:00:00 +0000",
+      "title": "The latest Google AI literacy resources all in one place",
+      "link": "https://blog.google/outreach-initiatives/education/google-ai-literacy-tools-2025/",
+      "pubDate": "Tue, 09 Sep 2025 16:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Hema Budaraju"
+          "Jennie Magiera"
         ],
         "title": [
-          "Vice President, Product Management"
+          "Global Head of Education Impact, Google for Education"
         ],
         "department": [
-          "Search"
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
+    },
+    {
+      "title": "AI Quests: Bringing AI literacy to the classroom",
+      "link": "https://blog.google/outreach-initiatives/education/ai-quests/",
+      "pubDate": "Tue, 09 Sep 2025 16:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Ronit Levavi Morad"
+        ],
+        "title": [
+          "Senior Director"
+        ],
+        "department": [
+          "Research"
         ],
         "company": [
           ""
