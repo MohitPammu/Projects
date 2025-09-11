@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-10T00:01:32.738Z",
+  "lastUpdated": "2025-09-11T00:01:34.842Z",
   "items": [
+    {
+      "title": "5 Portfolio Mistakes That Keep Data Scientists From Getting Hired",
+      "link": "https://www.kdnuggets.com/5-portfolio-mistakes-that-keep-data-scientists-from-getting-hired",
+      "pubDate": "Wed, 10 Sep 2025 12:00:00 +0000",
+      "author": "Nate Rosidi",
+      "source": "KDnuggets"
+    },
     {
       "title": "A Gentle Introduction to Docker for Python Developers",
       "link": "https://www.kdnuggets.com/a-gentle-introduction-to-docker-for-python-developers",
       "pubDate": "Tue, 09 Sep 2025 16:00:11 +0000",
       "author": "Bala Priya C",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "Ray or Dask? A Practical Guide for Data Scientists",
-      "link": "https://www.kdnuggets.com/ray-or-dask-a-practical-guide-for-data-scientists",
-      "pubDate": "Tue, 09 Sep 2025 14:00:05 +0000",
-      "author": "Jayita Gulati",
       "source": "KDnuggets"
     },
     {
@@ -31,6 +31,29 @@
       "source": "R-bloggers"
     },
     {
+      "title": "The latest AI news we announced in August",
+      "link": "https://blog.google/technology/ai/google-ai-updates-august-2025/",
+      "pubDate": "Wed, 10 Sep 2025 16:15:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Keyword Team"
+        ],
+        "title": [
+          ""
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
+    },
+    {
       "title": "The latest Google AI literacy resources all in one place",
       "link": "https://blog.google/outreach-initiatives/education/google-ai-literacy-tools-2025/",
       "pubDate": "Tue, 09 Sep 2025 16:00:00 +0000",
@@ -46,29 +69,6 @@
         ],
         "department": [
           ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "AI Quests: Bringing AI literacy to the classroom",
-      "link": "https://blog.google/outreach-initiatives/education/ai-quests/",
-      "pubDate": "Tue, 09 Sep 2025 16:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Ronit Levavi Morad"
-        ],
-        "title": [
-          "Senior Director"
-        ],
-        "department": [
-          "Research"
         ],
         "company": [
           ""
