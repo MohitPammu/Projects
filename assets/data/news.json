@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-11T00:01:34.842Z",
+  "lastUpdated": "2025-09-12T00:01:33.227Z",
   "items": [
+    {
+      "title": "12 Essential Lessons for Building AI Agents",
+      "link": "https://www.kdnuggets.com/12-essential-lessons-for-building-ai-agents",
+      "pubDate": "Thu, 11 Sep 2025 12:00:19 +0000",
+      "author": "Abid Ali Awan",
+      "source": "KDnuggets"
+    },
     {
       "title": "5 Portfolio Mistakes That Keep Data Scientists From Getting Hired",
       "link": "https://www.kdnuggets.com/5-portfolio-mistakes-that-keep-data-scientists-from-getting-hired",
       "pubDate": "Wed, 10 Sep 2025 12:00:00 +0000",
       "author": "Nate Rosidi",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "A Gentle Introduction to Docker for Python Developers",
-      "link": "https://www.kdnuggets.com/a-gentle-introduction-to-docker-for-python-developers",
-      "pubDate": "Tue, 09 Sep 2025 16:00:11 +0000",
-      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
@@ -54,21 +54,21 @@
       "source": "Blog"
     },
     {
-      "title": "The latest Google AI literacy resources all in one place",
-      "link": "https://blog.google/outreach-initiatives/education/google-ai-literacy-tools-2025/",
+      "title": "AI Quests: Bringing AI literacy to the classroom",
+      "link": "https://blog.google/outreach-initiatives/education/ai-quests/",
       "pubDate": "Tue, 09 Sep 2025 16:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Jennie Magiera"
+          "Ronit Levavi Morad"
         ],
         "title": [
-          "Global Head of Education Impact, Google for Education"
+          "Senior Director"
         ],
         "department": [
-          ""
+          "Research"
         ],
         "company": [
           ""
