@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-15T00:01:37.160Z",
+  "lastUpdated": "2025-09-16T00:01:29.229Z",
   "items": [
     {
-      "title": "Uncommon Uses of Common Python Standard Library Functions",
-      "link": "https://www.kdnuggets.com/uncommon-uses-of-common-python-standard-library-functions",
-      "pubDate": "Fri, 12 Sep 2025 15:23:42 +0000",
-      "author": "Bala Priya C",
+      "title": "Why Cybersecurity is More Important Today for Data Science Than Ever",
+      "link": "https://www.kdnuggets.com/why-cybersecurity-is-more-important-today-for-data-science-than-ever",
+      "pubDate": "Mon, 15 Sep 2025 14:00:34 +0000",
+      "author": "Vinod Chugani",
       "source": "KDnuggets"
     },
     {
-      "title": "12 Essential Lessons for Building AI Agents",
-      "link": "https://www.kdnuggets.com/12-essential-lessons-for-building-ai-agents",
-      "pubDate": "Thu, 11 Sep 2025 12:00:19 +0000",
-      "author": "Abid Ali Awan",
+      "title": "5 Cutting-Edge Generative AI Advances to Watch in 2026",
+      "link": "https://www.kdnuggets.com/5-cutting-edge-generative-ai-advances-to-watch-in-2026",
+      "pubDate": "Mon, 15 Sep 2025 12:00:38 +0000",
+      "author": "Cornellius Yudha Wijaya",
       "source": "KDnuggets"
+    },
+    {
+      "title": "From Surviving to Thriving: A Convening to Reclaim and Sustain Open Science Communities",
+      "link": "https://www.r-bloggers.com/2025/09/from-surviving-to-thriving-a-convening-to-reclaim-and-sustain-open-science-communities/",
+      "pubDate": "Mon, 15 Sep 2025 00:00:00 +0000",
+      "author": "rOpenSci - open tools for open science",
+      "source": "R-bloggers"
     },
     {
       "title": "Using OpenAI Codex in Positron",
@@ -24,51 +31,28 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Transfer Learning using ahead::ridge2f on synthetic stocks returns Pt.2: synthetic data generation",
-      "link": "https://www.r-bloggers.com/2025/09/transfer-learning-using-aheadridge2f-on-synthetic-stocks-returns-pt-2-synthetic-data-generation/",
-      "pubDate": "Tue, 09 Sep 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "The latest AI news we announced in August",
-      "link": "https://blog.google/technology/ai/google-ai-updates-august-2025/",
-      "pubDate": "Wed, 10 Sep 2025 16:15:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Keyword Team"
-        ],
-        "title": [
-          ""
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
-        ]
-      },
+      "title": "Listen to a discussion on how AI can power scientific breakthroughs.",
+      "link": "https://blog.google/technology/google-deepmind/ai-release-notes-science/",
+      "pubDate": "Mon, 15 Sep 2025 18:52:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     },
     {
-      "title": "The latest Google AI literacy resources all in one place",
-      "link": "https://blog.google/outreach-initiatives/education/google-ai-literacy-tools-2025/",
-      "pubDate": "Tue, 09 Sep 2025 16:00:00 +0000",
+      "title": "How AI is helping 38 million farmers with advance weather predictions",
+      "link": "https://blog.google/technology/research/indian-farmers-monsoon-prediction/",
+      "pubDate": "Mon, 15 Sep 2025 13:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Jennie Magiera"
+          "Olivia Graham"
         ],
         "title": [
-          "Global Head of Education Impact, Google for Education"
+          "Product Manager"
         ],
         "department": [
-          ""
+          "Google Research"
         ],
         "company": [
           ""
