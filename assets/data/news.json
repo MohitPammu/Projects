@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-16T00:01:29.229Z",
+  "lastUpdated": "2025-09-17T00:01:32.558Z",
   "items": [
     {
-      "title": "Why Cybersecurity is More Important Today for Data Science Than Ever",
-      "link": "https://www.kdnuggets.com/why-cybersecurity-is-more-important-today-for-data-science-than-ever",
-      "pubDate": "Mon, 15 Sep 2025 14:00:34 +0000",
-      "author": "Vinod Chugani",
+      "title": "5 Strategic Steps to a Seamless AI Integration",
+      "link": "https://www.kdnuggets.com/2025/09/damcogroup/5-strategic-steps-to-a-seamless-ai-integration",
+      "pubDate": "Tue, 16 Sep 2025 17:00:41 +0000",
+      "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
-      "title": "5 Cutting-Edge Generative AI Advances to Watch in 2026",
-      "link": "https://www.kdnuggets.com/5-cutting-edge-generative-ai-advances-to-watch-in-2026",
-      "pubDate": "Mon, 15 Sep 2025 12:00:38 +0000",
-      "author": "Cornellius Yudha Wijaya",
+      "title": "7 Free Web Search APIs for AI Agents",
+      "link": "https://www.kdnuggets.com/7-free-web-search-apis-for-ai-agents",
+      "pubDate": "Tue, 16 Sep 2025 12:00:47 +0000",
+      "author": "Abid Ali Awan",
       "source": "KDnuggets"
     },
     {
@@ -31,25 +31,18 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Listen to a discussion on how AI can power scientific breakthroughs.",
-      "link": "https://blog.google/technology/google-deepmind/ai-release-notes-science/",
-      "pubDate": "Mon, 15 Sep 2025 18:52:00 +0000",
-      "author": "Staff Writer",
-      "source": "Blog"
-    },
-    {
-      "title": "How AI is helping 38 million farmers with advance weather predictions",
-      "link": "https://blog.google/technology/research/indian-farmers-monsoon-prediction/",
-      "pubDate": "Mon, 15 Sep 2025 13:00:00 +0000",
+      "title": "Learn Your Way uses AI to transform textbook materials into interactive guides.",
+      "link": "https://blog.google/outreach-initiatives/education/learn-your-way/",
+      "pubDate": "Tue, 16 Sep 2025 17:05:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Olivia Graham"
+          "Niv Efron"
         ],
         "title": [
-          "Product Manager"
+          "Senior Director"
         ],
         "department": [
           "Google Research"
@@ -58,6 +51,13 @@
           ""
         ]
       },
+      "source": "Blog"
+    },
+    {
+      "title": "Listen to a discussion on how AI can power scientific breakthroughs.",
+      "link": "https://blog.google/technology/google-deepmind/ai-release-notes-science/",
+      "pubDate": "Mon, 15 Sep 2025 18:52:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
