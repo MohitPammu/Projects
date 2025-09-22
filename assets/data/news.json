@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-21T00:01:37.259Z",
+  "lastUpdated": "2025-09-22T00:01:31.895Z",
   "items": [
     {
       "title": "Top 10 Free API Providers for Data Science Projects",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Generating Synthetic Data with R-vine Copulas using esgtoolkit in R",
+      "link": "https://www.r-bloggers.com/2025/09/generating-synthetic-data-with-r-vine-copulas-using-esgtoolkit-in-r/",
+      "pubDate": "Sun, 21 Sep 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Augmented Dynamic Adaptive Model (ADAM) for Daily Seasonal Data",
       "link": "https://www.r-bloggers.com/2025/09/augmented-dynamic-adaptive-model-adam-for-daily-seasonal-data/",
       "pubDate": "Thu, 18 Sep 2025 12:38:04 +0000",
       "author": "Selcuk Disci",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Generative AI and R workshops in Hobart Australia",
-      "link": "https://www.r-bloggers.com/2025/09/generative-ai-and-r-workshops-in-hobart-australia/",
-      "pubDate": "Thu, 18 Sep 2025 00:00:00 +0000",
-      "author": "Bluecology blog",
       "source": "R-bloggers"
     },
     {
