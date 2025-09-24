@@ -1,74 +1,58 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-23T00:01:24.480Z",
+  "lastUpdated": "2025-09-24T00:01:35.117Z",
   "items": [
     {
-      "title": "How To Use Synthetic Data To Build a Portfolio Project",
-      "link": "https://www.kdnuggets.com/how-to-use-synthetic-data-to-build-a-portfolio-project",
-      "pubDate": "Mon, 22 Sep 2025 16:00:03 +0000",
-      "author": "Nate Rosidi",
+      "title": "7 Python Libraries Every Analytics Engineer Should Know",
+      "link": "https://www.kdnuggets.com/7-python-libraries-every-analytics-engineer-should-know",
+      "pubDate": "Tue, 23 Sep 2025 14:00:10 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
-      "title": "10 Python One-Liners to Optimize Your Hugging Face Transformers Pipelines",
-      "link": "https://www.kdnuggets.com/10-python-one-liners-to-optimize-your-hugging-face-transformers-pipelines",
-      "pubDate": "Mon, 22 Sep 2025 12:00:36 +0000",
+      "title": "10 Newsletters for Busy Data Scientists",
+      "link": "https://www.kdnuggets.com/10-newsletters-for-busy-data-scientists",
+      "pubDate": "Tue, 23 Sep 2025 12:00:45 +0000",
       "author": "Matthew Mayo",
       "source": "KDnuggets"
     },
     {
-      "title": "Generating Synthetic Data with R-vine Copulas using esgtoolkit in R",
-      "link": "https://www.r-bloggers.com/2025/09/generating-synthetic-data-with-r-vine-copulas-using-esgtoolkit-in-r/",
-      "pubDate": "Sun, 21 Sep 2025 00:00:00 +0000",
+      "title": "A Gentle Introduction to Open Science",
+      "link": "https://www.r-bloggers.com/2025/09/a-gentle-introduction-to-open-science/",
+      "pubDate": "Tue, 23 Sep 2025 00:00:00 +0000",
+      "author": "rOpenSci - open tools for open science",
+      "source": "R-bloggers"
+    },
+    {
+      "title": "Combining any model with GARCH(1,1) for probabilistic stock forecasting",
+      "link": "https://www.r-bloggers.com/2025/09/combining-any-model-with-garch11-for-probabilistic-stock-forecasting/",
+      "pubDate": "Tue, 23 Sep 2025 00:00:00 +0000",
       "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
-      "title": "Augmented Dynamic Adaptive Model (ADAM) for Daily Seasonal Data",
-      "link": "https://www.r-bloggers.com/2025/09/augmented-dynamic-adaptive-model-adam-for-daily-seasonal-data/",
-      "pubDate": "Thu, 18 Sep 2025 12:38:04 +0000",
-      "author": "Selcuk Disci",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "How the U.S. Patent and Trademark Office can help America maintain its AI leadership",
-      "link": "https://blog.google/outreach-initiatives/public-policy/uspto-ai-policy-recommendations/",
-      "pubDate": "Fri, 19 Sep 2025 13:30:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Halimah DeLaine Prado"
-        ],
-        "title": [
-          "General Counsel"
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
-        ]
-      },
+      "title": "Try AI Mode in Spanish today.",
+      "link": "https://blog.google/products/search/ai-mode-spanish/",
+      "pubDate": "Tue, 23 Sep 2025 17:40:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     },
     {
-      "title": "Learn Your Way uses AI to transform textbook materials into interactive guides.",
-      "link": "https://blog.google/outreach-initiatives/education/learn-your-way/",
-      "pubDate": "Tue, 16 Sep 2025 17:05:00 +0000",
+      "title": "Join the 5-day AI Agents Intensive course with Google and Kaggle.",
+      "link": "https://blog.google/technology/developers/ai-agents-intensive/",
+      "pubDate": "Tue, 23 Sep 2025 16:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Niv Efron"
+          "Anant Nawalgaria"
         ],
         "title": [
-          "Senior Director"
+          "Senior Staff Machine Learning Engineer and Founder, GenAI intensive"
         ],
         "department": [
-          "Google Research"
+          ""
         ],
         "company": [
           ""
