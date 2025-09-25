@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-24T00:01:35.117Z",
+  "lastUpdated": "2025-09-25T00:01:33.804Z",
   "items": [
+    {
+      "title": "Why Do Language Models Hallucinate?",
+      "link": "https://www.kdnuggets.com/why-do-language-models-hallucinate",
+      "pubDate": "Wed, 24 Sep 2025 16:00:16 +0000",
+      "author": "Matthew Mayo",
+      "source": "KDnuggets"
+    },
     {
       "title": "7 Python Libraries Every Analytics Engineer Should Know",
       "link": "https://www.kdnuggets.com/7-python-libraries-every-analytics-engineer-should-know",
@@ -10,25 +17,27 @@
       "source": "KDnuggets"
     },
     {
-      "title": "10 Newsletters for Busy Data Scientists",
-      "link": "https://www.kdnuggets.com/10-newsletters-for-busy-data-scientists",
-      "pubDate": "Tue, 23 Sep 2025 12:00:45 +0000",
-      "author": "Matthew Mayo",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "A Gentle Introduction to Open Science",
-      "link": "https://www.r-bloggers.com/2025/09/a-gentle-introduction-to-open-science/",
-      "pubDate": "Tue, 23 Sep 2025 00:00:00 +0000",
-      "author": "rOpenSci - open tools for open science",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Combining any model with GARCH(1,1) for probabilistic stock forecasting",
-      "link": "https://www.r-bloggers.com/2025/09/combining-any-model-with-garch11-for-probabilistic-stock-forecasting/",
-      "pubDate": "Tue, 23 Sep 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
-      "source": "R-bloggers"
+      "title": "Google AI Pro and Ultra subscribers now get Gemini CLI and Gemini Code Assist with higher limits.",
+      "link": "https://blog.google/technology/developers/gemini-cli-code-assist-higher-limits/",
+      "pubDate": "Wed, 24 Sep 2025 16:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Meridith Blascovich"
+        ],
+        "title": [
+          "Senior Product Manager"
+        ],
+        "department": [
+          "Gemini Code Assist"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Try AI Mode in Spanish today.",
@@ -38,27 +47,18 @@
       "source": "Blog"
     },
     {
-      "title": "Join the 5-day AI Agents Intensive course with Google and Kaggle.",
-      "link": "https://blog.google/technology/developers/ai-agents-intensive/",
-      "pubDate": "Tue, 23 Sep 2025 16:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Anant Nawalgaria"
-        ],
-        "title": [
-          "Senior Staff Machine Learning Engineer and Founder, GenAI intensive"
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
+      "title": "Quantum Computing and Its Impact on Data Science",
+      "link": "https://ieee.org/publications/quantum-computing-data-science-2025",
+      "pubDate": "2025-09-24T00:01:32.138Z",
+      "author": "Quantum Research Team",
+      "source": "IEEE"
+    },
+    {
+      "title": "The Rise of Explainable AI in Enterprise Applications",
+      "link": "https://techcrunch.com/2025/05/26/explainable-ai-enterprise/",
+      "pubDate": "2025-09-21T00:01:32.138Z",
+      "author": "Enterprise Tech Editor",
+      "source": "TechCrunch"
     }
   ]
 }
