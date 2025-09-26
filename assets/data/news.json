@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-25T00:01:33.804Z",
+  "lastUpdated": "2025-09-26T00:01:31.998Z",
   "items": [
+    {
+      "title": "10 Useful Python One-Liners for Data Engineering",
+      "link": "https://www.kdnuggets.com/10-useful-python-one-liners-for-data-engineering",
+      "pubDate": "Thu, 25 Sep 2025 12:00:12 +0000",
+      "author": "Bala Priya C",
+      "source": "KDnuggets"
+    },
     {
       "title": "Why Do Language Models Hallucinate?",
       "link": "https://www.kdnuggets.com/why-do-language-models-hallucinate",
       "pubDate": "Wed, 24 Sep 2025 16:00:16 +0000",
       "author": "Matthew Mayo",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "7 Python Libraries Every Analytics Engineer Should Know",
-      "link": "https://www.kdnuggets.com/7-python-libraries-every-analytics-engineer-should-know",
-      "pubDate": "Tue, 23 Sep 2025 14:00:10 +0000",
-      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
@@ -49,14 +49,14 @@
     {
       "title": "Quantum Computing and Its Impact on Data Science",
       "link": "https://ieee.org/publications/quantum-computing-data-science-2025",
-      "pubDate": "2025-09-24T00:01:32.138Z",
+      "pubDate": "2025-09-26T00:01:31.096Z",
       "author": "Quantum Research Team",
       "source": "IEEE"
     },
     {
       "title": "The Rise of Explainable AI in Enterprise Applications",
       "link": "https://techcrunch.com/2025/05/26/explainable-ai-enterprise/",
-      "pubDate": "2025-09-21T00:01:32.138Z",
+      "pubDate": "2025-09-23T00:01:31.096Z",
       "author": "Enterprise Tech Editor",
       "source": "TechCrunch"
     }
