@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-26T00:01:31.998Z",
+  "lastUpdated": "2025-09-27T00:01:37.232Z",
   "items": [
+    {
+      "title": "Building Machine Learning Application with Django",
+      "link": "https://www.kdnuggets.com/building-machine-learning-application-with-django",
+      "pubDate": "Fri, 26 Sep 2025 14:00:19 +0000",
+      "author": "Abid Ali Awan",
+      "source": "KDnuggets"
+    },
     {
       "title": "10 Useful Python One-Liners for Data Engineering",
       "link": "https://www.kdnuggets.com/10-useful-python-one-liners-for-data-engineering",
@@ -10,11 +17,41 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Why Do Language Models Hallucinate?",
-      "link": "https://www.kdnuggets.com/why-do-language-models-hallucinate",
-      "pubDate": "Wed, 24 Sep 2025 16:00:16 +0000",
-      "author": "Matthew Mayo",
-      "source": "KDnuggets"
+      "title": "Global Modeling with XGBoost: Gold vs. Silver",
+      "link": "https://www.r-bloggers.com/2025/09/global-modeling-with-xgboost-gold-vs-silver/",
+      "pubDate": "Wed, 24 Sep 2025 09:22:25 +0000",
+      "author": "Selcuk Disci",
+      "source": "R-bloggers"
+    },
+    {
+      "title": "Ten year anniversary of Free Range Statistics by @ellis2013nz",
+      "link": "https://www.r-bloggers.com/2025/09/ten-year-anniversary-of-free-range-statistics-by-ellis2013nz/",
+      "pubDate": "Tue, 23 Sep 2025 13:00:00 +0000",
+      "author": "free range statistics - R",
+      "source": "R-bloggers"
+    },
+    {
+      "title": "Golf champ Bryson DeChambeau is partnering with Google Cloud to explore AI and sports performance.",
+      "link": "https://blog.google/products/google-cloud/bryson-dechambeau/",
+      "pubDate": "Fri, 26 Sep 2025 10:40:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Matt A.V. Chaban"
+        ],
+        "title": [
+          "Keyword Contributor"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Google AI Pro and Ultra subscribers now get Gemini CLI and Gemini Code Assist with higher limits.",
@@ -38,27 +75,6 @@
         ]
       },
       "source": "Blog"
-    },
-    {
-      "title": "Try AI Mode in Spanish today.",
-      "link": "https://blog.google/products/search/ai-mode-spanish/",
-      "pubDate": "Tue, 23 Sep 2025 17:40:00 +0000",
-      "author": "Staff Writer",
-      "source": "Blog"
-    },
-    {
-      "title": "Quantum Computing and Its Impact on Data Science",
-      "link": "https://ieee.org/publications/quantum-computing-data-science-2025",
-      "pubDate": "2025-09-26T00:01:31.096Z",
-      "author": "Quantum Research Team",
-      "source": "IEEE"
-    },
-    {
-      "title": "The Rise of Explainable AI in Enterprise Applications",
-      "link": "https://techcrunch.com/2025/05/26/explainable-ai-enterprise/",
-      "pubDate": "2025-09-23T00:01:31.096Z",
-      "author": "Enterprise Tech Editor",
-      "source": "TechCrunch"
     }
   ]
 }
