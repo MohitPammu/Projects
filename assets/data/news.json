@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-29T00:01:34.010Z",
+  "lastUpdated": "2025-09-30T00:01:34.092Z",
   "items": [
     {
-      "title": "Building Machine Learning Application with Django",
-      "link": "https://www.kdnuggets.com/building-machine-learning-application-with-django",
-      "pubDate": "Fri, 26 Sep 2025 14:00:19 +0000",
-      "author": "Abid Ali Awan",
+      "title": "The Algorithmic X-Men",
+      "link": "https://www.kdnuggets.com/the-algorithmic-x-men",
+      "pubDate": "Mon, 29 Sep 2025 14:00:48 +0000",
+      "author": "Matthew Mayo",
       "source": "KDnuggets"
     },
     {
-      "title": "10 Useful Python One-Liners for Data Engineering",
-      "link": "https://www.kdnuggets.com/10-useful-python-one-liners-for-data-engineering",
-      "pubDate": "Thu, 25 Sep 2025 12:00:12 +0000",
+      "title": "Python for Data Science (Free 7-Day Mini-Course)",
+      "link": "https://www.kdnuggets.com/python-for-data-science-free-7-day-mini-course",
+      "pubDate": "Mon, 29 Sep 2025 12:00:22 +0000",
       "author": "Bala Priya C",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Uncertainty Analysis: Gold vs. Bitcoin",
+      "link": "https://www.r-bloggers.com/2025/09/uncertainty-analysis-gold-vs-bitcoin/",
+      "pubDate": "Mon, 29 Sep 2025 09:47:53 +0000",
+      "author": "Selcuk Disci",
+      "source": "R-bloggers"
     },
     {
       "title": "Global Modeling with XGBoost: Gold vs. Silver",
       "link": "https://www.r-bloggers.com/2025/09/global-modeling-with-xgboost-gold-vs-silver/",
       "pubDate": "Wed, 24 Sep 2025 09:22:25 +0000",
       "author": "Selcuk Disci",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Ten year anniversary of Free Range Statistics by @ellis2013nz",
-      "link": "https://www.r-bloggers.com/2025/09/ten-year-anniversary-of-free-range-statistics-by-ellis2013nz/",
-      "pubDate": "Tue, 23 Sep 2025 13:00:00 +0000",
-      "author": "free range statistics - R",
       "source": "R-bloggers"
     },
     {
