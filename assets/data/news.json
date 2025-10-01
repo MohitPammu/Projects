@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-09-30T00:01:34.092Z",
+  "lastUpdated": "2025-10-01T00:01:45.554Z",
   "items": [
     {
-      "title": "The Algorithmic X-Men",
-      "link": "https://www.kdnuggets.com/the-algorithmic-x-men",
-      "pubDate": "Mon, 29 Sep 2025 14:00:48 +0000",
-      "author": "Matthew Mayo",
+      "title": "Why I Quit My 6 Figure Side Hustle for a Full-Time Data Science Job",
+      "link": "https://www.kdnuggets.com/why-i-quit-my-6-figure-side-hustle-for-a-full-time-data-science-job",
+      "pubDate": "Tue, 30 Sep 2025 14:40:31 +0000",
+      "author": "Natassha Selvaraj",
       "source": "KDnuggets"
     },
     {
-      "title": "Python for Data Science (Free 7-Day Mini-Course)",
-      "link": "https://www.kdnuggets.com/python-for-data-science-free-7-day-mini-course",
-      "pubDate": "Mon, 29 Sep 2025 12:00:22 +0000",
-      "author": "Bala Priya C",
+      "title": "Exploring Metaclasses in Python: Unleashing the Power of Class Creation",
+      "link": "https://www.kdnuggets.com/exploring-metaclasses-in-python-unleashing-the-power-of-class-creation",
+      "pubDate": "Tue, 30 Sep 2025 12:17:09 +0000",
+      "author": "Cornellius Yudha Wijaya",
       "source": "KDnuggets"
     },
     {
@@ -31,6 +31,29 @@
       "source": "R-bloggers"
     },
     {
+      "title": "AI Mode can now help you search and explore visually",
+      "link": "https://blog.google/products/search/search-ai-updates-september-2025/",
+      "pubDate": "Tue, 30 Sep 2025 13:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Robby Stein"
+        ],
+        "title": [
+          "VP of Product, Google Search"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
+    },
+    {
       "title": "Golf champ Bryson DeChambeau is partnering with Google Cloud to explore AI and sports performance.",
       "link": "https://blog.google/products/google-cloud/bryson-dechambeau/",
       "pubDate": "Fri, 26 Sep 2025 10:40:00 +0000",
@@ -46,29 +69,6 @@
         ],
         "department": [
           ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Google AI Pro and Ultra subscribers now get Gemini CLI and Gemini Code Assist with higher limits.",
-      "link": "https://blog.google/technology/developers/gemini-cli-code-assist-higher-limits/",
-      "pubDate": "Wed, 24 Sep 2025 16:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Meridith Blascovich"
-        ],
-        "title": [
-          "Senior Product Manager"
-        ],
-        "department": [
-          "Gemini Code Assist"
         ],
         "company": [
           ""
