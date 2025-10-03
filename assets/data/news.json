@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-02T00:01:26.624Z",
+  "lastUpdated": "2025-10-03T00:01:27.582Z",
   "items": [
     {
       "title": "What Is Cross-Validation? A Plain English Guide with Diagrams",
@@ -31,41 +31,25 @@
       "source": "R-bloggers"
     },
     {
-      "title": "From sketches to prototype: Designing with generative AI",
-      "link": "https://blog.google/technology/google-deepmind/ross-lovegrove-design/",
-      "pubDate": "Wed, 01 Oct 2025 16:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Suraj Kothawade"
-        ],
-        "title": [
-          "Software Engineer"
-        ],
-        "department": [
-          "Core ML"
-        ],
-        "company": [
-          ""
-        ]
-      },
+      "title": "Google is investing in Arkansas with a new data center, energy efficiency programs and more.",
+      "link": "https://blog.google/inside-google/company-announcements/google-american-innovation-arkansas/",
+      "pubDate": "Thu, 02 Oct 2025 20:30:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     },
     {
-      "title": "Our new partnership with the University of Waterloo on the future of learning and work",
-      "link": "https://blog.google/technology/ai/google-university-of-waterloo-education-work/",
-      "pubDate": "Wed, 01 Oct 2025 14:30:00 +0000",
+      "title": "New ways to build with Jules, our AI coding agent",
+      "link": "https://blog.google/technology/google-labs/jules-tools-jules-api/",
+      "pubDate": "Thu, 02 Oct 2025 18:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Mira Lane"
+          "Kathy Korevec"
         ],
         "title": [
-          "Vice President, Envisioning Studio, Technology & Society"
+          "Director, Product Management, Google Labs"
         ],
         "department": [
           ""
