@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-06T00:01:30.574Z",
+  "lastUpdated": "2025-10-07T00:01:27.385Z",
   "items": [
+    {
+      "title": "A Gentle Introduction to TypeScript for Python Programmers",
+      "link": "https://www.kdnuggets.com/a-gentle-introduction-to-typescript-for-python-programmers",
+      "pubDate": "Mon, 06 Oct 2025 16:00:20 +0000",
+      "author": "Bala Priya C",
+      "source": "KDnuggets"
+    },
     {
       "title": "5 Fun AI Agent Projects for Absolute Beginners",
       "link": "https://www.kdnuggets.com/5-fun-ai-agent-projects-for-absolute-beginners",
       "pubDate": "Fri, 03 Oct 2025 11:50:30 +0000",
       "author": "Kanwal Mehreen",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "What Is Cross-Validation? A Plain English Guide with Diagrams",
-      "link": "https://www.kdnuggets.com/what-is-cross-validation-a-plain-english-guide-with-diagrams",
-      "pubDate": "Wed, 01 Oct 2025 16:00:32 +0000",
-      "author": "Josep Ferrer",
       "source": "KDnuggets"
     },
     {
