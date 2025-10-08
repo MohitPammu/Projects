@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-07T00:01:27.385Z",
+  "lastUpdated": "2025-10-08T00:02:01.167Z",
   "items": [
+    {
+      "title": "How I Actually Use Statistics as a Data Scientist",
+      "link": "https://www.kdnuggets.com/how-i-actually-use-statistics-as-a-data-scientist",
+      "pubDate": "Tue, 07 Oct 2025 16:00:34 +0000",
+      "author": "Natassha Selvaraj",
+      "source": "KDnuggets"
+    },
     {
       "title": "A Gentle Introduction to TypeScript for Python Programmers",
       "link": "https://www.kdnuggets.com/a-gentle-introduction-to-typescript-for-python-programmers",
       "pubDate": "Mon, 06 Oct 2025 16:00:20 +0000",
       "author": "Bala Priya C",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "5 Fun AI Agent Projects for Absolute Beginners",
-      "link": "https://www.kdnuggets.com/5-fun-ai-agent-projects-for-absolute-beginners",
-      "pubDate": "Fri, 03 Oct 2025 11:50:30 +0000",
-      "author": "Kanwal Mehreen",
       "source": "KDnuggets"
     },
     {
@@ -31,25 +31,41 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Google is investing in Arkansas with a new data center, energy efficiency programs and more.",
-      "link": "https://blog.google/inside-google/company-announcements/google-american-innovation-arkansas/",
-      "pubDate": "Thu, 02 Oct 2025 20:30:00 +0000",
-      "author": "Staff Writer",
-      "source": "Blog"
-    },
-    {
-      "title": "New ways to build with Jules, our AI coding agent",
-      "link": "https://blog.google/technology/google-labs/jules-tools-jules-api/",
-      "pubDate": "Thu, 02 Oct 2025 18:00:00 +0000",
+      "title": "AI Mode is now available in more languages and locations around the world.",
+      "link": "https://blog.google/products/search/ai-mode-expands-languages-locations/",
+      "pubDate": "Tue, 07 Oct 2025 22:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Kathy Korevec"
+          "Hema Budaraju"
         ],
         "title": [
-          "Director, Product Management, Google Labs"
+          "Vice President, Product Management"
+        ],
+        "department": [
+          "Search"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
+    },
+    {
+      "title": "Introducing the Gemini 2.5 Computer Use model",
+      "link": "https://blog.google/technology/google-deepmind/gemini-computer-use-model/",
+      "pubDate": "Tue, 07 Oct 2025 19:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Google DeepMind"
+        ],
+        "title": [
+          ""
         ],
         "department": [
           ""
