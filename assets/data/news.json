@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-09T00:01:28.589Z",
+  "lastUpdated": "2025-10-10T00:01:29.292Z",
   "items": [
     {
       "title": "10 Command-Line Tools Every Data Scientist Should Know",
@@ -31,18 +31,18 @@
       "source": "R-bloggers"
     },
     {
-      "title": "The latest AI news we announced in September",
-      "link": "https://blog.google/technology/ai/google-ai-updates-september-2025/",
-      "pubDate": "Wed, 08 Oct 2025 15:00:00 +0000",
+      "title": "1,001 real-world gen AI use cases from the world's leading organizations",
+      "link": "https://blog.google/products/google-cloud/gen-ai-business-use-cases/",
+      "pubDate": "Thu, 09 Oct 2025 18:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Keyword Team"
+          "Matt Renner"
         ],
         "title": [
-          ""
+          "President, Global Revenue at Google Cloud"
         ],
         "department": [
           ""
@@ -54,21 +54,21 @@
       "source": "Blog"
     },
     {
-      "title": "AI Mode is now available in more languages and locations around the world.",
-      "link": "https://blog.google/products/search/ai-mode-expands-languages-locations/",
-      "pubDate": "Tue, 07 Oct 2025 22:00:00 +0000",
+      "title": "Gemini Enterprise: The new front door for Google AI in your workplace",
+      "link": "https://blog.google/products/google-cloud/gemini-enterprise-sundar-pichai/",
+      "pubDate": "Thu, 09 Oct 2025 12:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Hema Budaraju"
+          "Sundar Pichai"
         ],
         "title": [
-          "Vice President, Product Management"
+          "CEO of Google and Alphabet"
         ],
         "department": [
-          "Search"
+          ""
         ],
         "company": [
           ""
