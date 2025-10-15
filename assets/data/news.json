@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-14T00:01:24.253Z",
+  "lastUpdated": "2025-10-15T00:01:40.185Z",
   "items": [
     {
-      "title": "Building Pure Python Web Apps with Reflex",
-      "link": "https://www.kdnuggets.com/building-pure-python-web-apps-with-reflex",
-      "pubDate": "Mon, 13 Oct 2025 16:00:01 +0000",
+      "title": "Data Analytics Automation Scripts with SQL Stored Procedures",
+      "link": "https://www.kdnuggets.com/data-analytics-automation-scripts-with-sql-stored-procedures",
+      "pubDate": "Tue, 14 Oct 2025 16:00:02 +0000",
       "author": "Cornellius Yudha Wijaya",
       "source": "KDnuggets"
     },
     {
-      "title": "10 Command-Line Tools Every Data Scientist Should Know",
-      "link": "https://www.kdnuggets.com/10-command-line-tools-every-data-scientist-should-know",
-      "pubDate": "Wed, 08 Oct 2025 12:00:03 +0000",
-      "author": "Kanwal Mehreen",
+      "title": "10 Useful Python One-Liners for CSV Processing",
+      "link": "https://www.kdnuggets.com/10-useful-python-one-liners-for-csv-processing",
+      "pubDate": "Tue, 14 Oct 2025 12:00:24 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
-      "title": "Uncertainty Analysis: Gold vs. Bitcoin",
-      "link": "https://www.r-bloggers.com/2025/09/uncertainty-analysis-gold-vs-bitcoin/",
-      "pubDate": "Mon, 29 Sep 2025 09:47:53 +0000",
-      "author": "Selcuk Disci",
+      "title": "New, work-in-progress book on spatial data visualization in R",
+      "link": "https://www.r-bloggers.com/2025/10/new-work-in-progress-book-on-spatial-data-visualization-in-r/",
+      "pubDate": "Tue, 14 Oct 2025 00:00:00 +0000",
+      "author": "Jakub Nowosad",
       "source": "R-bloggers"
     },
     {
-      "title": "Global Modeling with XGBoost: Gold vs. Silver",
-      "link": "https://www.r-bloggers.com/2025/09/global-modeling-with-xgboost-gold-vs-silver/",
-      "pubDate": "Wed, 24 Sep 2025 09:22:25 +0000",
-      "author": "Selcuk Disci",
+      "title": "Python package development for R developers",
+      "link": "https://www.r-bloggers.com/2025/10/python-package-development-for-r-developers/",
+      "pubDate": "Mon, 13 Oct 2025 00:00:00 +0000",
+      "author": "Yohann Mansiaux",
       "source": "R-bloggers"
     },
     {
