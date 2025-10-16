@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-15T00:01:40.185Z",
+  "lastUpdated": "2025-10-16T00:01:35.871Z",
   "items": [
     {
       "title": "Data Analytics Automation Scripts with SQL Stored Procedures",
@@ -31,33 +31,33 @@
       "source": "R-bloggers"
     },
     {
-      "title": "New AI-powered features help you connect with web content in Search and Discover.",
-      "link": "https://blog.google/products/search/ai-features-web-content/",
-      "pubDate": "Mon, 13 Oct 2025 18:00:00 +0000",
-      "author": "Staff Writer",
-      "source": "Blog"
-    },
-    {
-      "title": "1,001 real-world gen AI use cases from the world's leading organizations",
-      "link": "https://blog.google/products/google-cloud/gen-ai-business-use-cases/",
-      "pubDate": "Thu, 09 Oct 2025 18:00:00 +0000",
+      "title": "How a Gemma model helped discover a new potential cancer therapy pathway",
+      "link": "https://blog.google/technology/ai/google-gemma-ai-cancer-therapy-discovery/",
+      "pubDate": "Wed, 15 Oct 2025 12:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Matt Renner"
+          "Shekoofeh Azizi"
         ],
         "title": [
-          "President, Global Revenue at Google Cloud"
+          "Staff Research Scientist, Research Lead"
         ],
         "department": [
-          ""
+          "Google DeepMind"
         ],
         "company": [
           ""
         ]
       },
+      "source": "Blog"
+    },
+    {
+      "title": "New AI-powered features help you connect with web content in Search and Discover.",
+      "link": "https://blog.google/products/search/ai-features-web-content/",
+      "pubDate": "Mon, 13 Oct 2025 18:00:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
