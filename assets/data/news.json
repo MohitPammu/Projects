@@ -1,34 +1,41 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-16T00:01:35.871Z",
+  "lastUpdated": "2025-10-17T00:01:37.638Z",
   "items": [
     {
-      "title": "Data Analytics Automation Scripts with SQL Stored Procedures",
-      "link": "https://www.kdnuggets.com/data-analytics-automation-scripts-with-sql-stored-procedures",
-      "pubDate": "Tue, 14 Oct 2025 16:00:02 +0000",
+      "title": "How I Built a Data Cleaning Pipeline Using One Messy DoorDash Dataset",
+      "link": "https://www.kdnuggets.com/how-i-built-a-data-cleaning-pipeline-using-one-messy-doordash-dataset",
+      "pubDate": "Thu, 16 Oct 2025 16:43:42 +0000",
+      "author": "Nate Rosidi",
+      "source": "KDnuggets"
+    },
+    {
+      "title": "Accessing Data Commons with the New Python API Client",
+      "link": "https://www.kdnuggets.com/accessing-data-commons-with-the-new-python-api-client",
+      "pubDate": "Thu, 16 Oct 2025 16:17:40 +0000",
       "author": "Cornellius Yudha Wijaya",
       "source": "KDnuggets"
     },
     {
-      "title": "10 Useful Python One-Liners for CSV Processing",
-      "link": "https://www.kdnuggets.com/10-useful-python-one-liners-for-csv-processing",
-      "pubDate": "Tue, 14 Oct 2025 12:00:24 +0000",
-      "author": "Bala Priya C",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "New, work-in-progress book on spatial data visualization in R",
-      "link": "https://www.r-bloggers.com/2025/10/new-work-in-progress-book-on-spatial-data-visualization-in-r/",
-      "pubDate": "Tue, 14 Oct 2025 00:00:00 +0000",
-      "author": "Jakub Nowosad",
+      "title": "Building and Customising Statistical Models with Stan and R: An Introduction to Bayesian Inference workshop",
+      "link": "https://www.r-bloggers.com/2025/10/building-and-customising-statistical-models-with-stan-and-r-an-introduction-to-bayesian-inference-workshop/",
+      "pubDate": "Thu, 16 Oct 2025 10:57:03 +0000",
+      "author": "Dariia Mykhailyshyna",
       "source": "R-bloggers"
     },
     {
-      "title": "Python package development for R developers",
-      "link": "https://www.r-bloggers.com/2025/10/python-package-development-for-r-developers/",
-      "pubDate": "Mon, 13 Oct 2025 00:00:00 +0000",
-      "author": "Yohann Mansiaux",
+      "title": "Two New Preprints on Multilevel Hidden Markov Models",
+      "link": "https://www.r-bloggers.com/2025/10/two-new-preprints-on-multilevel-hidden-markov-models/",
+      "pubDate": "Thu, 16 Oct 2025 08:00:00 +0000",
+      "author": "Jonas Haslbeck - r",
       "source": "R-bloggers"
+    },
+    {
+      "title": "DeepSomatic, an open-source AI model, is speeding up genetic analysis for cancer research.",
+      "link": "https://blog.google/technology/research/deepsomatic-an-open-source-ai-model-is-speeding-up-genetic-analysis-for-cancer-research/",
+      "pubDate": "Thu, 16 Oct 2025 17:05:00 +0000",
+      "author": "Staff Writer",
+      "source": "Blog"
     },
     {
       "title": "How a Gemma model helped discover a new potential cancer therapy pathway",
@@ -51,13 +58,6 @@
           ""
         ]
       },
-      "source": "Blog"
-    },
-    {
-      "title": "New AI-powered features help you connect with web content in Search and Discover.",
-      "link": "https://blog.google/products/search/ai-features-web-content/",
-      "pubDate": "Mon, 13 Oct 2025 18:00:00 +0000",
-      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
