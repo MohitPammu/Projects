@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-19T00:01:48.236Z",
+  "lastUpdated": "2025-10-20T00:01:40.160Z",
   "items": [
     {
       "title": "Creating a Text to SQL App with OpenAI + FastAPI + SQLite",
@@ -42,7 +42,7 @@
           "Logan Kilpatrick"
         ],
         "title": [
-          "Senior Product Manager"
+          "Group Product Manager"
         ],
         "department": [
           "Google DeepMind"
