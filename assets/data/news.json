@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-20T00:01:40.160Z",
+  "lastUpdated": "2025-10-21T00:01:53.365Z",
   "items": [
     {
-      "title": "Creating a Text to SQL App with OpenAI + FastAPI + SQLite",
-      "link": "https://www.kdnuggets.com/creating-a-text-to-sql-app-with-openai-fastapi-sqlite",
-      "pubDate": "Fri, 17 Oct 2025 16:09:06 +0000",
-      "author": "Cornellius Yudha Wijaya",
+      "title": "SQL for Data Analysts: Essential Queries for Data Extraction & Transformation",
+      "link": "https://www.kdnuggets.com/sql-for-data-analysts-essential-queries-for-data-extraction-transformation",
+      "pubDate": "Mon, 20 Oct 2025 14:00:49 +0000",
+      "author": "Jayita Gulati",
       "source": "KDnuggets"
     },
     {
-      "title": "How I Built a Data Cleaning Pipeline Using One Messy DoorDash Dataset",
-      "link": "https://www.kdnuggets.com/how-i-built-a-data-cleaning-pipeline-using-one-messy-doordash-dataset",
-      "pubDate": "Thu, 16 Oct 2025 16:43:42 +0000",
-      "author": "Nate Rosidi",
+      "title": "5 Docker Containers for Your AI Infrastructure",
+      "link": "https://www.kdnuggets.com/5-docker-containers-for-your-ai-infrastructure",
+      "pubDate": "Mon, 20 Oct 2025 12:00:12 +0000",
+      "author": "Nahla Davies",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Compositional modeling of plant communities with Dirichlet regression",
+      "link": "https://www.r-bloggers.com/2025/10/compositional-modeling-of-plant-communities-with-dirichlet-regression/",
+      "pubDate": "Mon, 20 Oct 2025 00:00:00 +0000",
+      "author": "GAMbler",
+      "source": "R-bloggers"
     },
     {
       "title": "Building and Customising Statistical Models with Stan and R: An Introduction to Bayesian Inference workshop",
       "link": "https://www.r-bloggers.com/2025/10/building-and-customising-statistical-models-with-stan-and-r-an-introduction-to-bayesian-inference-workshop/",
       "pubDate": "Thu, 16 Oct 2025 10:57:03 +0000",
       "author": "Dariia Mykhailyshyna",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Two New Preprints on Multilevel Hidden Markov Models",
-      "link": "https://www.r-bloggers.com/2025/10/two-new-preprints-on-multilevel-hidden-markov-models/",
-      "pubDate": "Thu, 16 Oct 2025 08:00:00 +0000",
-      "author": "Jonas Haslbeck - r",
       "source": "R-bloggers"
     },
     {
