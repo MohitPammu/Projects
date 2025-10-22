@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-21T00:01:53.365Z",
+  "lastUpdated": "2025-10-22T00:01:39.643Z",
   "items": [
+    {
+      "title": "5 Useful Python Scripts for Busy Data Analysts",
+      "link": "https://www.kdnuggets.com/5-useful-python-scripts-for-busy-data-analysts",
+      "pubDate": "Tue, 21 Oct 2025 12:00:59 +0000",
+      "author": "Bala Priya C",
+      "source": "KDnuggets"
+    },
     {
       "title": "SQL for Data Analysts: Essential Queries for Data Extraction & Transformation",
       "link": "https://www.kdnuggets.com/sql-for-data-analysts-essential-queries-for-data-extraction-transformation",
       "pubDate": "Mon, 20 Oct 2025 14:00:49 +0000",
       "author": "Jayita Gulati",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "5 Docker Containers for Your AI Infrastructure",
-      "link": "https://www.kdnuggets.com/5-docker-containers-for-your-ai-infrastructure",
-      "pubDate": "Mon, 20 Oct 2025 12:00:12 +0000",
-      "author": "Nahla Davies",
       "source": "KDnuggets"
     },
     {
@@ -29,6 +29,29 @@
       "pubDate": "Thu, 16 Oct 2025 10:57:03 +0000",
       "author": "Dariia Mykhailyshyna",
       "source": "R-bloggers"
+    },
+    {
+      "title": "Start learning all things AI on the new Google Skills",
+      "link": "https://blog.google/outreach-initiatives/education/google-skills/",
+      "pubDate": "Tue, 21 Oct 2025 13:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Karen Dahut"
+        ],
+        "title": [
+          "CEO"
+        ],
+        "department": [
+          "Google Public Sector"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Leveling up your developer experience in Google AI Studio",
@@ -51,13 +74,6 @@
           ""
         ]
       },
-      "source": "Blog"
-    },
-    {
-      "title": "DeepSomatic, an open-source AI model, is speeding up genetic analysis for cancer research.",
-      "link": "https://blog.google/technology/research/deepsomatic-an-open-source-ai-model-is-speeding-up-genetic-analysis-for-cancer-research/",
-      "pubDate": "Thu, 16 Oct 2025 17:05:00 +0000",
-      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
