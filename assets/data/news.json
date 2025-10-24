@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-23T00:01:45.640Z",
+  "lastUpdated": "2025-10-24T00:04:32.434Z",
   "items": [
     {
-      "title": "The Psychology of Bad Data Storytelling: Why People Misread Your Data",
-      "link": "https://www.kdnuggets.com/the-psychology-of-bad-data-storytelling-why-people-misread-your-data",
-      "pubDate": "Wed, 22 Oct 2025 16:06:37 +0000",
+      "title": "The Hidden Curriculum of Data Science Interviews: What Companies Really Test",
+      "link": "https://www.kdnuggets.com/the-hidden-curriculum-of-data-science-interviews-what-companies-really-test",
+      "pubDate": "Thu, 23 Oct 2025 15:55:25 +0000",
       "author": "Nate Rosidi",
       "source": "KDnuggets"
     },
     {
-      "title": "7 Best Chrome Extensions for Agentic AI",
-      "link": "https://www.kdnuggets.com/7-best-chrome-extensions-for-agentic-ai",
-      "pubDate": "Wed, 22 Oct 2025 14:16:32 +0000",
+      "title": "Top 5 Open Source Video Generation Models",
+      "link": "https://www.kdnuggets.com/top-5-open-source-video-generation-models",
+      "pubDate": "Thu, 23 Oct 2025 12:48:55 +0000",
       "author": "Abid Ali Awan",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Orchestrating Polyglot, Reproducible Data Science with Nix and {rixpress}",
+      "link": "https://www.r-bloggers.com/2025/10/orchestrating-polyglot-reproducible-data-science-with-nix-and-rixpress/",
+      "pubDate": "Thu, 23 Oct 2025 00:00:00 +0000",
+      "author": "Econometrics and Free Software",
+      "source": "R-bloggers"
     },
     {
       "title": "Compositional modeling of plant communities with Dirichlet regression",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Building and Customising Statistical Models with Stan and R: An Introduction to Bayesian Inference workshop",
-      "link": "https://www.r-bloggers.com/2025/10/building-and-customising-statistical-models-with-stan-and-r-an-introduction-to-bayesian-inference-workshop/",
-      "pubDate": "Thu, 16 Oct 2025 10:57:03 +0000",
-      "author": "Dariia Mykhailyshyna",
-      "source": "R-bloggers"
+      "title": "New updates and more access to Google Earth AI",
+      "link": "https://blog.google/technology/research/new-updates-and-more-access-to-google-earth-ai/",
+      "pubDate": "Thu, 23 Oct 2025 15:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Yossi Matias"
+        ],
+        "title": [
+          "VP & GM"
+        ],
+        "department": [
+          "Google Research"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Start learning all things AI on the new Google Skills",
@@ -46,29 +69,6 @@
         ],
         "department": [
           "Google Public Sector"
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Leveling up your developer experience in Google AI Studio",
-      "link": "https://blog.google/technology/developers/ai-studio-updates-more-control/",
-      "pubDate": "Sat, 18 Oct 2025 15:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Logan Kilpatrick"
-        ],
-        "title": [
-          "Group Product Manager"
-        ],
-        "department": [
-          "Google DeepMind"
         ],
         "company": [
           ""
