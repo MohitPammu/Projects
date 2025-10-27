@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-26T00:01:54.974Z",
+  "lastUpdated": "2025-10-27T00:01:53.085Z",
   "items": [
     {
       "title": "10 Essential Agentic AI Interview Questions for AI Engineers",
@@ -17,6 +17,13 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Double Descent Explained",
+      "link": "https://www.r-bloggers.com/2025/10/double-descent-explained/",
+      "pubDate": "Sun, 26 Oct 2025 00:00:00 +0000",
+      "author": "datascienceconfidential - r",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Orchestrating Polyglot, Reproducible Data Science with Nix and {rixpress}",
       "link": "https://www.r-bloggers.com/2025/10/orchestrating-polyglot-reproducible-data-science-with-nix-and-rixpress/",
       "pubDate": "Thu, 23 Oct 2025 00:00:00 +0000",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Compositional modeling of plant communities with Dirichlet regression",
-      "link": "https://www.r-bloggers.com/2025/10/compositional-modeling-of-plant-communities-with-dirichlet-regression/",
-      "pubDate": "Mon, 20 Oct 2025 00:00:00 +0000",
-      "author": "GAMbler",
-      "source": "R-bloggers"
+      "title": "Introducing vibe coding in Google AI Studio",
+      "link": "https://blog.google/technology/developers/introducing-vibe-coding-in-google-ai-studio/",
+      "pubDate": "Sun, 26 Oct 2025 15:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Ammaar Reshi"
+        ],
+        "title": [
+          "Product and Design Lead"
+        ],
+        "department": [
+          "Google AI Studio"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "New updates and more access to Google Earth AI",
@@ -46,29 +69,6 @@
         ],
         "department": [
           "Google Research"
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Start learning all things AI on the new Google Skills",
-      "link": "https://blog.google/outreach-initiatives/education/google-skills/",
-      "pubDate": "Tue, 21 Oct 2025 13:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Karen Dahut"
-        ],
-        "title": [
-          "CEO"
-        ],
-        "department": [
-          "Google Public Sector"
         ],
         "company": [
           ""
