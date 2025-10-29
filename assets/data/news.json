@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-28T00:01:31.797Z",
+  "lastUpdated": "2025-10-29T00:01:38.564Z",
   "items": [
+    {
+      "title": "API Development for Web Apps and Data Products",
+      "link": "https://www.kdnuggets.com/api-development-for-web-apps-and-data-products",
+      "pubDate": "Tue, 28 Oct 2025 16:54:16 +0000",
+      "author": "Shittu Olumide",
+      "source": "KDnuggets"
+    },
     {
       "title": "Agentic AI Coding with Google Jules",
       "link": "https://www.kdnuggets.com/agentic-ai-coding-with-google-jules",
@@ -10,11 +17,11 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Facing The Threat of AIjacking",
-      "link": "https://www.kdnuggets.com/facing-the-threat-of-aijacking",
-      "pubDate": "Mon, 27 Oct 2025 14:00:42 +0000",
-      "author": "Vinod Chugani",
-      "source": "KDnuggets"
+      "title": "Elevate Your Data Skills with Jumping Rivers Training",
+      "link": "https://www.r-bloggers.com/2025/10/elevate-your-data-skills-with-jumping-rivers-training/",
+      "pubDate": "Tue, 28 Oct 2025 23:59:00 +0000",
+      "author": "The Jumping Rivers Blog",
+      "source": "R-bloggers"
     },
     {
       "title": "Double Descent Explained",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Orchestrating Polyglot, Reproducible Data Science with Nix and {rixpress}",
-      "link": "https://www.r-bloggers.com/2025/10/orchestrating-polyglot-reproducible-data-science-with-nix-and-rixpress/",
-      "pubDate": "Thu, 23 Oct 2025 00:00:00 +0000",
-      "author": "Econometrics and Free Software",
-      "source": "R-bloggers"
+      "title": "Meet the 11 startups using AI to build a safer digital future in Latin America",
+      "link": "https://blog.google/outreach-initiatives/entrepreneurs/google-for-startups-ai-for-cybersecurity-cohort/",
+      "pubDate": "Tue, 28 Oct 2025 17:30:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Paco Solsona"
+        ],
+        "title": [
+          "Head of Accelerator & Startup Ecosystem, SpLATAM"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Introducing vibe coding in Google AI Studio",
@@ -46,29 +69,6 @@
         ],
         "department": [
           "Google AI Studio"
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "New updates and more access to Google Earth AI",
-      "link": "https://blog.google/technology/research/new-updates-and-more-access-to-google-earth-ai/",
-      "pubDate": "Thu, 23 Oct 2025 15:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Yossi Matias"
-        ],
-        "title": [
-          "VP & GM"
-        ],
-        "department": [
-          "Google Research"
         ],
         "company": [
           ""
