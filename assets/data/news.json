@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-29T00:01:38.564Z",
+  "lastUpdated": "2025-10-30T00:01:24.684Z",
   "items": [
     {
-      "title": "API Development for Web Apps and Data Products",
-      "link": "https://www.kdnuggets.com/api-development-for-web-apps-and-data-products",
-      "pubDate": "Tue, 28 Oct 2025 16:54:16 +0000",
-      "author": "Shittu Olumide",
+      "title": "Generative AI Hype Check: Can It Really Transform SDLC?",
+      "link": "https://www.kdnuggets.com/2025/10/damcosolutions/generative-ai-hype-check-can-it-really-transform-sdlc",
+      "pubDate": "Wed, 29 Oct 2025 17:00:50 +0000",
+      "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
-      "title": "Agentic AI Coding with Google Jules",
-      "link": "https://www.kdnuggets.com/agentic-ai-coding-with-google-jules",
-      "pubDate": "Mon, 27 Oct 2025 15:53:10 +0000",
-      "author": "Shittu Olumide",
+      "title": "Collecting Real-Time Data with APIs: A Hands-On Guide Using Python",
+      "link": "https://www.kdnuggets.com/collecting-real-time-data-with-apis-a-hands-on-guide-using-python",
+      "pubDate": "Wed, 29 Oct 2025 15:00:24 +0000",
+      "author": "Josep Ferrer",
       "source": "KDnuggets"
     },
     {
@@ -24,11 +24,34 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Double Descent Explained",
-      "link": "https://www.r-bloggers.com/2025/10/double-descent-explained/",
-      "pubDate": "Sun, 26 Oct 2025 00:00:00 +0000",
-      "author": "datascienceconfidential - r",
+      "title": "An update to Open Trade Statistics to showcase Tabler and D3po",
+      "link": "https://www.r-bloggers.com/2025/10/an-update-to-open-trade-statistics-to-showcase-tabler-and-d3po/",
+      "pubDate": "Tue, 28 Oct 2025 04:00:00 +0000",
+      "author": "pacha.dev/blog",
       "source": "R-bloggers"
+    },
+    {
+      "title": "Chat in NotebookLM: A powerful, goal-focused AI research partner",
+      "link": "https://blog.google/technology/google-labs/notebooklm-custom-personas-engine-upgrade/",
+      "pubDate": "Wed, 29 Oct 2025 17:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Anuja Agrawal"
+        ],
+        "title": [
+          "Senior Staff Lead"
+        ],
+        "department": [
+          "NotebookLM"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Meet the 11 startups using AI to build a safer digital future in Latin America",
@@ -46,29 +69,6 @@
         ],
         "department": [
           ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Introducing vibe coding in Google AI Studio",
-      "link": "https://blog.google/technology/developers/introducing-vibe-coding-in-google-ai-studio/",
-      "pubDate": "Sun, 26 Oct 2025 15:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Ammaar Reshi"
-        ],
-        "title": [
-          "Product and Design Lead"
-        ],
-        "department": [
-          "Google AI Studio"
         ],
         "company": [
           ""
