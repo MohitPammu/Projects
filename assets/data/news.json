@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-10-30T00:01:24.684Z",
+  "lastUpdated": "2025-10-31T00:01:34.718Z",
   "items": [
     {
       "title": "Generative AI Hype Check: Can It Really Transform SDLC?",
@@ -31,6 +31,29 @@
       "source": "R-bloggers"
     },
     {
+      "title": "New tools in Google AI Studio to explore, debug and share logs",
+      "link": "https://blog.google/technology/developers/google-ai-studio-logs-datasets/",
+      "pubDate": "Thu, 30 Oct 2025 17:05:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Seth Odoom"
+        ],
+        "title": [
+          "Product Manager"
+        ],
+        "department": [
+          "Google AI Studio"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
+    },
+    {
       "title": "Chat in NotebookLM: A powerful, goal-focused AI research partner",
       "link": "https://blog.google/technology/google-labs/notebooklm-custom-personas-engine-upgrade/",
       "pubDate": "Wed, 29 Oct 2025 17:00:00 +0000",
@@ -46,29 +69,6 @@
         ],
         "department": [
           "NotebookLM"
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Meet the 11 startups using AI to build a safer digital future in Latin America",
-      "link": "https://blog.google/outreach-initiatives/entrepreneurs/google-for-startups-ai-for-cybersecurity-cohort/",
-      "pubDate": "Tue, 28 Oct 2025 17:30:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Paco Solsona"
-        ],
-        "title": [
-          "Head of Accelerator & Startup Ecosystem, SpLATAM"
-        ],
-        "department": [
-          ""
         ],
         "company": [
           ""
