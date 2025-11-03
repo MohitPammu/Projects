@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-02T00:01:32.265Z",
+  "lastUpdated": "2025-11-03T00:01:31.146Z",
   "items": [
     {
       "title": "Generative AI Hype Check: Can It Really Transform SDLC?",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Prussian Horse Kicks II: Mixed Effects Models",
+      "link": "https://www.r-bloggers.com/2025/10/prussian-horse-kicks-ii-mixed-effects-models/",
+      "pubDate": "Sat, 01 Nov 2025 00:00:00 +0000",
+      "author": "Chris Bowdon",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Elevate Your Data Skills with Jumping Rivers Training",
       "link": "https://www.r-bloggers.com/2025/10/elevate-your-data-skills-with-jumping-rivers-training/",
       "pubDate": "Tue, 28 Oct 2025 23:59:00 +0000",
       "author": "The Jumping Rivers Blog",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "An update to Open Trade Statistics to showcase Tabler and D3po",
-      "link": "https://www.r-bloggers.com/2025/10/an-update-to-open-trade-statistics-to-showcase-tabler-and-d3po/",
-      "pubDate": "Tue, 28 Oct 2025 04:00:00 +0000",
-      "author": "pacha.dev/blog",
       "source": "R-bloggers"
     },
     {
