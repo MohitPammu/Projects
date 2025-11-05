@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-04T00:01:31.901Z",
+  "lastUpdated": "2025-11-05T00:01:47.016Z",
   "items": [
+    {
+      "title": "Data Observability in Analytics: Tools, Techniques, and Why It Matters",
+      "link": "https://www.kdnuggets.com/data-observability-in-analytics-tools-techniques-and-why-it-matters",
+      "pubDate": "Tue, 04 Nov 2025 13:00:47 +0000",
+      "author": "Nate Rosidi",
+      "source": "KDnuggets"
+    },
     {
       "title": "The Complete Guide to Using Google AI Studio",
       "link": "https://www.kdnuggets.com/the-complete-guide-to-using-google-ai-studio",
@@ -10,11 +17,11 @@
       "source": "KDnuggets"
     },
     {
-      "title": "5 Fun Data Science Projects for Absolute Beginners",
-      "link": "https://www.kdnuggets.com/5-fun-data-science-projects-for-absolute-beginners",
-      "pubDate": "Mon, 03 Nov 2025 13:00:24 +0000",
-      "author": "Kanwal Mehreen",
-      "source": "KDnuggets"
+      "title": "Data centers",
+      "link": "https://www.r-bloggers.com/2025/11/data-centers/",
+      "pubDate": "Tue, 04 Nov 2025 07:00:00 +0000",
+      "author": "Michael",
+      "source": "R-bloggers"
     },
     {
       "title": "Prussian Horse Kicks II: Mixed Effects Models",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Elevate Your Data Skills with Jumping Rivers Training",
-      "link": "https://www.r-bloggers.com/2025/10/elevate-your-data-skills-with-jumping-rivers-training/",
-      "pubDate": "Tue, 28 Oct 2025 23:59:00 +0000",
-      "author": "The Jumping Rivers Blog",
-      "source": "R-bloggers"
+      "title": "The latest AI news we announced in October",
+      "link": "https://blog.google/technology/ai/google-ai-updates-october-2025/",
+      "pubDate": "Tue, 04 Nov 2025 17:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Keyword Team"
+        ],
+        "title": [
+          ""
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "New tools in Google AI Studio to explore, debug and share logs",
@@ -46,29 +69,6 @@
         ],
         "department": [
           "Google AI Studio"
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "Chat in NotebookLM: A powerful, goal-focused AI research partner",
-      "link": "https://blog.google/technology/google-labs/notebooklm-custom-personas-engine-upgrade/",
-      "pubDate": "Wed, 29 Oct 2025 17:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Anuja Agrawal"
-        ],
-        "title": [
-          "Senior Staff Lead"
-        ],
-        "department": [
-          "NotebookLM"
         ],
         "company": [
           ""
