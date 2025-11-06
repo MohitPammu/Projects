@@ -69,10 +69,12 @@ Based on the analysis, several strategies were recommended to convert casual rid
 ## Project Structure
 ```
 Cyclistic/
-├── cyclistic-google-data-analytics-capstone.html   # Full analysis report
+├── cyclistic-google-data-analytics-capstone.html   # Full interactive analysis report
+├── cyclistic-google-data-analytics-capstone.ipynb  # Jupyter notebook version
+├── Cyclistic_Script.R                              # R analysis script
 ├── DA-Capstone-Cyclystic.Rproj                     # R project file
-├── README.md                                        # This file
-└── data/                                            # Raw data files (if included)
+├── requirements.txt                                # R package dependencies
+└── README.md                                        # Project documentation
 ```
 
 ## Author
