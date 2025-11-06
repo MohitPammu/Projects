@@ -1,5 +1,7 @@
 # HR Workforce Analytics Dashboard
 
+![HR Dashboard Preview](./hr-dashboard-preview.png)
+
 📊 **[View Interactive Dashboard PDF](./Certification%20Project%20-%20HR%20Data%20Dashboard.pdf)** | 📁 **[Download .pbix File](./Certification%20Project%20-%20HR%20Data.pbix)**
 
 ## Project Overview
