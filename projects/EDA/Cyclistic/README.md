@@ -57,7 +57,7 @@ Based on the analysis, several strategies were recommended to convert casual rid
 5. **Bike Type Promotions**: Create special offers for specific bike types on lower-usage days
 
 ## View the Full Analysis
-- 📊 [Interactive HTML Report](https://mohitpammu.github.io/Projects/projects/EDA/Cyclistic/cyclistic-google-data-analytics-capstone.html)
+- 📊 [HTML Report](https://mohitpammu.github.io/Projects/projects/EDA/Cyclistic/cyclistic-google-data-analytics-capstone.html)
 - 📂 [R Code and Data Files](https://github.com/MohitPammu/Projects/tree/main/projects/EDA/Cyclistic)
 
 ## Getting Started
