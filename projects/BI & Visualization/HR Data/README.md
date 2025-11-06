@@ -1,6 +1,6 @@
 # HR Workforce Analytics Dashboard
 
-![HR Dashboard](Certification_Project_-_HR_Data_Dashboard.pdf)
+![HR Data](Certification_Project_-_HR_Data_Dashboard.pdf)
 
 ## Project Overview
 A comprehensive Power BI workforce analytics dashboard developed as part of the **Edureka Business Analyst using Power BI certification** to demonstrate advanced data modeling, DAX proficiency, row-level security implementation, and business intelligence visualization skills.
