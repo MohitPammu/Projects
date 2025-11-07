@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-06T00:01:49.276Z",
+  "lastUpdated": "2025-11-07T00:01:38.888Z",
   "items": [
+    {
+      "title": "10 Polars One-Liners for Speeding Up Data Workflows",
+      "link": "https://www.kdnuggets.com/10-polars-one-liners-for-speeding-up-data-workflows",
+      "pubDate": "Thu, 06 Nov 2025 14:07:48 +0000",
+      "author": "Iván Palomares Carrascosa",
+      "source": "KDnuggets"
+    },
     {
       "title": "Automating Web Search Data Collection for AI Models with SerpApi",
       "link": "https://www.kdnuggets.com/2025/11/serpapi/automating-web-search-data-collection-for-ai-models-with-serpapi",
       "pubDate": "Wed, 05 Nov 2025 18:00:55 +0000",
       "author": "KDnuggets",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "Data Observability in Analytics: Tools, Techniques, and Why It Matters",
-      "link": "https://www.kdnuggets.com/data-observability-in-analytics-tools-techniques-and-why-it-matters",
-      "pubDate": "Tue, 04 Nov 2025 13:00:47 +0000",
-      "author": "Nate Rosidi",
       "source": "KDnuggets"
     },
     {
@@ -31,21 +31,21 @@
       "source": "R-bloggers"
     },
     {
-      "title": "The latest AI news we announced in October",
-      "link": "https://blog.google/technology/ai/google-ai-updates-october-2025/",
-      "pubDate": "Tue, 04 Nov 2025 17:00:00 +0000",
+      "title": "Google Finance adds AI features for research, earnings and more",
+      "link": "https://blog.google/products/search/new-google-finance-ai-deep-search/",
+      "pubDate": "Thu, 06 Nov 2025 17:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Keyword Team"
+          "Robert Dunnette"
         ],
         "title": [
-          ""
+          "Director of Product Management"
         ],
         "department": [
-          ""
+          "Search"
         ],
         "company": [
           ""
@@ -54,21 +54,21 @@
       "source": "Blog"
     },
     {
-      "title": "New tools in Google AI Studio to explore, debug and share logs",
-      "link": "https://blog.google/technology/developers/google-ai-studio-logs-datasets/",
-      "pubDate": "Thu, 30 Oct 2025 17:05:00 +0000",
+      "title": "AI and learning: A new chapter for students and educators",
+      "link": "https://blog.google/outreach-initiatives/education/ai-and-learning/",
+      "pubDate": "Thu, 06 Nov 2025 17:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Seth Odoom"
+          "Ben Gomes"
         ],
         "title": [
-          "Product Manager"
+          "Chief Technologist"
         ],
         "department": [
-          "Google AI Studio"
+          "Learning & Sustainability"
         ],
         "company": [
           ""
