@@ -1,6 +1,6 @@
 # Netflix Content Analysis Dashboard
 
-![Netflix Dashboard Preview](./Netflix Dashboard.png)
+![Netflix Dashboard Preview](./Netflix_Dashboard.png)
 
 📁 **[Download .pbix File](./Netflix%20Dashboard.pbix)**
 
