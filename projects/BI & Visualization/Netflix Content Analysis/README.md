@@ -2,7 +2,7 @@
 
 ![Netflix Dashboard Preview](./Netflix Dashboard.png)
 
-📊 **[View Dashboard Screenshot](./Netflix Dashboard.png)** | 📁 **[Download .pbix File](./Netflix%20Dashboard.pbix)**
+📁 **[Download .pbix File](./Netflix%20Dashboard.pbix)**
 
 ## Project Overview
 A Power BI content analytics dashboard developed as part of the **Edureka Business Analyst using Power BI certification** to demonstrate data visualization, Power Query transformations, and dashboard design fundamentals using Netflix streaming data.
