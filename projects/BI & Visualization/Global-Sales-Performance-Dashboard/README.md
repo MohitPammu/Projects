@@ -2,7 +2,7 @@
 
 ![Sales Dashboard Preview](./Sales_Data_Dashboard.pdf)
 
-📊 **[View Dashboard PDF](./Global-Sales-Performance-Dashboard.pdf)** | 📁 **[Download .pbix File](./Sales%20Data%20Dashboard.pbix)**
+📊 **[View Dashboard PDF](./Global-Sales-Performance-Dashboard.pdf)** | 📁 **[Download .pbix File](./Global-Sales-Performance-Dashboard.pbix)**
 
 ## Project Overview
 A Power BI sales analytics dashboard developed as part of the **Edureka Business Analyst using Power BI certification** to demonstrate multi-market analysis, row-level security implementation, DAX proficiency, and profit optimization insights using global retail data.
