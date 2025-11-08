@@ -192,19 +192,20 @@ RETURN
 
 ## Project Files
 ```
-Sales-Data-Dashboard/
-├── Sales Data Dashboard.pbix          # Power BI dashboard file
-├── Sales_Data_Dashboard.pdf          # Dashboard export
+Global-Sales-Performance-Dashboard/
+├── Global-Sales-Performance-Dashboard.pbix          # Power BI dashboard file
+├── Global-Sales-Performance-Dashboard.pdf          # Dashboard export
+├── Global-Sales-Performance-Dashboard.png          # Dashboard screenshot
 └── README.md                         # This documentation
 ```
 
 ## How to Use This Dashboard
 
 ### **View the PDF**
-- `Sales_Data_Dashboard.pdf` provides static overview of analytics
+- `Global-Sales-Performance-Dashboard.pdf` provides static overview of analytics
 
 ### **Interactive Exploration**
-1. Download `Sales Data Dashboard.pbix`
+1. Download `Global-Sales-Performance-Dashboard.pbix`
 2. Open in Power BI Desktop
 3. Explore interactive features:
    - Filter by year, category, region
