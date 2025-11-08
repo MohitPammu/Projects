@@ -1,9 +1,9 @@
 
 # Sales & Customer Analytics Dashboard
 
-![Sales Analytics Dashboard Preview](./Sales-&-Analytics-Dashboard.png)
+![Sales Analytics Dashboard Preview](./Sales-&-Customer-Analytics-Dashboard.png)
 
-📊 **[View Dashboard PDF](./Sales-&-Analytics-Dashboard.pdf)** | 📁 **[Download .pbix File](./Sales-&-Analytics-Dashboard.pbix)**
+📊 **[View Dashboard PDF](./Sales-&-Customer-Analytics-Dashboard.pdf)** | 📁 **[Download .pbix File](./Sales-&-Customer-Analytics-Dashboard.pbix)**
 
 ## Project Overview
 A Power BI sales and customer analytics dashboard developed as part of the **Edureka Business Analyst using Power BI certification** to demonstrate time intelligence, customer segmentation, and product performance analysis using the classic Northwind database.
