@@ -113,7 +113,7 @@ Total Shows = COUNTROWS(FILTER(titles, titles[type] = "SHOW"))
 
 ## Project Files
 ```
-Netflix-Content-Analysis/
+Netflix Content Analysis/
 ├── Netflix_Dashboard.pbix          # Power BI dashboard file
 ├── Netflix_Dashboard.png           # Dashboard screenshot
 └── README.md                       # This documentation
