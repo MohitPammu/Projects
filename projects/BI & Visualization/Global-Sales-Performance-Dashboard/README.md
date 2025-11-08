@@ -1,6 +1,6 @@
 # Global Sales Performance Dashboard
 
-![Sales Dashboard Preview](./Sales_Data_Dashboard.pdf)
+![Sales Dashboard Preview](./Global-Sales-Performance-Dashboard.png)
 
 📊 **[View Dashboard PDF](./Global-Sales-Performance-Dashboard.pdf)** | 📁 **[Download .pbix File](./Global-Sales-Performance-Dashboard.pbix)**
 
