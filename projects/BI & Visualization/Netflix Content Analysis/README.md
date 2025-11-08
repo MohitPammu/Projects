@@ -114,7 +114,7 @@ Total Shows = COUNTROWS(FILTER(titles, titles[type] = "SHOW"))
 ## Project Files
 ```
 Netflix-Content-Analysis/
-├── Netflix Dashboard.pbix          # Power BI dashboard file
+├── Netflix_Dashboard.pbix          # Power BI dashboard file
 ├── Netflix_Dashboard.png           # Dashboard screenshot
 └── README.md                       # This documentation
 ```
@@ -125,7 +125,7 @@ Netflix-Content-Analysis/
 - `Netflix_Dashboard.png` provides static overview of key metrics
 
 ### **Interactive Exploration**
-1. Download `Netflix Dashboard.pbix`
+1. Download `Netflix_Dashboard.pbix`
 2. Open in Power BI Desktop
 3. Use slicers to filter by:
    - Content type (Movie/Show)
