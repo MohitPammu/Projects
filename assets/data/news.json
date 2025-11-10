@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-09T00:01:37.722Z",
+  "lastUpdated": "2025-11-10T00:01:35.531Z",
   "items": [
     {
       "title": "ChatLLM. An Honest Review of Our All-in-One AI Platform",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Distribution of p-values under the null hypothesis for discrete data by @ellis2013nz",
+      "link": "https://www.r-bloggers.com/2025/11/distribution-of-p-values-under-the-null-hypothesis-for-discrete-data-by-ellis2013nz/",
+      "pubDate": "Sat, 08 Nov 2025 13:00:00 +0000",
+      "author": "free range statistics - R",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Data centers",
       "link": "https://www.r-bloggers.com/2025/11/data-centers/",
       "pubDate": "Tue, 04 Nov 2025 07:00:00 +0000",
       "author": "Michael",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Prussian Horse Kicks II: Mixed Effects Models",
-      "link": "https://www.r-bloggers.com/2025/10/prussian-horse-kicks-ii-mixed-effects-models/",
-      "pubDate": "Sat, 01 Nov 2025 00:00:00 +0000",
-      "author": "Chris Bowdon",
       "source": "R-bloggers"
     },
     {
