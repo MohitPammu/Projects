@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-10T00:01:35.531Z",
+  "lastUpdated": "2025-11-11T00:01:33.990Z",
   "items": [
     {
-      "title": "ChatLLM. An Honest Review of Our All-in-One AI Platform",
-      "link": "https://www.kdnuggets.com/2025/11/abacus/chatllm-an-honest-review-of-our-all-in-one-ai-platform",
-      "pubDate": "Fri, 07 Nov 2025 18:00:07 +0000",
-      "author": "KDnuggets",
+      "title": "What Does the End of GIL Mean for Python?",
+      "link": "https://www.kdnuggets.com/what-does-the-end-of-gil-mean-for-python",
+      "pubDate": "Mon, 10 Nov 2025 17:00:48 +0000",
+      "author": "Nahla Davies",
       "source": "KDnuggets"
     },
     {
-      "title": "From Dataset to DataFrame to Deployed: Your First Project with Pandas & Scikit-learn",
-      "link": "https://www.kdnuggets.com/from-dataset-to-dataframe-to-deployed-your-first-project-with-pandas-scikit-learn",
-      "pubDate": "Fri, 07 Nov 2025 13:00:24 +0000",
-      "author": "Iván Palomares Carrascosa",
+      "title": "7 Steps to Mastering Data Storytelling for Business Impact",
+      "link": "https://www.kdnuggets.com/7-steps-to-mastering-data-storytelling-for-business-impact",
+      "pubDate": "Mon, 10 Nov 2025 15:00:11 +0000",
+      "author": "Matthew Mayo",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Trustworthy Data Visualization",
+      "link": "https://www.r-bloggers.com/2025/11/trustworthy-data-visualization/",
+      "pubDate": "Mon, 10 Nov 2025 13:26:45 +0000",
+      "author": "R on kieranhealy.org",
+      "source": "R-bloggers"
     },
     {
       "title": "Distribution of p-values under the null hypothesis for discrete data by @ellis2013nz",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Data centers",
-      "link": "https://www.r-bloggers.com/2025/11/data-centers/",
-      "pubDate": "Tue, 04 Nov 2025 07:00:00 +0000",
-      "author": "Michael",
-      "source": "R-bloggers"
+      "title": "How AI is giving Northern Ireland teachers time back",
+      "link": "https://blog.google/technology/google-deepmind/ai-classroom-northern-ireland/",
+      "pubDate": "Mon, 10 Nov 2025 09:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Lila Ibrahim"
+        ],
+        "title": [
+          "Chief Operating Officer, Google DeepMind"
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Google Finance adds AI features for research, earnings and more",
@@ -46,29 +69,6 @@
         ],
         "department": [
           "Search"
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "AI and learning: A new chapter for students and educators",
-      "link": "https://blog.google/outreach-initiatives/education/ai-and-learning/",
-      "pubDate": "Thu, 06 Nov 2025 17:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Ben Gomes"
-        ],
-        "title": [
-          "Chief Technologist"
-        ],
-        "department": [
-          "Learning & Sustainability"
         ],
         "company": [
           ""
