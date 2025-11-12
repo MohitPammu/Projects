@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-11T00:01:33.990Z",
+  "lastUpdated": "2025-11-12T00:01:38.653Z",
   "items": [
     {
-      "title": "What Does the End of GIL Mean for Python?",
-      "link": "https://www.kdnuggets.com/what-does-the-end-of-gil-mean-for-python",
-      "pubDate": "Mon, 10 Nov 2025 17:00:48 +0000",
-      "author": "Nahla Davies",
+      "title": "Transform Raw Data Into Real Impact",
+      "link": "https://www.kdnuggets.com/2025/11/baypath/transform-raw-data-into-real-impact",
+      "pubDate": "Tue, 11 Nov 2025 18:00:46 +0000",
+      "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
-      "title": "7 Steps to Mastering Data Storytelling for Business Impact",
-      "link": "https://www.kdnuggets.com/7-steps-to-mastering-data-storytelling-for-business-impact",
-      "pubDate": "Mon, 10 Nov 2025 15:00:11 +0000",
-      "author": "Matthew Mayo",
+      "title": "Building a Gmail Inbox Management Agent in n8n",
+      "link": "https://www.kdnuggets.com/building-a-gmail-inbox-management-agent-in-n8n",
+      "pubDate": "Tue, 11 Nov 2025 17:00:04 +0000",
+      "author": "Vinod Chugani",
       "source": "KDnuggets"
+    },
+    {
+      "title": "Python package development for R developers (episode 2 !)",
+      "link": "https://www.r-bloggers.com/2025/11/python-package-development-for-r-developers-episode-2/",
+      "pubDate": "Wed, 12 Nov 2025 00:00:00 +0000",
+      "author": "Yohann Mansiaux",
+      "source": "R-bloggers"
     },
     {
       "title": "Trustworthy Data Visualization",
@@ -24,25 +31,18 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Distribution of p-values under the null hypothesis for discrete data by @ellis2013nz",
-      "link": "https://www.r-bloggers.com/2025/11/distribution-of-p-values-under-the-null-hypothesis-for-discrete-data-by-ellis2013nz/",
-      "pubDate": "Sat, 08 Nov 2025 13:00:00 +0000",
-      "author": "free range statistics - R",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "How AI is giving Northern Ireland teachers time back",
-      "link": "https://blog.google/technology/google-deepmind/ai-classroom-northern-ireland/",
-      "pubDate": "Mon, 10 Nov 2025 09:00:00 +0000",
+      "title": "Private AI Compute: our next step in building private and helpful AI",
+      "link": "https://blog.google/technology/ai/google-private-ai-compute/",
+      "pubDate": "Tue, 11 Nov 2025 19:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Lila Ibrahim"
+          "Jay Yagnik"
         ],
         "title": [
-          "Chief Operating Officer, Google DeepMind"
+          "Vice President, AI Innovation and Research"
         ],
         "department": [
           ""
@@ -54,21 +54,21 @@
       "source": "Blog"
     },
     {
-      "title": "Google Finance adds AI features for research, earnings and more",
-      "link": "https://blog.google/products/search/new-google-finance-ai-deep-search/",
-      "pubDate": "Thu, 06 Nov 2025 17:00:00 +0000",
+      "title": "6 new things you can do with AI in Google Photos",
+      "link": "https://blog.google/products/photos/nano-banana-ai-templates-ask-photos/",
+      "pubDate": "Tue, 11 Nov 2025 17:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Robert Dunnette"
+          "Yael Marzan"
         ],
         "title": [
-          "Director of Product Management"
+          "Senior Director of Product Management"
         ],
         "department": [
-          "Search"
+          "Google Photos and Google One"
         ],
         "company": [
           ""
