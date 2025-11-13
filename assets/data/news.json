@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-12T00:01:38.653Z",
+  "lastUpdated": "2025-11-13T00:01:39.528Z",
   "items": [
+    {
+      "title": "The 5 FREE Must-Read Books for Every AI Engineer",
+      "link": "https://www.kdnuggets.com/the-5-free-must-read-books-for-every-ai-engineer",
+      "pubDate": "Wed, 12 Nov 2025 13:00:28 +0000",
+      "author": "Kanwal Mehreen",
+      "source": "KDnuggets"
+    },
     {
       "title": "Transform Raw Data Into Real Impact",
       "link": "https://www.kdnuggets.com/2025/11/baypath/transform-raw-data-into-real-impact",
       "pubDate": "Tue, 11 Nov 2025 18:00:46 +0000",
       "author": "KDnuggets",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "Building a Gmail Inbox Management Agent in n8n",
-      "link": "https://www.kdnuggets.com/building-a-gmail-inbox-management-agent-in-n8n",
-      "pubDate": "Tue, 11 Nov 2025 17:00:04 +0000",
-      "author": "Vinod Chugani",
       "source": "KDnuggets"
     },
     {
