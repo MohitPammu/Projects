@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-13T00:01:39.528Z",
+  "lastUpdated": "2025-11-14T00:01:30.983Z",
   "items": [
+    {
+      "title": "Processing Large Datasets with Dask and Scikit-learn",
+      "link": "https://www.kdnuggets.com/processing-large-datasets-with-dask-and-scikit-learn",
+      "pubDate": "Thu, 13 Nov 2025 15:00:29 +0000",
+      "author": "Iván Palomares Carrascosa",
+      "source": "KDnuggets"
+    },
     {
       "title": "The 5 FREE Must-Read Books for Every AI Engineer",
       "link": "https://www.kdnuggets.com/the-5-free-must-read-books-for-every-ai-engineer",
@@ -10,11 +17,11 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Transform Raw Data Into Real Impact",
-      "link": "https://www.kdnuggets.com/2025/11/baypath/transform-raw-data-into-real-impact",
-      "pubDate": "Tue, 11 Nov 2025 18:00:46 +0000",
-      "author": "KDnuggets",
-      "source": "KDnuggets"
+      "title": "Get Involved in the Data Science Community at our Free Meetups",
+      "link": "https://www.r-bloggers.com/2025/11/get-involved-in-the-data-science-community-at-our-free-meetups/",
+      "pubDate": "Thu, 13 Nov 2025 23:59:00 +0000",
+      "author": "The Jumping Rivers Blog",
+      "source": "R-bloggers"
     },
     {
       "title": "Python package development for R developers (episode 2 !)",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Trustworthy Data Visualization",
-      "link": "https://www.r-bloggers.com/2025/11/trustworthy-data-visualization/",
-      "pubDate": "Mon, 10 Nov 2025 13:26:45 +0000",
-      "author": "R on kieranhealy.org",
-      "source": "R-bloggers"
+      "title": "Google Pixel and Golden Goose partner to  bring AI to global ateliers",
+      "link": "https://blog.google/products/pixel/google-pixel-and-golden-goose-partner-to-bring-ai-to-global-ateliers/",
+      "pubDate": "Thu, 13 Nov 2025 08:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Google Italy Team"
+        ],
+        "title": [
+          ""
+        ],
+        "department": [
+          ""
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Private AI Compute: our next step in building private and helpful AI",
@@ -46,29 +69,6 @@
         ],
         "department": [
           ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "6 new things you can do with AI in Google Photos",
-      "link": "https://blog.google/products/photos/nano-banana-ai-templates-ask-photos/",
-      "pubDate": "Tue, 11 Nov 2025 17:00:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Yael Marzan"
-        ],
-        "title": [
-          "Senior Director of Product Management"
-        ],
-        "department": [
-          "Google Photos and Google One"
         ],
         "company": [
           ""
