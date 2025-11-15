@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-14T00:01:30.983Z",
+  "lastUpdated": "2025-11-15T00:01:29.232Z",
   "items": [
     {
-      "title": "Processing Large Datasets with Dask and Scikit-learn",
-      "link": "https://www.kdnuggets.com/processing-large-datasets-with-dask-and-scikit-learn",
-      "pubDate": "Thu, 13 Nov 2025 15:00:29 +0000",
-      "author": "Iván Palomares Carrascosa",
+      "title": "Building AI Automations with Google Opal",
+      "link": "https://www.kdnuggets.com/building-ai-automations-with-google-opal",
+      "pubDate": "Fri, 14 Nov 2025 15:00:49 +0000",
+      "author": "Shittu Olumide",
       "source": "KDnuggets"
     },
     {
-      "title": "The 5 FREE Must-Read Books for Every AI Engineer",
-      "link": "https://www.kdnuggets.com/the-5-free-must-read-books-for-every-ai-engineer",
-      "pubDate": "Wed, 12 Nov 2025 13:00:28 +0000",
-      "author": "Kanwal Mehreen",
+      "title": "5 Useful Python Scripts for Busy Data Engineers",
+      "link": "https://www.kdnuggets.com/5-useful-python-scripts-for-busy-data-engineers",
+      "pubDate": "Fri, 14 Nov 2025 13:00:24 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
@@ -24,10 +24,10 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Python package development for R developers (episode 2 !)",
-      "link": "https://www.r-bloggers.com/2025/11/python-package-development-for-r-developers-episode-2/",
-      "pubDate": "Wed, 12 Nov 2025 00:00:00 +0000",
-      "author": "Yohann Mansiaux",
+      "title": "Context-aware Theta forecasting Method: Extending Classical Time Series Forecasting with Machine Learning",
+      "link": "https://www.r-bloggers.com/2025/11/context-aware-theta-forecasting-method-extending-classical-time-series-forecasting-with-machine-learning/",
+      "pubDate": "Thu, 13 Nov 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
