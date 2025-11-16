@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-15T00:01:29.232Z",
+  "lastUpdated": "2025-11-16T00:01:41.122Z",
   "items": [
     {
       "title": "Building AI Automations with Google Opal",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "container: v1.1.0 on CRAN",
+      "link": "https://www.r-bloggers.com/2025/11/container-v1-1-0-on-cran/",
+      "pubDate": "Sat, 15 Nov 2025 00:00:00 +0000",
+      "author": "R some blog",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Get Involved in the Data Science Community at our Free Meetups",
       "link": "https://www.r-bloggers.com/2025/11/get-involved-in-the-data-science-community-at-our-free-meetups/",
       "pubDate": "Thu, 13 Nov 2025 23:59:00 +0000",
       "author": "The Jumping Rivers Blog",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Context-aware Theta forecasting Method: Extending Classical Time Series Forecasting with Machine Learning",
-      "link": "https://www.r-bloggers.com/2025/11/context-aware-theta-forecasting-method-extending-classical-time-series-forecasting-with-machine-learning/",
-      "pubDate": "Thu, 13 Nov 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
