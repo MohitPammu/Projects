@@ -1,8 +1,43 @@
-/* 
-==============================================
-Portfolio Website - Main Stylesheet
-==============================================
-*/
+/**
+ * ═══════════════════════════════════════════════════════════════════
+ * Portfolio Website - Main Stylesheet (style.css)
+ * ═══════════════════════════════════════════════════════════════════
+ * 
+ * PURPOSE:
+ * Website-wide styles for all sections, components, and layouts.
+ * Includes navigation, hero, about, credentials, projects, contact,
+ * news sections, and global UI elements (buttons, cards, forms).
+ * 
+ * SCOPE:
+ * - CSS custom properties (design tokens for colors, spacing, typography)
+ * - Base resets and global styles
+ * - Section-specific styles (hero, about, credentials, projects, etc.)
+ * - Responsive layouts and media queries
+ * - Theme support (light/dark mode via [data-theme] attribute)
+ * 
+ * ARCHITECTURE:
+ * - Uses CSS variables for consistent theming across components
+ * - Mobile-first responsive design with breakpoints at 768px, 992px
+ * - Component-based styling (cards, buttons, forms share unified design)
+ * - Smooth transitions for theme switching and interactive elements
+ * 
+ * DEPENDENCIES:
+ * - Google Fonts: Poppins (loaded in HTML)
+ * - Font Awesome icons (loaded in HTML)
+ * - Theme toggle handled by theme-toggle.js
+ * 
+ * RELATED FILES:
+ * - skills-sphere-v2.css: Separate component styles for 3D skills visualization
+ *   (isolated for modularity and reusability)
+ * 
+ * NOTES:
+ * - Skills sphere visualization has its own stylesheet to maintain
+ *   clear separation of concerns and enable easy extraction/reuse
+ * - All design tokens (colors, spacing) defined here are inherited
+ *   by the skills sphere component
+ * 
+ * ═══════════════════════════════════════════════════════════════════
+ */
 
 /* ===== Base Styles ===== */
 :root {
@@ -41,6 +76,7 @@ Portfolio Website - Main Stylesheet
     /* Border Radius */
     --border-radius-sm: 4px;
     --border-radius-md: 8px;
+    --border-radius-card: 12px; /* NEW: Consistent with skills visual panels */
     --border-radius-lg: 16px;
     --border-radius-full: 50%;
 }
@@ -486,8 +522,9 @@ nav ul li a.active {
 
 .credential-card {
     background-color: var(--card-bg);
-    border-radius: var(--border-radius-md);
-    box-shadow: 0 5px 15px var(--shadow-color);
+    border-radius: var(--border-radius-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     transition: transform var(--transition-fast), box-shadow var(--transition-fast);
     display: flex;
     padding: 20px;
@@ -500,7 +537,16 @@ nav ul li a.active {
 
 .credential-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px var(--shadow-color);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="light"] .credential-card {
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .credential-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 .credential-badge {
@@ -799,16 +845,23 @@ a[class*="Verify"]:hover {
 }
 
 .filter-btn {
-    background-color: var(--card-bg);
-    color: var(--text-color);
-    border: none;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius-md);
     cursor: pointer;
-    transition: all var(--transition-fast), background-color var(--transition-fast), color var(--transition-fast);
+    font-weight: 500;
+    transition: all var(--transition-fast);
 }
 
-.filter-btn:hover,
+.filter-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px var(--shadow-color);
+}
+
 .filter-btn.active {
     background-color: var(--primary-color);
     color: white;
@@ -828,10 +881,11 @@ a[class*="Verify"]:hover {
 
 .project-card {
     background-color: var(--card-bg);
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-card);
     overflow: hidden;
-    box-shadow: 0 5px 15px var(--shadow-color);
-    transition: transform var(--transition-fast), opacity 0.4s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast), opacity 0.4s ease;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -843,7 +897,16 @@ a[class*="Verify"]:hover {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px var(--shadow-color);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="light"] .project-card {
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .project-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 .project-img {
@@ -902,11 +965,32 @@ a[class*="Verify"]:hover {
 }
 
 .project-tags span {
-  background-color: var(--section-bg);
-  color: var(--light-text-color);
-  padding: 5px 10px;
-  border-radius: 15px;
-  font-size: 0.75rem;
+  background-color: rgba(109, 141, 250, 0.15);
+  color: #6d8dfa;
+  border: 1px solid rgba(109, 141, 250, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.875rem; /* 14px */
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.project-tags span:hover {
+  background-color: rgba(109, 141, 250, 0.25);
+  border-color: rgba(109, 141, 250, 0.5);
+  transform: translateY(-2px);
+}
+
+[data-theme="light"] .project-tags span {
+  background-color: rgba(74, 108, 247, 0.12);
+  color: #4a6cf7;
+  border-color: rgba(74, 108, 247, 0.25);
+}
+
+[data-theme="light"] .project-tags span:hover {
+  background-color: rgba(74, 108, 247, 0.2);
+  border-color: rgba(74, 108, 247, 0.4);
 }
 
 .project-links {
@@ -1016,8 +1100,14 @@ a[class*="Verify"]:hover {
 .contact-form {
     background-color: var(--card-bg);
     padding: var(--spacing-lg);
-    border-radius: var(--border-radius-md);
-    box-shadow: 0 5px 15px var(--shadow-color);
+    border-radius: var(--border-radius-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="light"] .contact-form {
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 .form-group {
@@ -1085,8 +1175,9 @@ a[class*="Verify"]:hover {
     width: 100%;
     text-align: left;
     background-color: var(--card-bg, #ffffff);
-    border-radius: var(--border-radius-md, 8px);
-    box-shadow: 0 5px 15px var(--shadow-color, rgba(0, 0, 0, 0.1));
+    border-radius: var(--border-radius-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     transition: transform var(--transition-fast), box-shadow var(--transition-fast);
     position: relative;
     overflow: hidden;
@@ -1095,7 +1186,16 @@ a[class*="Verify"]:hover {
 
 .news-article:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px var(--shadow-color, rgba(0, 0, 0, 0.15));
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="light"] .news-article {
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .news-article:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 /* Category Icon - NEW */
@@ -1871,6 +1971,88 @@ nav ul.active {
 section .container {
   position: relative;
   z-index: 1;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+ * PROJECT CARD HIGHLIGHT ANIMATION (Skills Sphere Integration)
+ * ═══════════════════════════════════════════════════════════════════════
+ * Creates a pulse/glow effect when project cards are clicked from
+ * the skills sphere details pane
+ */
+
+/* Highlight flash animation for project cards */
+.project-card.highlight-flash {
+  animation: highlightPulse 2s ease-out;
+  position: relative;
+  z-index: 10;
+}
+
+@keyframes highlightPulse {
+  0% {
+    box-shadow: 0 5px 15px var(--shadow-color);
+    transform: scale(1);
+  }
+  15% {
+    box-shadow: 0 0 40px var(--primary-color), 0 0 60px var(--primary-color);
+    transform: scale(1.02);
+  }
+  30% {
+    box-shadow: 0 0 30px var(--primary-color), 0 0 50px var(--primary-color);
+    transform: scale(1.01);
+  }
+  50% {
+    box-shadow: 0 0 40px var(--primary-color), 0 0 60px var(--primary-color);
+    transform: scale(1.02);
+  }
+  100% {
+    box-shadow: 0 5px 15px var(--shadow-color);
+    transform: scale(1);
+  }
+}
+
+/* Ensure animation works in both light and dark themes */
+[data-theme="light"] .project-card.highlight-flash {
+  animation: highlightPulseLightTheme 2s ease-out;
+}
+
+@keyframes highlightPulseLightTheme {
+  0% {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+  }
+  15% {
+    box-shadow: 0 0 40px rgba(74, 108, 247, 0.6), 0 0 60px rgba(74, 108, 247, 0.4);
+    transform: scale(1.02);
+  }
+  30% {
+    box-shadow: 0 0 30px rgba(74, 108, 247, 0.5), 0 0 50px rgba(74, 108, 247, 0.3);
+    transform: scale(1.01);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(74, 108, 247, 0.6), 0 0 60px rgba(74, 108, 247, 0.4);
+    transform: scale(1.02);
+  }
+  100% {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+  }
+}
+
+/* Smooth transitions for filter animations */
+.project-card {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.project-card.hidden {
+  opacity: 0;
+  transform: scale(0.95);
+  pointer-events: none;
+}
+
+.project-card.visible {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
 }
 
 
