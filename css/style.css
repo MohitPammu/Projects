@@ -419,7 +419,7 @@ nav ul li a.active {
     height: 100%;
     object-fit: cover;
     /* Adjust image position to better center face */
-    object-position: 80% 10%; /* Move image up slightly (adjust as needed) */
+    object-position: 30% 10%; /* Move image up slightly (adjust as needed) */
 }
 
 @media (max-width: 768px) {
