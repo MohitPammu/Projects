@@ -1,6 +1,6 @@
 /**
  * ═══════════════════════════════════════════════════════════════════
- * Portfolio Website - Main Stylesheet (style.css)
+ * Portfolio Website - Main Stylesheet (style-v2.css)
  * ═══════════════════════════════════════════════════════════════════
  * 
  * PURPOSE:
@@ -746,88 +746,6 @@ a[class*="Verify"]:hover {
 .skills {
     padding: var(--spacing-lg) 0;
     background-color: var(--section-bg);
-}
-
-.skill-category {
-    margin-bottom: var(--spacing-lg);
-}
-
-.skill-category h3 {
-    margin-bottom: var(--spacing-md);
-    font-size: var(--h4-size);
-    color: var(--text-color);
-}
-
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: var(--spacing-md);
-}
-
-.skill-item {
-    background-color: var(--card-bg);
-    border-radius: var(--border-radius-md);
-    padding: var(--spacing-md);
-    box-shadow: 0 5px 15px var(--shadow-color);
-    transition: transform var(--transition-fast);
-}
-
-.skill-item:hover {
-    transform: translateY(-5px);
-}
-
-.skill-icon {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: var(--spacing-sm);
-}
-
-.skill-item h4 {
-    margin-bottom: var(--spacing-sm);
-    font-size: var(--h4-size);
-}
-
-/* Skills Network Visualization */
-.skills-network-container {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: var(--spacing-md);
-    background-color: var(--card-bg);
-    border-radius: var(--border-radius-md);
-    box-shadow: 0 5px 15px var(--shadow-color);
-    transition: all var(--transition-normal);
-}
-
-#skills-network {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 600px;
-}
-
-.skills-hint {
-    margin-top: var(--spacing-sm);
-    color: var(--light-text-color);
-    font-size: var(--small-size);
-    text-align: center;
-}
-
-/* Make SVG responsive */
-#skills-network svg {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Add some basic animation for when the network first appears */
-@keyframes fadeInNetwork {
-    from { opacity: 0; transform: scale(0.95); }
-    to { opacity: 1; transform: scale(1); }
-}
-
-#skills-network {
-    animation: fadeInNetwork 0.8s ease-out forwards;
 }
 
 /* ===== Projects Section ===== */
