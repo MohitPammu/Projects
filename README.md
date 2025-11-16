@@ -12,13 +12,13 @@
 
 With a background in business consulting and operations management, I bring a unique perspective that bridges technical analysis with strategic business impact. From Power BI dashboards with row-level security to large-scale statistical analysis in Python and R, this portfolio demonstrates systematic progression from foundational analytics to enterprise-ready business intelligence solutions.
 
-**🌐 Live Portfolio**: [mohitpammu.github.io/Projects](https://mohitpammu.github.io/Projects/)
+**Live Portfolio**: [mohitpammu.github.io/Projects](https://mohitpammu.github.io/Projects/)
 
 ---
 
 ## Featured Projects
 
-### 📊 HR Workforce Analytics Dashboard | Retention Analysis
+###HR Workforce Analytics Dashboard | Retention Analysis
 **Edureka Business Analyst using Power BI Certification (2024)**
 
 - **Analyzed 546K+ employee records** to uncover critical retention patterns across 6 regions
@@ -27,9 +27,9 @@ With a background in business consulting and operations management, I bring a un
 - **Business Impact**: Data-driven workforce planning and retention strategy development
 
 **Tech Stack**: Power BI, DAX, Row-Level Security, Data Modeling  
-**🔗 [View Project Details](https://github.com/MohitPammu/Projects/tree/main/projects/BI%20%26%20Visualization/HR%20Data)**
+**[View Project Details](https://github.com/MohitPammu/Projects/tree/main/projects/BI%20%26%20Visualization/HR%20Data)**
 
-### 💰 Global Sales Performance Dashboard | Profit Optimization
+### Global Sales Performance Dashboard | Profit Optimization
 **Edureka Business Analyst using Power BI Certification (2024)**
 
 - **Analyzed $62.3M in sales across 51K+ transactions** spanning global markets
@@ -38,9 +38,9 @@ With a background in business consulting and operations management, I bring a un
 - **Business Impact**: Strategic profitability interventions and regional performance optimization
 
 **Tech Stack**: Power BI, DAX, Multi-Market Analysis, Profit Analytics  
-**🔗 [View Project Details](https://github.com/MohitPammu/Projects/tree/main/projects/BI%20%26%20Visualization/Global-Sales-Performance-Dashboard)**
+**[View Project Details](https://github.com/MohitPammu/Projects/tree/main/projects/BI%20%26%20Visualization/Global-Sales-Performance-Dashboard)**
 
-### 🚴 Cyclistic Bikeshare Analysis | Marketing Strategy
+### Cyclistic Bikeshare Analysis | Marketing Strategy
 **Google Data Analytics Professional Certificate (2024)**
 
 - **Analyzed 4.3M+ ride-sharing records** using R to identify conversion opportunities
@@ -49,9 +49,9 @@ With a background in business consulting and operations management, I bring a un
 - **Business Impact**: Data-driven customer acquisition and retention strategy
 
 **Tech Stack**: R, tidyverse, ggplot2, Statistical Analysis  
-**🔗 [View Project Details](https://mohitpammu.github.io/Projects/projects/EDA/Cyclistic/cyclistic-google-data-analytics-capstone.html)**
+**[View Project Details](https://mohitpammu.github.io/Projects/projects/EDA/Cyclistic/cyclistic-google-data-analytics-capstone.html)**
 
-### 🍕 FoodHub Order Analysis | Customer Intelligence
+### FoodHub Order Analysis | Customer Intelligence
 **MIT Professional Education Applied Data Science Program (2024)**
 
 - **Analyzed 1,898 orders** to identify trends in restaurant popularity, cuisine preferences, and delivery performance
@@ -60,13 +60,13 @@ With a background in business consulting and operations management, I bring a un
 - **Business Impact**: Revenue growth through data-driven operational improvements
 
 **Tech Stack**: Python, Pandas, Matplotlib, Seaborn, EDA  
-**🔗 [View Project Details](https://mohitpammu.github.io/Projects/projects/EDA/FoodHub/MohitPammu-FDS_Project.html)**
+**[View Project Details](https://mohitpammu.github.io/Projects/projects/EDA/FoodHub/MohitPammu-FDS_Project.html)**
 
 ---
 
 ## Additional Projects
 
-### 📈 Sales & Customer Analytics Dashboard | Time Intelligence
+### Sales & Customer Analytics Dashboard | Time Intelligence
 **Edureka Business Analyst using Power BI Certification (2024)**
 
 - Analyzed Northwind database (2,155 order details, 830 orders) with advanced time intelligence DAX
@@ -74,9 +74,9 @@ With a background in business consulting and operations management, I bring a un
 - Features cascading filters, drill-through pages, and Q&A natural language interface
 
 **Tech Stack**: Power BI, DAX, Time Intelligence, Customer Segmentation  
-**🔗 [View Project Details](https://github.com/MohitPammu/Projects/tree/main/projects/BI%20%26%20Visualization/Sales-%26-Customer-Analytics-Dashboard)**
+**[View Project Details](https://github.com/MohitPammu/Projects/tree/main/projects/BI%20%26%20Visualization/Sales-%26-Customer-Analytics-Dashboard)**
 
-### 🎬 Netflix Content Analysis | Content Strategy
+### Netflix Content Analysis | Content Strategy
 **Edureka Business Analyst using Power BI Certification (2024)**
 
 - Analyzed 5,806 Netflix titles with Power Query transformations and DAX measures
@@ -84,29 +84,29 @@ With a background in business consulting and operations management, I bring a un
 - Demonstrates dashboard design and data visualization fundamentals
 
 **Tech Stack**: Power BI, Power Query, Data Visualization  
-**🔗 [View Project Details](https://github.com/MohitPammu/Projects/tree/main/projects/BI%20%26%20Visualization/Netflix%20Content%20Analysis)**
+**[View Project Details](https://github.com/MohitPammu/Projects/tree/main/projects/BI%20%26%20Visualization/Netflix%20Content%20Analysis)**
 
 ---
 
 ## Featured Repositories (Machine Learning)
 
-### 🔢 SVHN Digit Recognition | CNN Optimization
+### SVHN Digit Recognition | CNN Optimization
 **MIT Professional Education Applied Data Science Program (2025)**
 
 - Achieved ~90% accuracy with 38.6% parameter reduction through systematic experimental analysis
 - Developed edge-compatible solution for resource-constrained deployment scenarios
 
 **Tech Stack**: Python, TensorFlow, CNN Architecture, AutoML  
-**🔗 [View Repository](https://github.com/MohitPammu/SVHN-Digit-Recognition)**
+**[View Repository](https://github.com/MohitPammu/SVHN-Digit-Recognition)**
 
-### 👁️ Facial Emotion Detection | Computer Vision
+### Facial Emotion Detection | Computer Vision
 **MIT Professional Education Applied Data Science Program (2025)**
 
 - Achieved ~82% accuracy using custom CNN architecture optimized for grayscale images
 - Outperformed transfer learning models (VGG16, ResNet101, EfficientNetV2)
 
 **Tech Stack**: Python, TensorFlow, CNN, Computer Vision  
-**🔗 [View Repository](https://github.com/MohitPammu/Facial-Emotion-Detection)**
+**[View Repository](https://github.com/MohitPammu/Facial-Emotion-Detection)**
 
 ---
 
@@ -213,10 +213,10 @@ Projects/
 
 ## Current Focus
 
-📚 **Learning**: Advanced SQL (window functions, CTEs, optimization)  
-🔨 **Building**: SQL-based analytics projects demonstrating database querying and data transformation  
-🎯 **Goal**: Expand into predictive analytics and machine learning applications  
-💼 **Open to**: Data Analyst, BI Analyst, Analytics Engineer roles
+**Learning**: Advanced SQL (window functions, CTEs, optimization)  
+**Building**: SQL-based analytics projects demonstrating database querying and data transformation  
+**Goal**: Expand into predictive analytics and machine learning applications  
+**Open to**: Data Analyst, BI Analyst, Analytics Engineer roles
 
 ---
 
@@ -224,10 +224,10 @@ Projects/
 
 Open to discussing data analytics opportunities, collaborative projects, or technical conversations.
 
-**📧 Email**: mopammu@gmail.com  
-**💼 LinkedIn**: [linkedin.com/in/mohitpammu](https://www.linkedin.com/in/mohitpammu)  
-**🌐 Portfolio**: [mohitpammu.github.io/Projects](https://mohitpammu.github.io/Projects/)  
-**📍 Location**: Laurel, MD (Washington DC Metro Area)
+**Email**: mopammu@gmail.com  
+**LinkedIn**: [linkedin.com/in/mohitpammu](https://www.linkedin.com/in/mohitpammu)  
+**Portfolio**: [mohitpammu.github.io/Projects](https://mohitpammu.github.io/Projects/)  
+**Location**: Laurel, MD (Washington DC Metro Area)
 
 ---
 
