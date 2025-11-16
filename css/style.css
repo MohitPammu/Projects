@@ -415,8 +415,8 @@ nav ul li a.active {
 }
 
 .profile-img {
-    width: 105%; /* Slightly larger than container to avoid white gaps */
-    height: 105%;
+    width: 100%; /* Slightly larger than container to avoid white gaps */
+    height: 100%;
     object-fit: cover;
     /* Adjust image position to better center face */
     object-position: 60% 35%; /* Move image up slightly (adjust as needed) */
