@@ -1,0 +1,965 @@
+/**
+ * ═══════════════════════════════════════════════════════════════════════
+ * Skills Sphere Visualization - Component Stylesheet (skills-sphere-v2.css)
+ * ═══════════════════════════════════════════════════════════════════════
+ * 
+ * PURPOSE:
+ * Isolated styles for the interactive 3D skills network visualization.
+ * Self-contained component designed for modularity and potential reuse
+ * in other projects or as a standalone portfolio piece.
+ * 
+ * COMPONENT FEATURES:
+ * - Interactive 3D sphere with drag-to-rotate, hover-to-explore
+ * - Camera-relative label positioning (steepness-based adaptive offsets)
+ * - Dynamic details panel with project/credential associations
+ * - Category-based color coding (Core Analytics, Programming, Tools, ML)
+ * - Theme-aware styling (seamless light/dark mode integration)
+ * - Responsive layout with mobile optimizations
+ * 
+ * ARCHITECTURE:
+ * - CSS Grid: Main layout (canvas + sidebar in 2-column grid)
+ * - Flexbox: Internal component alignment (legend items, chips, lists)
+ * - Absolute positioning: Overlays (instructions, attribution, node labels)
+ * - Custom scrollbar: Hidden by default, appears on scroll activity
+ * 
+ * DESIGN SYSTEM:
+ * - 12px border-radius for panels (matches website cards)
+ * - Semi-transparent backgrounds with subtle borders
+ * - 0 4px 16px shadows (consistent with main website aesthetic)
+ * - Smooth 0.3s transitions for all interactive elements
+ * 
+ * DEPENDENCIES:
+ * - CSS Variables from style-v2.css:
+ *   • --primary-color: Accent color for interactive elements
+ *   • --card-bg: Panel background colors
+ *   • --text-color, --light-text-color: Typography colors
+ *   • --shadow-color: Consistent shadow styling
+ *   • --spacing-*, --border-radius-*: Layout tokens
+ * 
+ * - JavaScript:
+ *   • skills-sphere-v2.js: Three.js rendering, interaction logic
+ *   • skills-sphere-data-v2.js: Node/project/credential data
+ * 
+ * - External Libraries:
+ *   • Three.js CDN (loaded in HTML)
+ * 
+ * THEME INTEGRATION:
+ * - Inherits theme via [data-theme="dark"] and [data-theme="light"] selectors
+ * - Uses rgba() with theme-specific opacity for borders/shadows
+ * - Automatically adapts colors, borders, and scrollbars to active theme
+ * 
+ * RESPONSIVE BREAKPOINTS:
+ * - 992px: Sidebar becomes scrollable, layout adjustments
+ * - 768px: Single-column layout, mobile instructions, touch optimizations
+ * - 480px: Further optimizations for very small screens
+ * 
+ * PERFORMANCE OPTIMIZATIONS:
+ * - Minimal padding (4px) for maximum canvas size
+ * - Scrollbar hidden until scroll activity (reduces visual clutter)
+ * - GPU-accelerated transforms for smooth animations
+ * - Will-change hints for interactive elements
+ * 
+ * MODULARITY:
+ * This file can be extracted with skills-sphere-v2.js and
+ * skills-sphere-data-v2.js to create a standalone component.
+ * Only requirement: parent page must define base CSS variables
+ * (--primary-color, --card-bg, --text-color, etc.)
+ * 
+ * ═══════════════════════════════════════════════════════════════════════
+ */
+
+/* ═══════════════════════════════════════════════════════════════════
+   HEADER (Outside Container)
+   ═══════════════════════════════════════════════════════════════════ */
+
+.skills-header {
+  text-align: center;
+  margin-bottom: 16px; /* Reduced to fit viewport */
+}
+
+.skills-header h1 {
+  font-size: 2rem; /* Reduced from 2.2rem */
+  margin-bottom: 6px; /* Reduced from 8px */
+  color: var(--primary-color, #6d8dfa);
+}
+
+.skills-header .subtitle {
+  font-size: 0.85rem; /* Reduced from 0.9rem */
+  color: var(--light-text-color, #adb5bd);
+  font-style: italic;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   MAIN CONTAINER
+   ═══════════════════════════════════════════════════════════════════ */
+
+#skills-sphere-container {
+  position: relative;
+  width: 100%;
+  max-width: 1300px; /* Prevent horizontal stretching */
+  height: clamp(600px, calc(100vh - 180px), 800px); /* Responsive height with min/max bounds */
+  margin: 0 auto; /* Center on screen */
+  
+  /* Glass effect background */
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px; /* Rounded edges to match panels */
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 32px var(--shadow-color);
+  
+  padding: 20px 20px 16px 20px;
+  
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+/* Instructions overlay (positioned over sphere) */
+.skills-sphere-instructions {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  right: 420px; /* Account for sidebar width + gap */
+  text-align: center;
+  font-size: 1rem; /* 16px - slightly smaller for overlay */
+  color: var(--light-text-color, #6c757d);
+  opacity: 0.85;
+  z-index: 10;
+  pointer-events: none; /* Don't interfere with canvas interactions */
+}
+
+/* Attribution under sphere */
+.skills-sphere-attribution {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 420px; /* Account for sidebar width + gap */
+  text-align: center;
+  font-size: 0.75rem; /* 12px */
+  color: var(--light-text-color, #6c757d);
+  opacity: 0.5;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* Main content area (canvas + sidebar) */
+.skills-sphere-content {
+  display: grid;
+  grid-template-columns: 1fr 400px; /* Increased sidebar to 400px */
+  gap: 20px;
+  height: 100%;
+  position: relative; /* For absolute positioned overlays */
+  overflow: hidden;
+}
+
+/* Dark mode glass */
+/* Dark mode glass */
+[data-theme="dark"] #skills-sphere-container {
+  background: rgba(30, 30, 30, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .skills-sphere-instructions {
+  color: var(--light-text-color, #adb5bd);
+}
+
+[data-theme="dark"] .skills-sphere-attribution {
+  color: var(--light-text-color, #adb5bd);
+}
+
+/* Canvas wrapper with minimal padding */
+.skills-sphere-canvas-wrapper {
+  position: relative;
+  padding: 4px; /* Minimal safety padding - text overlays don't need space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100%; /* Fill available vertical space */
+}
+
+/* Canvas element (Three.js renderer) */
+.skills-sphere-canvas-wrapper canvas {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   SIDEBAR (Legend + Details)
+   ═══════════════════════════════════════════════════════════════════ */
+
+.skills-sphere-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+  width: 400px; /* Increased from 380px */
+  position: relative;
+  overflow: hidden;
+}
+
+.skills-sphere-panel {
+  background-color: var(--card-bg, #1e1e1e);
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--border-color, #2d2d2d);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.skills-sphere-panel h3 {
+  display: none; /* Remove heading for minimalist approach */
+  margin: 0 0 14px 0;
+  font-size: 1.125rem; /* 18px - increased from 13px */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--light-text-color, #adb5bd);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   LEGEND
+   ═══════════════════════════════════════════════════════════════════ */
+
+.skills-sphere-legend {
+  flex-shrink: 0; /* Don't compress legend */
+}
+
+.skills-sphere-legend-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  gap: 8px 16px; /* row gap, column gap */
+}
+
+.skills-sphere-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1rem; /* 16px - increased from 13px */
+  color: var(--text-color, #f8f9fa);
+  padding: 8px 10px;
+  margin: -2px -10px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.skills-sphere-legend-item:hover {
+  transform: translateX(4px);
+  background: rgba(109, 141, 250, 0.1);
+}
+
+.skills-sphere-legend-item.active {
+  background: rgba(109, 141, 250, 0.2);
+  border-left: 3px solid var(--primary-color, #6d8dfa);
+  padding-left: 13px;
+  transform: translateX(0);
+}
+
+.skills-sphere-legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 8px currentColor; /* Glow effect matching dot color */
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   DETAILS PANEL
+   ═══════════════════════════════════════════════════════════════════ */
+
+.skills-sphere-details {
+  flex-grow: 0; /* Don't grow - only take needed space */
+  flex-shrink: 1; /* Allow shrinking if needed */
+  min-height: 0; /* Remove min-height */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Contain scrolling to content area */
+}
+
+.skills-sphere-details-content {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 8px; /* Space for scrollbar */
+  padding-bottom: 16px; /* Consistent bottom padding */
+  min-height: 0;
+}
+
+/* Custom scrollbar styling - hidden until scroll activity */
+.skills-sphere-details-content {
+  /* Firefox scrollbar hidden by default */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  transition: scrollbar-color 0.3s ease;
+}
+
+.skills-sphere-details-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.skills-sphere-details-content::-webkit-scrollbar-track {
+  background: transparent; /* Hidden by default */
+  border-radius: 3px;
+  transition: background 0.3s ease;
+}
+
+.skills-sphere-details-content::-webkit-scrollbar-thumb {
+  background: transparent; /* Hidden by default */
+  border-radius: 3px;
+  transition: background 0.3s ease;
+}
+
+/* Show scrollbar only during scroll activity */
+.skills-sphere-details-content.scrolling {
+  /* Firefox */
+  scrollbar-color: rgba(109, 141, 250, 0.4) rgba(255, 255, 255, 0.05);
+}
+
+.skills-sphere-details-content.scrolling::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.skills-sphere-details-content.scrolling::-webkit-scrollbar-thumb {
+  background: rgba(109, 141, 250, 0.4);
+}
+
+.skills-sphere-details-content.scrolling::-webkit-scrollbar-thumb:hover {
+  background: rgba(109, 141, 250, 0.6);
+}
+
+/* Light mode scrollbar during scroll activity */
+[data-theme="light"] .skills-sphere-details-content.scrolling {
+  /* Firefox */
+  scrollbar-color: rgba(74, 108, 247, 0.3) rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="light"] .skills-sphere-details-content.scrolling::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="light"] .skills-sphere-details-content.scrolling::-webkit-scrollbar-thumb {
+  background: rgba(74, 108, 247, 0.3);
+}
+
+[data-theme="light"] .skills-sphere-details-content.scrolling::-webkit-scrollbar-thumb:hover {
+  background: rgba(74, 108, 247, 0.5);
+}
+
+/* Empty state */
+.skills-sphere-details-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 20px; /* Compact vertical padding */
+  color: var(--light-text-color, #adb5bd);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Details header */
+.skills-sphere-details-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px; /* Reduced from 16px */
+  padding-bottom: 10px; /* Reduced from 12px */
+  border-bottom: 1px solid var(--border-color, #2d2d2d);
+}
+
+.skills-sphere-details-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.skills-sphere-details-title {
+  flex: 1;
+}
+
+.skills-sphere-details-title h4 {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-color, #f8f9fa);
+}
+
+.skills-sphere-details-subtitle {
+  font-size: 12px;
+  color: var(--light-text-color, #adb5bd);
+  font-style: italic;
+}
+
+/* Details list (chips) */
+.skills-sphere-details-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px; /* Reduced from 8px */
+  margin-top: 8px; /* Reduced from 12px */
+}
+
+.skills-sphere-detail-chip {
+  padding: 7px 14px;
+  background-color: rgba(109, 141, 250, 0.1);
+  border: 1px solid rgba(109, 141, 250, 0.3);
+  border-radius: 999px;
+  font-size: 0.875rem; /* 14px - increased from 12px */
+  font-weight: 500;
+  color: var(--primary-color, #6d8dfa);
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.skills-sphere-detail-chip:hover {
+  background-color: rgba(109, 141, 250, 0.2);
+  transform: translateY(-1px);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   PROJECTS SECTION IN DETAILS PANEL
+   ═══════════════════════════════════════════════════════════════════ */
+
+.skills-sphere-details-section {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color, #2d2d2d);
+}
+
+.skills-sphere-details-section-title {
+  margin: 0 0 12px 0;
+  font-size: 1rem; /* 16px - increased from 12px */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--light-text-color, #adb5bd);
+}
+
+.skills-sphere-projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skills-sphere-project-item {
+  padding: 10px 12px;
+  background-color: rgba(109, 141, 250, 0.05);
+  border: 1px solid rgba(109, 141, 250, 0.2);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.skills-sphere-project-item:hover {
+  background-color: rgba(109, 141, 250, 0.15);
+  border-color: rgba(109, 141, 250, 0.4);
+  transform: translateX(4px);
+}
+
+.skills-sphere-project-name {
+  font-size: 0.9375rem; /* 15px - increased from 13px */
+  font-weight: 600;
+  color: var(--text-color, #f8f9fa);
+  margin-bottom: 4px;
+}
+
+.skills-sphere-project-desc {
+  font-size: 0.875rem; /* 14px - increased from 11px */
+  color: var(--light-text-color, #adb5bd);
+  line-height: 1.4;
+}
+
+.skills-sphere-project-credentials {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skills-sphere-project-credential-badge {
+  font-size: 10px;
+  padding: 3px 8px;
+  background-color: rgba(109, 141, 250, 0.15);
+  border: 1px solid rgba(109, 141, 250, 0.3);
+  border-radius: 4px;
+  color: var(--primary-color, #6d8dfa);
+  font-weight: 500;
+}
+
+/* Credentials list (node-level) */
+.skills-sphere-credentials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skills-sphere-credential-item {
+  padding: 8px 10px;
+  background-color: rgba(34, 197, 94, 0.1);
+  border-left: 3px solid rgba(34, 197, 94, 0.6);
+  border-radius: 4px;
+}
+
+.skills-sphere-credential-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-color, #f8f9fa);
+  margin-bottom: 2px;
+}
+
+.skills-sphere-credential-desc {
+  font-size: 11px;
+  color: var(--light-text-color, #adb5bd);
+  font-style: italic;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   CENTER LABEL (DEPRECATED - Now using external header)
+   ═══════════════════════════════════════════════════════════════════ */
+
+.skills-sphere-center-label {
+  display: none; /* Hidden - title now outside canvas */
+}
+
+.skills-sphere-center-label h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color, #6d8dfa);
+  text-shadow: 0 0 15px rgba(109, 141, 250, 0.4);
+  letter-spacing: 1px;
+}
+
+.skills-sphere-center-label p {
+  display: none;
+}
+
+/* Fade out center label on hover */
+#skills-sphere-container:hover .skills-sphere-center-label {
+  opacity: 0.4;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   NODE LABELS (2D HTML overlays on 3D nodes)
+   ═══════════════════════════════════════════════════════════════════ */
+
+.skills-sphere-node-labels {
+  position: fixed; /* Changed from absolute to fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.skills-sphere-node-label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 0;
+  background: none;
+  backdrop-filter: none;
+  border: none;
+  border-radius: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-color, #f8f9fa);
+  white-space: nowrap;
+  transform: translate(-50%, -50%); /* Center directly on node */
+  transition: all 0.2s ease;
+  pointer-events: none;
+  text-shadow: 
+    0 0 10px rgba(0, 0, 0, 1),
+    0 0 6px rgba(0, 0, 0, 0.9),
+    0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+.node-label-icon {
+  display: none; /* Hide emoji icons */
+}
+
+.node-label-text {
+  letter-spacing: 0.5px;
+}
+
+/* Light mode node labels - black for better visibility */
+[data-theme="light"] .skills-sphere-node-label {
+  color: #1e293b;
+  text-shadow: 
+    0 0 10px rgba(255, 255, 255, 1),
+    0 0 6px rgba(255, 255, 255, 0.9),
+    0 0 3px rgba(255, 255, 255, 0.8);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   INSTRUCTIONS (Bottom overlay)
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Show/hide based on device */
+.skills-sphere-instructions .desktop-only {
+  display: inline;
+}
+
+.skills-sphere-instructions .mobile-only {
+  display: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   RESPONSIVE - TABLET (≤992px)
+   ═══════════════════════════════════════════════════════════════════ */
+
+@media screen and (max-width: 992px) {
+  #skills-sphere-container {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 16px;
+    min-height: 500px;
+  }
+  
+  .skills-sphere-center-label {
+    left: 30%;
+  }
+  
+  .skills-sphere-instructions {
+    left: 30%;
+    font-size: 11px;
+  }
+  
+  .skills-sphere-panel {
+    padding: 16px;
+  }
+  
+  .skills-sphere-details-icon {
+    font-size: 28px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   MOBILE RESPONSIVENESS
+   ═══════════════════════════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  /* Container adjustments for mobile */
+  #skills-sphere-container {
+    height: auto; /* Let it grow naturally */
+    min-height: 600px;
+    padding: 16px;
+  }
+  
+  /* Stack vertically on mobile */
+  .skills-sphere-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Full-width canvas on mobile */
+  .skills-sphere-canvas-wrapper {
+    width: 100%;
+    height: 400px;
+    padding: 40px 4px 32px 4px;
+  }
+  
+  /* Full-width sidebar on mobile */
+  .skills-sphere-sidebar {
+    width: 100%;
+    max-height: none;
+  }
+  
+  /* Collapsible panels */
+  .skills-sphere-panel {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .skills-sphere-panel.collapsed .skills-sphere-legend-items,
+  .skills-sphere-panel.collapsed .skills-sphere-details-content,
+  .skills-sphere-panel.collapsed .skills-sphere-details-sections {
+    display: none;
+  }
+  
+  /* Add toggle indicator to panel headers */
+  .skills-sphere-panel h3 {
+    display: flex !important;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .skills-sphere-panel h3::after {
+    content: '▼';
+    margin-left: auto;
+    transition: transform 0.3s ease;
+    font-size: 0.875rem;
+  }
+  
+  .skills-sphere-panel.collapsed h3::after {
+    transform: rotate(-90deg);
+  }
+  
+  /* Smaller text on mobile */
+  .skills-sphere-instructions {
+    font-size: 0.875rem;
+    top: 8px;
+    right: 20px;
+  }
+  
+  .skills-sphere-attribution {
+    font-size: 0.625rem;
+  }
+  
+  .skills-sphere-center-label {
+    left: 50%;
+    opacity: 0.6;
+  }
+  
+  .skills-sphere-center-label h2 {
+    font-size: 18px;
+  }
+  
+  .skills-sphere-center-label p {
+    font-size: 11px;
+  }
+  
+  .skills-sphere-instructions {
+    left: 50%;
+    bottom: 10px;
+  }
+  
+  .skills-sphere-instructions .desktop-only {
+    display: none;
+  }
+  
+  .skills-sphere-instructions .mobile-only {
+    display: inline;
+  }
+  
+  .skills-sphere-details {
+    min-height: 200px;
+  }
+  
+  .skills-sphere-details-list {
+    gap: 6px;
+  }
+  
+  .skills-sphere-detail-chip {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+}
+
+/* Very small phones - additional optimizations */
+@media (max-width: 480px) {
+  .skills-sphere-canvas-wrapper {
+    height: 350px;
+  }
+  
+  .skills-sphere-panel {
+    padding: 12px;
+  }
+  
+  .skills-sphere-details-title h4 {
+    font-size: 1rem;
+  }
+  
+  .skills-sphere-legend-item {
+    font-size: 0.875rem;
+  }
+  
+  .skills-sphere-instructions {
+    font-size: 0.75rem;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   RESPONSIVE - SMALL MOBILE (≤576px) - Legacy
+   ═══════════════════════════════════════════════════════════════════ */
+
+@media screen and (max-width: 576px) {
+  #skills-sphere-container {
+    gap: 12px;
+  }
+  
+  #skills-sphere-container canvas {
+    min-height: 350px;
+  }
+  
+  .skills-sphere-panel {
+    padding: 14px;
+  }
+  
+  .skills-sphere-center-label h2 {
+    font-size: 16px;
+  }
+  
+  .skills-sphere-center-label p {
+    font-size: 10px;
+  }
+  
+  .skills-sphere-instructions {
+    font-size: 10px;
+  }
+  
+  .skills-sphere-details-header {
+    gap: 10px;
+  }
+  
+  .skills-sphere-details-icon {
+    font-size: 24px;
+  }
+  
+  .skills-sphere-details-title h4 {
+    font-size: 16px;
+  }
+  
+  .skills-sphere-legend-item {
+    font-size: 12px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   ANIMATIONS
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Fade in on page load */
+@keyframes fadeInSphere {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#skills-sphere-container {
+  animation: fadeInSphere 0.8s ease-out forwards;
+}
+
+/* Subtle pulse for center label */
+@keyframes subtlePulse {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+.skills-sphere-center-label {
+  animation: subtlePulse 4s ease-in-out infinite;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   ACCESSIBILITY
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Focus states for keyboard navigation */
+#skills-sphere-container canvas:focus {
+  outline: 2px solid var(--primary-color, #6d8dfa);
+  outline-offset: 4px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  #skills-sphere-container,
+  .skills-sphere-center-label,
+  .skills-sphere-detail-chip,
+  .skills-sphere-legend-item {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   LIGHT THEME ADJUSTMENTS
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Light mode panels - brighter, cleaner look */
+[data-theme="light"] .skills-sphere-panel {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 12px; /* Ensure rounded shadows */
+}
+
+[data-theme="light"] .skills-sphere-panel h3 {
+  color: #64748b;
+}
+
+/* Light mode legend items */
+[data-theme="light"] .skills-sphere-legend-item {
+  color: #1e293b;
+}
+
+[data-theme="light"] .skills-sphere-legend-item:hover {
+  background: rgba(109, 141, 250, 0.08);
+}
+
+[data-theme="light"] .skills-sphere-legend-item.active {
+  background: rgba(109, 141, 250, 0.15);
+  border-left-color: var(--primary-color);
+}
+
+/* Light mode details panel text */
+[data-theme="light"] .skills-sphere-details-title h4 {
+  color: #1e293b;
+}
+
+[data-theme="light"] .skills-sphere-details-subtitle,
+[data-theme="light"] .skills-sphere-details-empty {
+  color: #64748b;
+}
+
+[data-theme="light"] .skills-sphere-project-name,
+[data-theme="light"] .skills-sphere-credential-name {
+  color: #1e293b;
+}
+
+[data-theme="light"] .skills-sphere-project-desc,
+[data-theme="light"] .skills-sphere-credential-desc {
+  color: #64748b;
+}
+
+/* Light mode chips/badges */
+[data-theme="light"] .skills-sphere-detail-chip {
+  background-color: rgba(109, 141, 250, 0.12);
+  border-color: rgba(109, 141, 250, 0.3);
+  color: #4a6cf7;
+}
+
+[data-theme="light"] .skills-sphere-project-item {
+  background-color: rgba(109, 141, 250, 0.06);
+  border-color: rgba(109, 141, 250, 0.2);
+}
+
+[data-theme="light"] .skills-sphere-project-item:hover {
+  background-color: rgba(109, 141, 250, 0.12);
+  border-color: rgba(109, 141, 250, 0.35);
+}
+
+[data-theme="light"] .skills-sphere-project-credential-badge {
+  background-color: rgba(109, 141, 250, 0.15);
+  border-color: rgba(109, 141, 250, 0.35);
+  color: #4a6cf7;
+}
+
+/* Light mode section titles */
+[data-theme="light"] .skills-sphere-details-section {
+  border-top-color: rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="light"] .skills-sphere-details-section-title {
+  color: #64748b;
+}
+
+/* Light mode credentials */
+[data-theme="light"] .skills-sphere-credential-item {
+  background-color: rgba(34, 197, 94, 0.08);
+  border-left-color: rgba(34, 197, 94, 0.5);
+}
+
