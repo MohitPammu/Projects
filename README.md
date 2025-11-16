@@ -18,7 +18,7 @@ With a background in business consulting and operations management, I bring a un
 
 ## Featured Projects
 
-###HR Workforce Analytics Dashboard | Retention Analysis
+### HR Workforce Analytics Dashboard | Retention Analysis
 **Edureka Business Analyst using Power BI Certification (2024)**
 
 - **Analyzed 546K+ employee records** to uncover critical retention patterns across 6 regions
