@@ -415,26 +415,11 @@ nav ul li a.active {
 }
 
 .profile-img {
-    width: 100%; /* Slightly larger than container to avoid white gaps */
+    width: 100%; 
     height: 100%;
     object-fit: cover;
     /* Adjust image position to better center face */
     object-position: 60% 35%; /* Move image up slightly (adjust as needed) */
-}
-
-.profile-img-placeholder {
-    width: 300px;
-    height: 300px;
-    border-radius: var(--border-radius-full);
-    background-color: var(--section-bg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 6rem;
-    color: var(--light-text-color);
-    box-shadow: 0 10px 30px var(--shadow-color);
-    margin-bottom: 10px;
-    overflow: visible;
 }
 
 @media (max-width: 768px) {
