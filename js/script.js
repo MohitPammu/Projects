@@ -596,5 +596,89 @@ function loadIndustryNews() {
 
 // Call the function to load the news
 loadIndustryNews();
+
+// ═══════════════════════════════════════════════════════════════════════
+// SKILLS SPHERE - PROJECT SCROLL INTEGRATION
+// ═══════════════════════════════════════════════════════════════════════
+
+/**
+ * Handle project link clicks from skills sphere details pane
+ * Integrates with existing filter system
+ */
+function handleSkillsSphereProjectClick(projectData) {
+  // Handle external links (e.g., GitHub profile)
+  if (projectData.isExternal && projectData.externalUrl) {
+    window.open(projectData.externalUrl, '_blank');
+    return;
+  }
+  
+  // Get the target project card
+  const targetCard = document.getElementById(projectData.scrollTarget);
+  if (!targetCard) {
+    console.warn(`Project card not found: ${projectData.scrollTarget}`);
+    return;
+  }
+  
+  // Step 1: Apply the filter first
+  const filterCategory = projectData.filterCategory;
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const projectCards = document.querySelectorAll('.project-card');
+  
+  // Update filter button states
+  filterButtons.forEach(btn => {
+    if (btn.getAttribute('data-filter') === filterCategory) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+  
+  // Filter project cards (using your existing logic)
+  projectCards.forEach(card => {
+    card.classList.remove('visible');
+    
+    setTimeout(() => {
+      if (card.getAttribute('data-category') === filterCategory) {
+        card.classList.remove('hidden');
+        card.classList.add('visible');
+      } else {
+        card.classList.add('hidden');
+        card.classList.remove('visible');
+      }
+    }, 50);
+  });
+  
+  // Step 2: Wait for filter animation, then scroll
+  setTimeout(() => {
+    // Scroll to projects section
+    const projectsSection = document.getElementById('projects');
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start' 
+      });
+      
+      // Step 3: After scroll completes, highlight the target card
+      setTimeout(() => {
+        targetCard.scrollIntoView({ 
+          behavior: 'smooth', 
+          block: 'center' 
+        });
+        
+        // Add highlight effect
+        targetCard.classList.add('highlight-flash');
+        
+        // Remove highlight after animation
+        setTimeout(() => {
+          targetCard.classList.remove('highlight-flash');
+        }, 2000);
+        
+      }, 800); // Wait for section scroll to complete
+    }
+  }, 300); // Wait for filter animation to complete
+}
+
+// Make function globally available for skills sphere
+window.handleSkillsSphereProjectClick = handleSkillsSphereProjectClick;
     
 });
