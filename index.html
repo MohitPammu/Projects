@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style-v2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skills-sphere.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -226,7 +227,7 @@
         
         <!-- Skills Network Visualization -->
         <div class="skills-network-container">
-            <div id="skills-network"></div>
+            <div id="skills-sphere-container"></div>
         </div>
     </div>
 </section>
@@ -247,7 +248,7 @@
         <div class="projects-grid">
             
             <!-- HR Data Analysis - LEAD PROJECT -->
-            <div class="project-card" data-category="power-bi">
+            <div class="project-card" data-category="power-bi" id="project-hr-analytics">
                 <div class="project-img">
                     <img src="assets/images/HR.jpg" alt="HR Data Analysis">
                 </div>
@@ -268,7 +269,7 @@
             </div>
             
             <!-- Global Sales Performance -->
-            <div class="project-card" data-category="power-bi">
+            <div class="project-card" data-category="power-bi" id="project-global-sales">
                 <div class="project-img">
                     <img src="assets/images/global-business.png" alt="Global Sales Performance">
                 </div>
@@ -289,7 +290,7 @@
             </div>
             
             <!-- Cyclistic Bikeshare Analysis -->
-            <div class="project-card" data-category="python-r">
+            <div class="project-card" data-category="python-r" id="project-cyclistic">
                 <div class="project-img">
                     <img src="assets/images/Cyclistic.png" alt="Cyclistic Analysis">
                 </div>
@@ -311,7 +312,7 @@
             </div>
             
             <!-- FoodHub Analysis -->
-            <div class="project-card" data-category="python-r">
+            <div class="project-card" data-category="python-r" id="project-foodhub">
                 <div class="project-img">
                     <img src="assets/images/FoodHub.jpg" alt="FoodHub Analysis">
                 </div>
@@ -334,7 +335,7 @@
             </div> 
             
             <!-- Sales & Customer Analytics Dashboard -->
-            <div class="project-card" data-category="power-bi">
+            <div class="project-card" data-category="power-bi" id="project-sales-customer">
                 <div class="project-img">
                     <img src="assets/images/Sales.jpg" alt="Sales-Customer-Analytics">
                 </div>
@@ -355,7 +356,7 @@
             </div>
 
             <!-- Netflix Content Analysis -->
-            <div class="project-card" data-category="power-bi">
+            <div class="project-card" data-category="power-bi" id="project-netflix">
                 <div class="project-img">
                     <img src="assets/images/Netflix.jpg" alt="Netflix Content Analysis">
                 </div>
@@ -376,7 +377,7 @@
             </div>
             
             <!-- Digit Recognition -->
-            <div class="project-card" data-category="machine-learning">
+            <div class="project-card" data-category="machine-learning" id="project-svhn">
                 <div class="project-img">
                     <img src="assets/images/digit-recognition.jpg" alt="Digit Recognition">
                 </div>
@@ -399,7 +400,7 @@
             </div> 
             
             <!-- Facial Emotion Detection -->
-            <div class="project-card" data-category="machine-learning">
+            <div class="project-card" data-category="machine-learning" id="project-emotion">
                 <div class="project-img">
                     <img src="assets/images/facial-recognition.png" alt="Facial Emotion Detection">
                 </div>
@@ -533,15 +534,21 @@
     </div>
     
     <!-- JavaScript -->
-    <!-- Add D3.js library -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
     
+    <!-- Three.js for 3D sphere visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    
+    <!-- Skills sphere data (must load before skills-sphere.js) -->
+    <script src="js/skills-sphere-data.js"></script>
+    
+    <!-- Skills sphere visualization (must load before script.js) -->
+    <script src="js/skills-sphere.js"></script>
+    
+    <!-- Main site JavaScript (must load LAST - contains project handler) -->
     <script src="js/script.js"></script>
     
-    <!-- Add the new skills network script -->
-    <script src="js/skills-network.js"></script>
-    
-    <!-- Parallax Effect Script -->
+    <!-- Parallax Effect Script (independent, can be anywhere) -->
     <script src="js/flowing-data.js"></script>
+    
 </body>
 </html>
