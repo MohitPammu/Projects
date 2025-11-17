@@ -355,13 +355,13 @@ nav ul li a.active {
 }
 
 .hero-content h1 {
-    font-size: 3rem; /* Increased from 2.5rem */
+    font-size: 2.80rem; /* Increased from 2.5rem */
     margin-bottom: var(--spacing-md);
     line-height: 1.2;
 }
 
 .hero-content h2 {
-    font-size: 2rem; /* Increased from 1.5rem */
+    font-size: 1.90rem; /* Increased from 1.5rem */
     margin-bottom: var(--spacing-lg);
     display: flex;
     align-items: center;
