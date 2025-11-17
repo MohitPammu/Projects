@@ -1,6 +1,6 @@
 /**
  * ═══════════════════════════════════════════════════════════════════
- * Portfolio Website - Main Stylesheet (style.css)
+ * Portfolio Website - Main Stylesheet (style-v2.css)
  * ═══════════════════════════════════════════════════════════════════
  * 
  * PURPOSE:
@@ -318,11 +318,14 @@ nav ul li a.active {
 
 /* ===== Hero Section ===== */
 .hero {
-    padding: 8rem 0 5rem;
+    min-height: calc(100vh - 70px); /* 100vh minus body padding-top */
+    height: calc(100vh - 70px);
     background-color: var(--background-color);
     position: relative;
     overflow: hidden;
-    padding-top: 3rem !important;
+    display: flex;
+    align-items: center;
+    padding: 0;
 }
 
 .hero .container {
@@ -330,6 +333,7 @@ nav ul li a.active {
     align-items: center;
     justify-content: space-between;
     overflow: visible;
+    width: 100%;
 }
 
 .hero-content {
