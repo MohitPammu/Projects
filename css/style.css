@@ -1749,8 +1749,7 @@ body.unified-gradient-background section {
 
 /* Synchronized theme switching for ALL elements */
 body, 
-.hero-content, 
-.profile-img-placeholder,
+.hero-content,
 .project-card, 
 .credential-card,
 .skill-item, 
