@@ -348,7 +348,7 @@ nav ul li a.active {
 }
 
 .hero-content h2 {
-    font-size: 2rem; /* Increased from 1.5rem */
+    font-size: 1.90rem; /* Increased from 1.5rem */
     margin-bottom: var(--spacing-lg);
     display: flex;
     align-items: center;
