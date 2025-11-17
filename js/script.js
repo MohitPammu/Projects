@@ -2,6 +2,57 @@
 
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
+    
+    // ═══════════════════════════════════════════════════════════════════
+    // AUTO-HIDE NAVIGATION WITH MOUSE PROXIMITY DETECTION
+    // ═══════════════════════════════════════════════════════════════════
+    const header = document.querySelector('header');
+    let lastScrollTop = 0;
+    let isHeaderHidden = false;
+    const scrollThreshold = 100; // Hide after scrolling 100px
+    const mouseProximityThreshold = 50; // Show when mouse within 50px of top
+    
+    // Scroll detection: Hide on scroll down, show on scroll up
+    window.addEventListener('scroll', function() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        // Only apply auto-hide after scrolling past threshold
+        if (scrollTop > scrollThreshold) {
+            if (scrollTop > lastScrollTop && !isHeaderHidden) {
+                // Scrolling DOWN - hide header
+                header.classList.add('hidden');
+                isHeaderHidden = true;
+            } else if (scrollTop < lastScrollTop && isHeaderHidden) {
+                // Scrolling UP - show header
+                header.classList.remove('hidden');
+                isHeaderHidden = false;
+            }
+        } else {
+            // At top of page - always show header
+            header.classList.remove('hidden');
+            isHeaderHidden = false;
+        }
+        
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    });
+    
+    // Mouse proximity detection: Show header when mouse near top
+    document.addEventListener('mousemove', function(e) {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        // Only trigger if scrolled past threshold and header is hidden
+        if (scrollTop > scrollThreshold && isHeaderHidden) {
+            if (e.clientY < mouseProximityThreshold) {
+                // Mouse near top of screen - show header
+                header.classList.remove('hidden');
+                isHeaderHidden = false;
+            }
+        }
+    });
+    
+    // ═══════════════════════════════════════════════════════════════════
+    // TYPED TEXT ANIMATION
+    // ═══════════════════════════════════════════════════════════════════
     // Typed text animation for hero section
     const typedTextSpan = document.querySelector('.typed-text');
     const cursorSpan = document.querySelector('.cursor');
