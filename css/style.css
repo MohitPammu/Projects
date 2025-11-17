@@ -1,6 +1,6 @@
 /**
  * ═══════════════════════════════════════════════════════════════════
- * Portfolio Website - Main Stylesheet (style.css)
+ * Portfolio Website - Main Stylesheet (style-v2.css)
  * ═══════════════════════════════════════════════════════════════════
  * 
  * PURPOSE:
@@ -159,10 +159,14 @@ img {
     text-align: center;
     margin-top: 0;
     margin-bottom: var(--spacing-xl);
+}
+
+.section-header-title {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
 }
 
 .section-header h2 {
@@ -171,6 +175,12 @@ img {
     position: relative;
     display: inline-block;
     white-space: nowrap;
+}
+
+.section-header p {
+    color: var(--light-text-color);
+    font-size: 1.05rem;
+    margin: 0;
 }
 
 .underline {
@@ -483,17 +493,19 @@ nav ul li a.active {
     background-color: var(--section-bg);
     display: flex;
     align-items: center;
-    padding: var(--spacing-xl) 0;
+    padding: 0;
 }
 
 .about .container {
     width: 100%;
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
 }
 
 .about-content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: var(--spacing-xl);
+    grid-template-columns: 2.5fr 1fr;
+    gap: 4rem;
     align-items: start;
 }
 
@@ -542,19 +554,48 @@ nav ul li a.active {
 .about-sidebar {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-lg);
+    gap: var(--spacing-xl);
 }
 
 .personal-info {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-md);
+    gap: var(--spacing-lg);
 }
 
 .info-item {
     display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+}
+
+.info-item i {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--section-bg);
+    border-radius: var(--border-radius-full);
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+}
+
+[data-theme="dark"] .info-item i {
+    background: rgba(30, 30, 30, 0.5) !important;
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.info-details {
+    display: flex;
     flex-direction: column;
     gap: 0.25rem;
+    flex: 1;
 }
 
 .info-title {
@@ -567,7 +608,7 @@ nav ul li a.active {
 
 .info-value {
     color: var(--light-text-color);
-    font-size: 1.1rem;
+    font-size: 1.05rem;
 }
 
 .about-sidebar .btn {
