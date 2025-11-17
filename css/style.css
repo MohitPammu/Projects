@@ -53,7 +53,7 @@
     --shadow-color: rgba(0, 0, 0, 0.1);
     
     /* Font Sizes */
-    ---size: 2.5rem;
+    --h1-size: 2.5rem;
     --h2-size: 2rem;
     --h3-size: 1.5rem;
     --h4-size: 1.25rem;
@@ -158,22 +158,25 @@ img {
 .section-header {
     text-align: center;
     margin-top: 0;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
 }
 
 .section-header h2 {
-    font-size: var(--h2-size);
-    margin-bottom: var(--spacing-xs);
+    font-size: 2.5rem;
+    margin-bottom: 0;
     position: relative;
     display: inline-block;
+    white-space: nowrap;
 }
 
 .underline {
-    width: 80px;
+    flex: 0 0 100px;
     height: 4px;
     background-color: var(--primary-color);
-    margin: 0 auto;
-    margin-top: var(--spacing-xs);
     border-radius: var(--border-radius-sm);
 }
 
@@ -251,7 +254,7 @@ header .container {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(255, 255, 255, 0.1);
 }
 
-.logo  {
+.logo h1 {
     font-size: 1.5rem; /* Reduced from 1.8rem */
     font-weight: 700;
     color: var(--primary-color);
@@ -342,13 +345,13 @@ nav ul li a.active {
 }
 
 .hero-content h1 {
-    font-size: 2.80rem; /* Increased from 2.5rem */
+    font-size: 3rem; /* Increased from 2.5rem */
     margin-bottom: var(--spacing-md);
     line-height: 1.2;
 }
 
 .hero-content h2 {
-    font-size: 1.95rem; /* Increased from 1.5rem */
+    font-size: 2rem; /* Increased from 1.5rem */
     margin-bottom: var(--spacing-lg);
     display: flex;
     align-items: center;
@@ -476,56 +479,105 @@ nav ul li a.active {
 
 /* ===== About Section ===== */
 .about {
-    padding: var(--spacing-lg) 0;
+    min-height: 100vh;
+    height: 100vh;
     background-color: var(--section-bg);
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.about .container {
+    width: 100%;
 }
 
 .about-content {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-xl);
+    align-items: start;
 }
 
 .about-text {
-  background-color: transparent !important;
-  box-shadow: none !important;
-  padding: 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
 }
 
 .about-text p, 
 .about-text .personal-info,
 .about-text ul {
-  text-shadow: 0 1px 1px var(--unified-background);
-}
-
-.about-text .personal-info {
-  margin: var(--spacing-lg) 0;
+    text-shadow: 0 1px 1px var(--unified-background);
 }
 
 .about-text p {
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
     color: var(--light-text-color);
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-text ul {
+    list-style: none;
+    margin: var(--spacing-lg) 0;
+}
+
+.about-text ul li {
+    margin-bottom: var(--spacing-md);
+    padding-left: var(--spacing-md);
+    position: relative;
+    color: var(--light-text-color);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.about-text ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 6px;
+    height: 6px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.about-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
 }
 
 .personal-info {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: var(--spacing-md);
-    margin: var(--spacing-lg) 0;
 }
 
 .info-item {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    gap: 0.25rem;
 }
 
 .info-title {
     font-weight: 600;
-    margin-right: var(--spacing-xs);
     color: var(--text-color);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .info-value {
     color: var(--light-text-color);
+    font-size: 1.1rem;
+}
+
+.about-sidebar .btn {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-size: 1.05rem;
+    text-align: center;
 }
 
 /* ===== Credentials Section ===== */
