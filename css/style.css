@@ -505,17 +505,22 @@ nav ul li a.active {
 }
 
 .about-content {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-lg);
-    align-items: stretch;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 2.5rem;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: calc(100vh - 120px); /* Account for nav and section spacing */
 }
 
 .about-text {
     background-color: transparent !important;
     box-shadow: none !important;
     padding: 0 !important;
+    text-align: left;
+    width: 100%;
+    justify-self: start;
 }
 
 .about-text p, 
@@ -529,6 +534,7 @@ nav ul li a.active {
     color: var(--light-text-color);
     font-size: 1rem;
     line-height: 1.6;
+    text-align: left;
 }
 
 .about-text ul {
@@ -556,19 +562,23 @@ nav ul li a.active {
 
 .about-sidebar {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--spacing-md);
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--spacing-lg);
+    width: 100%;
+    min-width: 180px;
+    max-width: 220px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .personal-info {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: var(--spacing-lg);
-    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    width: 100%;
 }
 
 .info-item {
@@ -620,12 +630,12 @@ nav ul li a.active {
 }
 
 .about-sidebar .btn {
-    width: auto;
+    width: 100%;
     padding: 0.75rem 1.5rem;
     font-size: 0.95rem;
     text-align: center;
     white-space: nowrap;
-    flex-shrink: 0;
+    margin-top: var(--spacing-md);
 }
 
 /* ===== Credentials Section ===== */
