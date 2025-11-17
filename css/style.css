@@ -505,20 +505,11 @@ nav ul li a.active {
 }
 
 .credential-card {
-    /* Glassmorphism - More transparent frosted glass with hover highlight */
-    background: rgba(30, 30, 30, 0.5) !important;
-    backdrop-filter: blur(20px) saturate(150%);
-    -webkit-backdrop-filter: blur(20px) saturate(150%);
-    border: 1.5px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    
-    /* Performance optimizations */
-    will-change: transform;
-    transform: translateZ(0);
-    backface-visibility: hidden;
-    
-    /* Layout */
+    background-color: var(--card-bg);
     border-radius: var(--border-radius-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
     display: flex;
     padding: 20px;
     align-items: center;
@@ -526,29 +517,37 @@ nav ul li a.active {
     margin-left: 0;
     margin-right: 0;
     box-sizing: border-box;
-    
-    /* Transitions */
-    transition: all 0.3s ease;
 }
 
 .credential-card:hover {
-    background: rgba(40, 40, 40, 0.65) !important;
-    border-color: rgba(255, 255, 255, 0.3);
-    transform: translateY(-5px) translateZ(0);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    transform: translateY(-10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
+/* Light mode: Original solid styling */
 [data-theme="light"] .credential-card {
-    background: rgba(255, 255, 255, 0.92) !important;  /* Change from 0.85 → 0.92 */
-    backdrop-filter: blur(15px) saturate(120%);        /* Reduce blur from 20px → 15px */
-    border: 1.5px solid rgba(200, 200, 200, 0.4);     /* Softer border */
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 [data-theme="light"] .credential-card:hover {
-    background: rgba(255, 255, 255, 0.98) !important;  /* Nearly solid */
-    border-color: rgba(180, 180, 180, 0.5);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Dark mode: Glassmorphism effect */
+[data-theme="dark"] .credential-card {
+    background: rgba(30, 30, 30, 0.5) !important;
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .credential-card:hover {
+    background: rgba(40, 40, 40, 0.65) !important;
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 /* Fallback for browsers without backdrop-filter support */
@@ -829,6 +828,7 @@ a[class*="Verify"]:hover {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
+/* Light mode: Original solid styling */
 [data-theme="light"] .project-card {
     border: 1px solid rgba(0, 0, 0, 0.18);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
@@ -836,6 +836,22 @@ a[class*="Verify"]:hover {
 
 [data-theme="light"] .project-card:hover {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Dark mode: Glassmorphism effect */
+[data-theme="dark"] .project-card {
+    background: rgba(30, 30, 30, 0.5) !important;
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .project-card:hover {
+    background: rgba(40, 40, 40, 0.65) !important;
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .project-img {
@@ -1032,11 +1048,22 @@ a[class*="Verify"]:hover {
     border-radius: var(--border-radius-card);
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
+/* Light mode: Original solid styling */
 [data-theme="light"] .contact-form {
     border: 1px solid rgba(0, 0, 0, 0.18);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Dark mode: Glassmorphism effect */
+[data-theme="dark"] .contact-form {
+    background: rgba(30, 30, 30, 0.5) !important;
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .form-group {
@@ -1118,6 +1145,7 @@ a[class*="Verify"]:hover {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
+/* Light mode: Original solid styling */
 [data-theme="light"] .news-article {
     border: 1px solid rgba(0, 0, 0, 0.18);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
@@ -1125,6 +1153,22 @@ a[class*="Verify"]:hover {
 
 [data-theme="light"] .news-article:hover {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Dark mode: Glassmorphism effect */
+[data-theme="dark"] .news-article {
+    background: rgba(30, 30, 30, 0.5) !important;
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .news-article:hover {
+    background: rgba(40, 40, 40, 0.65) !important;
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 /* Category Icon - NEW */
@@ -1802,11 +1846,8 @@ nav ul li a,
     z-index: 100;
 }
 
-/* Fix for card and content box backgrounds (EXCLUDED .credential-card for glassmorphism) */
-.project-card,
+/* Fix for card and content box backgrounds (EXCLUDED glassmorphism components) */
 .skill-item,
-.contact-form,
-.news-article,
 .about-text {
   background-color: var(--card-bg) !important;
   box-shadow: 0 5px 15px var(--shadow-color) !important;
@@ -1981,3 +2022,5 @@ section .container {
   transform: scale(1);
   pointer-events: auto;
 }
+
+
