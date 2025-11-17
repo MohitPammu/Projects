@@ -1,6 +1,6 @@
 /**
  * ═══════════════════════════════════════════════════════════════════
- * Portfolio Website - Main Stylesheet (style-v2.css)
+ * Portfolio Website - Main Stylesheet (style.css)
  * ═══════════════════════════════════════════════════════════════════
  * 
  * PURPOSE:
@@ -480,11 +480,10 @@ nav ul li a.active {
 /* ===== About Section ===== */
 .about {
     min-height: 100vh;
-    height: 100vh;
     background-color: var(--section-bg);
     display: flex;
     align-items: center;
-    padding: 0;
+    padding: var(--spacing-xl) 0;
 }
 
 .about .container {
@@ -524,22 +523,20 @@ nav ul li a.active {
 
 .about-text ul li {
     margin-bottom: var(--spacing-md);
-    padding-left: var(--spacing-md);
+    padding-left: 0;
     position: relative;
     color: var(--light-text-color);
     font-size: 1.05rem;
     line-height: 1.7;
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
 }
 
-.about-text ul li::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0.6em;
-    width: 6px;
-    height: 6px;
-    background-color: var(--primary-color);
-    border-radius: 50%;
+.about-text ul li i {
+    color: var(--primary-color);
+    margin-top: 0.25em;
+    flex-shrink: 0;
 }
 
 .about-sidebar {
