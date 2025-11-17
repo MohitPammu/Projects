@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-16T00:01:41.122Z",
+  "lastUpdated": "2025-11-17T00:01:26.614Z",
   "items": [
     {
       "title": "Building AI Automations with Google Opal",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "unifiedml: A Unified Machine Learning Interface for R, is now on CRAN + Discussion about AI replacing humans",
+      "link": "https://www.r-bloggers.com/2025/11/unifiedml-a-unified-machine-learning-interface-for-r-is-now-on-cran-discussion-about-ai-replacing-humans/",
+      "pubDate": "Sun, 16 Nov 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
+      "source": "R-bloggers"
+    },
+    {
       "title": "container: v1.1.0 on CRAN",
       "link": "https://www.r-bloggers.com/2025/11/container-v1-1-0-on-cran/",
       "pubDate": "Sat, 15 Nov 2025 00:00:00 +0000",
       "author": "R some blog",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Get Involved in the Data Science Community at our Free Meetups",
-      "link": "https://www.r-bloggers.com/2025/11/get-involved-in-the-data-science-community-at-our-free-meetups/",
-      "pubDate": "Thu, 13 Nov 2025 23:59:00 +0000",
-      "author": "The Jumping Rivers Blog",
       "source": "R-bloggers"
     },
     {
