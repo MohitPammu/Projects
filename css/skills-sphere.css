@@ -1,6 +1,6 @@
 /**
  * ═══════════════════════════════════════════════════════════════════════
- * Skills Sphere Visualization - Component Stylesheet (skills-sphere.css)
+ * Skills Sphere Visualization - Component Stylesheet (skills-sphere-v2.css)
  * ═══════════════════════════════════════════════════════════════════════
  * 
  * PURPOSE:
@@ -152,11 +152,13 @@
   overflow: hidden;
 }
 
-/* Dark mode glass */
-/* Dark mode glass */
+/* Dark mode: Glassmorphism for skills sphere container */
 [data-theme="dark"] #skills-sphere-container {
-  background: rgba(30, 30, 30, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(30, 30, 30, 0.5) !important;
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 [data-theme="dark"] .skills-sphere-instructions {
@@ -207,6 +209,15 @@
   border: 1px solid var(--border-color, #2d2d2d);
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
+}
+
+/* Dark mode: Glassmorphism for legend and details panels */
+[data-theme="dark"] .skills-sphere-panel {
+  background: rgba(30, 30, 30, 0.5) !important;
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .skills-sphere-panel h3 {
