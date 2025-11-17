@@ -342,14 +342,14 @@ nav ul li a.active {
 }
 
 .hero-content h1 {
-    font-size: var(--h1-size);
-    margin-bottom: var(--spacing-sm);
+    font-size: 3rem; /* Increased from 2.5rem */
+    margin-bottom: var(--spacing-md);
     line-height: 1.2;
 }
 
 .hero-content h2 {
-    font-size: var(--h3-size);
-    margin-bottom: var(--spacing-md);
+    font-size: 2rem; /* Increased from 1.5rem */
+    margin-bottom: var(--spacing-lg);
     display: flex;
     align-items: center;
 }
@@ -373,31 +373,38 @@ nav ul li a.active {
 }
 
 .hero-content p {
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
     color: var(--light-text-color);
-    font-size: 1.1rem;
+    font-size: 1.25rem; /* Increased from 1.1rem */
+    line-height: 1.7;
 }
 
 .cta-buttons {
     display: flex;
-    gap: var(--spacing-sm);
-    margin-bottom: var(--spacing-lg);
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.cta-buttons .btn {
+    padding: 1rem 2rem; /* Increased from 0.75rem 1.5rem */
+    font-size: 1.1rem; /* Larger buttons */
 }
 
 .social-icons {
     display: flex;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-md);
 }
 
 .social-icons a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 50px; /* Increased from 40px */
+    height: 50px; /* Increased from 40px */
     border-radius: var(--border-radius-full);
     background-color: var(--section-bg);
     color: var(--text-color);
+    font-size: 1.25rem; /* Larger icons */
     transition: all var(--transition-fast);
 }
 
@@ -423,9 +430,9 @@ nav ul li a.active {
 }
 
 .hero-image {
-    width: 320px; /* Base size */
-    height: 320px; /* Equal to width for circular shape */
-    border: 4px solid var(--primary-color); /* Use theme color variable */
+    width: 400px; /* Increased from 320px */
+    height: 400px; /* Increased from 320px */
+    border: 5px solid var(--primary-color); /* Increased from 4px */
     border-radius: var(--border-radius-full); /* Makes it circular */
     overflow: hidden; /* Contains the image */
     display: flex;
@@ -433,7 +440,7 @@ nav ul li a.active {
     justify-content: center;
     margin: 0 auto;
     position: relative; /* For shadow positioning */
-    box-shadow: 0 8px 30px var(--shadow-color); /* Subtle shadow using theme variable */
+    box-shadow: 0 10px 40px var(--shadow-color); /* Enhanced shadow */
     transition: border-color 0.5s ease, box-shadow 0.5s ease;
     background-color: var(--bg-color);
 }
