@@ -226,19 +226,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-    
-    // Header Scroll Effect
-    const header = document.querySelector('header');
-    
-    if (header) {
-        window.addEventListener('scroll', function() {
-            if (window.pageYOffset > 50) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
-    }
+
     
     // Update current year in footer
     const yearEl = document.getElementById('current-year');
