@@ -510,7 +510,7 @@ nav ul li a.active {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .about .section-header {
@@ -2083,7 +2083,7 @@ body.unified-gradient-background .about {
 
 /* Remove any container background in the about section */
 body.unified-gradient-background .about .container {
-  padding-top: 50px !important; 
+  padding-top: 40px !important; 
   justify-content: flex-start !important;
   background-color: transparent !important;
   background: none !important;
