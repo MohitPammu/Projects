@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-17T00:01:26.614Z",
+  "lastUpdated": "2025-11-18T00:01:28.857Z",
   "items": [
     {
       "title": "Building AI Automations with Google Opal",
@@ -17,32 +17,32 @@
       "source": "KDnuggets"
     },
     {
-      "title": "unifiedml: A Unified Machine Learning Interface for R, is now on CRAN + Discussion about AI replacing humans",
-      "link": "https://www.r-bloggers.com/2025/11/unifiedml-a-unified-machine-learning-interface-for-r-is-now-on-cran-discussion-about-ai-replacing-humans/",
+      "title": "Choose Your Fighter: data-driven selection of the best marathon",
+      "link": "https://www.r-bloggers.com/2025/11/choose-your-fighter-data-driven-selection-of-the-best-marathon/",
+      "pubDate": "Mon, 17 Nov 2025 20:44:57 +0000",
+      "author": "Stephen Royle",
+      "source": "R-bloggers"
+    },
+    {
+      "title": "Bias, Variance, and Doubly Robust Estimation: Testing The Promise of TMLE in Simulated Data",
+      "link": "https://www.r-bloggers.com/2025/11/bias-variance-and-doubly-robust-estimation-testing-the-promise-of-tmle-in-simulated-data/",
       "pubDate": "Sun, 16 Nov 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
+      "author": "r on Everyday Is A School Day",
       "source": "R-bloggers"
     },
     {
-      "title": "container: v1.1.0 on CRAN",
-      "link": "https://www.r-bloggers.com/2025/11/container-v1-1-0-on-cran/",
-      "pubDate": "Sat, 15 Nov 2025 00:00:00 +0000",
-      "author": "R some blog",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Google Pixel and Golden Goose partner to  bring AI to global ateliers",
-      "link": "https://blog.google/products/pixel/google-pixel-and-golden-goose-partner-to-bring-ai-to-global-ateliers/",
-      "pubDate": "Thu, 13 Nov 2025 08:00:00 +0000",
+      "title": "New ways to plan travel with AI in Search",
+      "link": "https://blog.google/products/search/agentic-plans-booking-travel-canvas-ai-mode/",
+      "pubDate": "Mon, 17 Nov 2025 17:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Google Italy Team"
+          "Julie Farago"
         ],
         "title": [
-          ""
+          "VP of Engineering, Search"
         ],
         "department": [
           ""
@@ -54,18 +54,18 @@
       "source": "Blog"
     },
     {
-      "title": "Private AI Compute: our next step in building private and helpful AI",
-      "link": "https://blog.google/technology/ai/google-private-ai-compute/",
-      "pubDate": "Tue, 11 Nov 2025 19:00:00 +0000",
+      "title": "WeatherNext 2: Our most advanced weather forecasting model",
+      "link": "https://blog.google/technology/google-deepmind/weathernext-2/",
+      "pubDate": "Mon, 17 Nov 2025 15:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Jay Yagnik"
+          "The WeatherNext team"
         ],
         "title": [
-          "Vice President, AI Innovation and Research"
+          ""
         ],
         "department": [
           ""
