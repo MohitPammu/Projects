@@ -528,10 +528,10 @@ nav ul li a.active {
 
 .about-content {
     display: grid;
-    grid-template-columns: 3.5fr 1fr;  /* 75% text / 25% sidebar */
+    grid-template-columns: 4fr 1fr;  
     gap: 2.5rem;  
     align-items: start;
-    max-width: 1150px;
+    max-width: 1200px;
     margin: 0 auto;
     width: 100%;
 }
