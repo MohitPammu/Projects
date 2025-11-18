@@ -255,6 +255,7 @@ img {
 }
 
 /* ======= HEADER (Auto-Hide Slim Navigation) ======= */
+
 header {
     position: fixed !important;
     top: 0;
@@ -354,7 +355,6 @@ nav ul li a.active {
 
 /* ======= HERO SECTION ======= */
 
-/* ===== Hero Section ===== */
 .hero {
     min-height: calc(100vh - 70px);
     max-height: calc(100vh - 70px);
@@ -518,7 +518,6 @@ nav ul li a.active {
 
 /* ======= ABOUT SECTION ======= */
 
-
 .about {
     min-height: 100vh;
     max-height: 100vh;
@@ -672,7 +671,6 @@ nav ul li a.active {
 }
 
 /* ======= CREDENTIALS SECTION ======= */
-
 
 .credentials {
     padding: var(--spacing-lg) 0;
@@ -964,13 +962,13 @@ a[class*="Verify"]:hover {
 }
 
 /* ======= SKILLS SECTION ======= */
+
 .skills {
     padding: var(--spacing-lg) 0;
     background-color: var(--section-bg);
 }
 
 /* ======= PROJECTS SECTION ======= */
-
 
 .projects {
     padding: var(--spacing-lg) 0;
@@ -1213,7 +1211,6 @@ a[class*="Verify"]:hover {
 
 /* ======= CONTACT SECTION ======= */
 
-
 .contact {
     padding: var(--spacing-lg) 0;
     background-color: var(--section-bg);
@@ -1328,6 +1325,7 @@ a[class*="Verify"]:hover {
 
 
 /* ======= NEWS SECTION ======= */
+
 .news-container, 
 #newsContainer {
     width: 100%;
@@ -1697,6 +1695,7 @@ a[class*="Verify"]:hover {
 }
 
 /* ======= FOOTER ======= */
+
 footer {
     background-color: var(--section-bg);
     padding: 1.2rem 0; /* Reduced from 2rem+ */
@@ -1782,6 +1781,7 @@ footer {
 }
 
 /* ======= THEME SWITCHER ======= */
+
 .theme-switcher {
     position: fixed;
     bottom: 6rem;
@@ -1806,6 +1806,7 @@ footer {
 }
 
 /* ======= BACK TO TOP BUTTON ======= */
+
 .back-to-top {
     position: fixed;
     bottom: 2rem;
@@ -1838,6 +1839,7 @@ footer {
 
 
 /* ======= RESPONSIVE STYLES ======= */
+
 @media screen and (max-width: 992px) {
     .hero .container { flex-direction: column; text-align: center; }
     .hero-content { margin-bottom: var(--spacing-xl); }
