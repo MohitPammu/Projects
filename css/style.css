@@ -510,7 +510,7 @@ nav ul li a.active {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .about .section-header {
@@ -521,10 +521,10 @@ nav ul li a.active {
 
 .about-content {
     display: grid;
-    grid-template-columns: 4fr 1fr;  
+    grid-template-columns: 4.5fr 1fr;  
     gap: 2.5rem;
     align-items: start;
-    max-width: 1150px;
+    max-width: 1250px;
     margin: 0 auto;
     width: 100%;
 }
