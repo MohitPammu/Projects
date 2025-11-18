@@ -504,7 +504,7 @@ nav ul li a.active {
 
 .about .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 0 var(--spacing-md);
     height: 100%;
     display: flex;
@@ -2070,7 +2070,7 @@ nav ul li a,
 
 /* Control about section width */
 body.unified-gradient-background .about-content {
-  max-width: 1200px !important; 
+  max-width: 1000px !important; 
   grid-template-columns: 4.2fr 1fr !important;
   margin: 0 auto;
 }
