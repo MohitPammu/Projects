@@ -2,46 +2,46 @@
  * ═══════════════════════════════════════════════════════════════════
  * Portfolio Website - Main Stylesheet (style-v2.css)
  * ═══════════════════════════════════════════════════════════════════
- *
+ * 
  * PURPOSE:
- * Unified, maintainable styles for all sections and UI components.
+ * Website-wide styles for all sections, components, and layouts.
  * Includes navigation, hero, about, credentials, projects, contact,
- * news, and global UI elements (buttons, cards, forms).
- *
+ * news sections, and global UI elements (buttons, cards, forms).
+ * 
  * SCOPE:
  * - CSS custom properties (design tokens for colors, spacing, typography)
  * - Base resets and global styles
  * - Section-specific styles (hero, about, credentials, projects, etc.)
  * - Responsive layouts and media queries
  * - Theme support (light/dark mode via [data-theme] attribute)
- *
+ * 
  * ARCHITECTURE:
- * - CSS variables for consistent theming
- * - Mobile-first responsive design
- * - Component-based styling (cards, buttons, forms)
+ * - Uses CSS variables for consistent theming across components
+ * - Mobile-first responsive design with breakpoints at 768px, 992px
+ * - Component-based styling (cards, buttons, forms share unified design)
  * - Smooth transitions for theme switching and interactive elements
- *
+ * 
  * DEPENDENCIES:
  * - Google Fonts: Poppins (loaded in HTML)
  * - Font Awesome icons (loaded in HTML)
  * - Theme toggle handled by theme-toggle.js
- *
+ * 
  * RELATED FILES:
- * - skills-sphere-v2.css: 3D skills visualization component styles
- *
+ * - skills-sphere-v2.css: Separate component styles for 3D skills visualization
+ *   (isolated for modularity and reusability)
+ * 
  * NOTES:
- * - All design tokens defined here are inherited by skills sphere
- * - This file is the single source of truth for all main section styles
- *
+ * - Skills sphere visualization has its own stylesheet to maintain
+ *   clear separation of concerns and enable easy extraction/reuse
+ * - All design tokens (colors, spacing) defined here are inherited
+ *   by the skills sphere component
+ * 
  * ═══════════════════════════════════════════════════════════════════
  */
 
+/* ===== Base Styles ===== */
 :root {
-    /* ======= DESIGN TOKENS ======= */
-    /* Colors, Typography, Spacing, Transitions, Border Radius */
-}
-:root {
-    /* ===== Design Tokens: Light Theme ===== */
+    /* Light Theme Colors */
     --primary-color: #4a6cf7;
     --secondary-color: #6c757d;
     --background-color: #ffffff;
@@ -51,37 +51,37 @@
     --card-bg: #ffffff;
     --section-bg: #f8f9fa;
     --shadow-color: rgba(0, 0, 0, 0.1);
-
-    /* Typography */
+    
+    /* Font Sizes */
     --h1-size: 2.5rem;
     --h2-size: 2rem;
     --h3-size: 1.5rem;
     --h4-size: 1.25rem;
     --body-size: 1rem;
     --small-size: 0.875rem;
-
+    
     /* Spacing */
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
-
+    
     /* Transitions */
     --transition-fast: 0.3s ease;
     --transition-normal: 0.5s ease;
-    --theme-transition-time: 0.5s;
-    --theme-transition-easing: ease;
-
+    --theme-transition-time: 0.5s; /* Add this new variable */
+    --theme-transition-easing: ease; /* Add this new variable */
+    
     /* Border Radius */
     --border-radius-sm: 4px;
     --border-radius-md: 8px;
-    --border-radius-card: 12px;
+    --border-radius-card: 12px; /* NEW: Consistent with skills visual panels */
     --border-radius-lg: 16px;
     --border-radius-full: 50%;
 }
 
-/* ===== Design Tokens: Dark Theme ===== */
+/* Dark Theme Colors */
 [data-theme="dark"] {
     --primary-color: #6d8dfa;
     --secondary-color: #adb5bd;
@@ -94,20 +94,16 @@
     --shadow-color: rgba(0, 0, 0, 0.3);
 }
 
-
-/* ===== Base Resets ===== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 html {
     scroll-behavior: smooth;
     font-size: 16px;
 }
-
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -118,29 +114,24 @@ body {
     padding-top: 70px;
 }
 
-
 a {
     text-decoration: none;
     color: var(--primary-color);
     transition: color var(--transition-fast);
 }
 
-
 a:hover {
     color: var(--secondary-color);
 }
-
 
 ul {
     list-style: none;
 }
 
-
 img {
     max-width: 100%;
     height: auto;
 }
-
 
 .credential-badge img,
 .news-featured-image {
@@ -148,32 +139,27 @@ img {
     height: auto;
 }
 
-
 .hidden {
     display: none !important;
 }
 
-
-/* ===== Unified Container Layout ===== */
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--spacing-md);
-    box-sizing: border-box;
-    position: relative;
-    z-index: 1;
+    overflow-x: visible;
     overflow: visible;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 1;
 }
 
-
-/* ===== Section Header Layout ===== */
 .section-header {
     text-align: center;
     margin-top: 0;
     margin-bottom: var(--spacing-xl);
 }
-
 
 .section-header-title {
     display: flex;
@@ -183,22 +169,19 @@ img {
     margin-bottom: var(--spacing-sm);
 }
 
-
 .section-header h2 {
-    font-size: var(--h1-size);
+    font-size: 2.5rem;
     margin-bottom: 0;
     position: relative;
     display: inline-block;
     white-space: nowrap;
 }
 
-
 .section-header p {
     color: var(--light-text-color);
     font-size: 1.05rem;
     margin: 0;
 }
-
 
 .underline {
     flex: 0 0 100px;
@@ -207,8 +190,6 @@ img {
     border-radius: var(--border-radius-sm);
 }
 
-
-/* ===== Button Styles ===== */
 .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
@@ -220,12 +201,10 @@ img {
     border: none;
 }
 
-
 .primary-btn {
     background-color: var(--primary-color);
     color: white;
 }
-
 
 .primary-btn:hover {
     background-color: var(--primary-color);
@@ -235,13 +214,11 @@ img {
     box-shadow: 0 10px 20px var(--shadow-color);
 }
 
-
 .secondary-btn {
     background-color: transparent;
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
 }
-
 
 .secondary-btn:hover {
     background-color: var(--primary-color);
@@ -254,8 +231,7 @@ img {
     color: var(--primary-color);
 }
 
-/* ======= HEADER (Auto-Hide Slim Navigation) ======= */
-
+/* ===== Header (Auto-Hide Slim Navigation) ===== */
 header {
     position: fixed !important;
     top: 0;
@@ -353,20 +329,16 @@ nav ul li a.active {
     transition: all var(--transition-fast);
 }
 
-/* ======= HERO SECTION ======= */
-
+/* ===== Hero Section ===== */
 .hero {
-    min-height: calc(100vh - 70px);
-    max-height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px); /* 100vh minus body padding-top */
     height: calc(100vh - 70px);
     background-color: var(--background-color);
     position: relative;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .hero .container {
@@ -516,18 +488,15 @@ nav ul li a.active {
     }
 }
 
-/* ======= ABOUT SECTION ======= */
-
+/* ===== About Section ===== */
 .about {
     min-height: 100vh;
     max-height: 100vh;
     background-color: var(--section-bg);
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 0;
     overflow: hidden;
-    box-sizing: border-box;
 }
 
 .about .container {
@@ -670,27 +639,18 @@ nav ul li a.active {
     margin-top: var(--spacing-md);
 }
 
-/* ======= CREDENTIALS SECTION ======= */
-
+/* ===== Credentials Section ===== */
 .credentials {
     padding: var(--spacing-lg) 0;
     background-color: var(--background-color);
 }
 
-
 .credentials-container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-top: 40px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    width: 100vw;
-    max-width: 100vw;
-    padding: 0 40px;
 }
-
 
 .credential-card {
     background-color: var(--card-bg);
@@ -701,31 +661,10 @@ nav ul li a.active {
     display: flex;
     padding: 20px;
     align-items: center;
-    min-width: 260px;
-    max-width: 260px;
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
     box-sizing: border-box;
-    scroll-snap-align: start;
-}
-/* Credentials pagination dots */
-.credentials-pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    margin-top: 20px;
-}
-.credentials-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: var(--border-color);
-    transition: background-color 0.3s;
-    cursor: pointer;
-}
-.credentials-dot.active {
-    background-color: var(--primary-color);
 }
 
 .credential-card:hover {
@@ -961,15 +900,13 @@ a[class*="Verify"]:hover {
     margin: 0 !important; 
 }
 
-/* ======= SKILLS SECTION ======= */
-
+/* ===== Skills Section ===== */
 .skills {
     padding: var(--spacing-lg) 0;
     background-color: var(--section-bg);
 }
 
-/* ======= PROJECTS SECTION ======= */
-
+/* ===== Projects Section ===== */
 .projects {
     padding: var(--spacing-lg) 0;
     background-color: var(--background-color);
@@ -1006,7 +943,6 @@ a[class*="Verify"]:hover {
     color: white;
 }
 
-
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1014,13 +950,10 @@ a[class*="Verify"]:hover {
     width: 100%;
     margin: 0 auto;
     padding: 0 var(--spacing-sm);
-    min-height: 260px;
-    max-height: 260px;
-    overflow-x: auto;
-    overflow-y: hidden;
+    transform: translateZ(0);
+    backface-visibility: hidden;
     z-index: 2;
 }
-
 
 .project-card {
     background-color: var(--card-bg);
@@ -1032,6 +965,9 @@ a[class*="Verify"]:hover {
     height: 100%;
     display: flex;
     flex-direction: column;
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
     z-index: 2;
 }
 
@@ -1209,13 +1145,11 @@ a[class*="Verify"]:hover {
   background-color: #FFFFFF;
 }
 
-/* ======= CONTACT SECTION ======= */
-
+/* ===== Contact Section ===== */
 .contact {
     padding: var(--spacing-lg) 0;
     background-color: var(--section-bg);
 }
-
 
 .contact-content {
     display: grid;
@@ -1312,19 +1246,15 @@ a[class*="Verify"]:hover {
 }
 
 .form-group textarea {
-    min-height: 100vh;
-    max-height: 100vh;
-    padding: 0;
-    background-color: var(--section-bg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    overflow: hidden;
+    min-height: 150px;
+    resize: vertical;
 }
 
-
-/* ======= NEWS SECTION ======= */
+/* ===== News Section ===== */
+.news {
+    padding: var(--spacing-lg) 0;
+    background-color: var(--background-color);
+}
 
 .news-container, 
 #newsContainer {
@@ -1334,7 +1264,6 @@ a[class*="Verify"]:hover {
 }
 
 /* News Grid Container - NEW */
-
 .news-grid-container {
     max-width: 1100px;
     margin: 0 auto;
@@ -1353,7 +1282,6 @@ a[class*="Verify"]:hover {
 }
 
 /* News Card - NEW */
-
 .news-article {
     padding: 24px;
     height: 100%;
@@ -1694,8 +1622,7 @@ a[class*="Verify"]:hover {
     border-top-color: #4285f4;
 }
 
-/* ======= FOOTER ======= */
-
+/* ===== Footer ===== */
 footer {
     background-color: var(--section-bg);
     padding: 1.2rem 0; /* Reduced from 2rem+ */
@@ -1780,8 +1707,7 @@ footer {
     text-align: center;
 }
 
-/* ======= THEME SWITCHER ======= */
-
+/* ===== Theme Switcher ===== */
 .theme-switcher {
     position: fixed;
     bottom: 6rem;
@@ -1805,8 +1731,7 @@ footer {
     box-shadow: 0 10px 20px var(--shadow-color);
 }
 
-/* ======= BACK TO TOP BUTTON ======= */
-
+/* ===== Back to Top Button ===== */
 .back-to-top {
     position: fixed;
     bottom: 2rem;
@@ -1837,44 +1762,198 @@ footer {
     box-shadow: 0 10px 20px var(--shadow-color);
 }
 
-
-/* ======= RESPONSIVE STYLES ======= */
-
+/* ===== Responsive Styles ===== */
 @media screen and (max-width: 992px) {
-    .hero .container { flex-direction: column; text-align: center; }
-    .hero-content { margin-bottom: var(--spacing-xl); }
-    .hero-content h2 { justify-content: center; }
-    .cta-buttons, .social-icons { justify-content: center; }
-    .contact-content { grid-template-columns: 1fr; }
-    .contact-info { margin-bottom: var(--spacing-lg); }
-    .news-grid-container { grid-template-columns: repeat(2, 1fr); }
-    .projects-grid { grid-template-columns: repeat(2, 1fr); }
-    .project-links { padding-top: var(--spacing-sm); }
-    .project-info { padding-bottom: var(--spacing-md); }
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-content {
+        margin-bottom: var(--spacing-xl);
+    }
+    
+    .hero-content h2 {
+        justify-content: center;
+    }
+    
+    .cta-buttons {
+        justify-content: center;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-info {
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    /* Tablet layout for news grid */
+    .news-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 768px) {
-    html { font-size: 14px; }
-    .hamburger { display: flex; }
-    .hero-content h1 .highlight { white-space: nowrap; }
-    nav ul { position: fixed; top: 70px; left: 0; width: 100%; background-color: var(--background-color); flex-direction: column; align-items: center; padding: var(--spacing-md) 0; box-shadow: 0 5px 10px var(--shadow-color); transform: translateY(-150%); transition: transform var(--transition-normal); z-index: 999; }
-    nav ul.active { transform: translateY(0); }
-    nav ul li { margin: var(--spacing-xs) 0; }
-    .news-container .news-card, .news-container, #newsContainer, .news-card, .news-article, .news-item { width: 100% !important; max-width: 100% !important; box-sizing: border-box !important; padding-left: 0; padding-right: 0; }
-    .projects-grid { grid-template-columns: 1fr; }
-    .footer-content { grid-template-columns: 1fr; grid-template-areas: "logo" "social" "copyright"; gap: 0.8rem; text-align: center; }
-    .footer-logo, .footer-social, .footer-bottom { justify-self: center; }
-    .container { padding-left: 15px; padding-right: 15px; width: 100%; box-sizing: border-box; overflow-x: visible; }
-    .credentials-container { grid-template-columns: 1fr; }
-    .news-grid-container { grid-template-columns: 1fr; width: 100% !important; max-width: 100% !important; box-sizing: border-box !important; padding-left: 0; padding-right: 0; }
-    .news-article { width: 100% !important; max-width: 100% !important; box-sizing: border-box !important; padding-left: 20px; padding-right: 20px; margin-left: 0; margin-right: 0; }
-    .news-main-row { flex-direction: column; }
-    .news-main-left { max-width: 100%; }
+    html {
+        font-size: 14px;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+
+    .hero-content h1 .highlight {
+        white-space: nowrap;
+    }
+    
+    nav ul {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: var(--background-color);
+        flex-direction: column;
+        align-items: center;
+        padding: var(--spacing-md) 0;
+        box-shadow: 0 5px 10px var(--shadow-color);
+        transform: translateY(-150%);
+        transition: transform var(--transition-normal);
+        z-index: 999;
+    }
+    
+    nav ul.active {
+        transform: translateY(0);
+    }
+    
+    nav ul li {
+        margin: var(--spacing-xs) 0;
+    }
+
+    .news-container .news-card {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }    
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr; /* Single column on mobile */
+        grid-template-areas: 
+            "logo"
+            "social"
+            "copyright";
+        gap: 0.8rem; /* Reduced spacing */
+        text-align: center;
+    }
+    
+    .footer-logo,
+    .footer-social,
+    .footer-bottom {
+        justify-self: center; /* Center all items on mobile */
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        overflow-x: visible;
+    }
+
+    .credentials-container {
+        grid-template-columns: 1fr; /* Force single column on mobile */
+    }
+
+    /* News card fixes */
+    .news-container, 
+    #newsContainer,
+    .news-card,
+    .news-article,
+    .news-item {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    /* Mobile layout for news grid */
+    .news-grid-container {
+        grid-template-columns: 1fr;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    /* Ensure news-article follows the same rules as news-card */
+    .news-article {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /* Adjust news layout for mobile */
+    .news-main-row {
+        flex-direction: column;
+    }
+    
+    .news-main-left {
+        max-width: 100%;
+    }
+}
+
+/* Responsive adjustments for Isotope grid */
+@media screen and (max-width: 992px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .project-links {
+        padding-top: var(--spacing-sm);
+    }
+    
+    .project-info {
+        padding-bottom: var(--spacing-md);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 576px) {
-    .personal-info, .skills-grid { grid-template-columns: 1fr; }
-    .news-article { padding: 15px; }
+    .personal-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* For very small screens, adjust padding */
+    .news-article {
+        padding: 15px;
+    }
 }
 
 /* Global Shadow Fix */
