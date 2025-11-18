@@ -184,7 +184,9 @@ img {
 }
 
 .about .section-header {
-    margin-bottom: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
 }
 
 .underline {
@@ -496,13 +498,13 @@ nav ul li a.active {
 
 .about {
     min-height: 100vh;
-    max-height: 100vh;  /* ✅ LOCK to viewport */
+    max-height: 100vh;  
     background-color: var(--section-bg);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;  /* Remove padding, we'll add it to container */
-    overflow: hidden;  /* ✅ CRITICAL: Prevent any overflow */
+    overflow: hidden; 
     box-sizing: border-box;
 }
 
@@ -510,10 +512,11 @@ nav ul li a.active {
     width: 100%;
     max-width: 1200px;
     padding: 0 var(--spacing-md);
-    height: 100%;  /* ✅ Fill parent height */
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* ✅ Center content vertically */
+    justify-content: flex-start; 
+    padding-top: 80px;
 }
 
 /* Section header - fixed compact size */
@@ -525,10 +528,10 @@ nav ul li a.active {
 
 .about-content {
     display: grid;
-    grid-template-columns: 3fr 1fr;  /* 75% text / 25% sidebar */
-    gap: 2rem;  /* Slightly reduced from 2.5rem */
+    grid-template-columns: 3.5fr 1fr;  /* 75% text / 25% sidebar */
+    gap: 2.5rem;  
     align-items: start;
-    max-width: 1100px;
+    max-width: 1150px;
     margin: 0 auto;
     width: 100%;
 }
@@ -550,25 +553,25 @@ nav ul li a.active {
 }
 
 .about-text p {
-    margin-bottom: 1rem;  /* Tighter than var(--spacing-md) */
+    margin-bottom: 0.9rem;  /* Tighter than var(--spacing-md) */
     color: var(--light-text-color);
-    font-size: 0.95rem;  /* ✅ Slightly smaller for better fit */
-    line-height: 1.5;  /* ✅ Tighter line height */
+    font-size: 1rem;  
+    line-height: 1.5;  
     text-align: left;
 }
 
 .about-text ul {
     list-style: none;
-    margin: 1rem 0;  /* ✅ Reduced from var(--spacing-lg) */
+    margin: 0.8rem 0;  
 }
 
 .about-text ul li {
-    margin-bottom: 0.75rem;  /* ✅ Tighter spacing */
+    margin-bottom: 0.7rem;  
     padding-left: 0;
     position: relative;
     color: var(--light-text-color);
-    font-size: 0.9rem;  /* ✅ Slightly smaller */
-    line-height: 1.5;  /* ✅ Tighter line height */
+    font-size: 0.95rem;  
+    line-height: 1.5;
     display: flex;
     align-items: flex-start;
     gap: var(--spacing-sm);
@@ -578,7 +581,7 @@ nav ul li a.active {
     color: var(--primary-color);
     margin-top: 0.25em;
     flex-shrink: 0;
-    font-size: 0.9rem;  /* ✅ Slightly smaller icons */
+    font-size: 0.9rem;  
 }
 
 .about-sidebar {
@@ -586,7 +589,7 @@ nav ul li a.active {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 1rem;  /* ✅ Tighter than var(--spacing-lg) */
+    gap: 1rem;  
     width: 100%;
     min-width: 180px;
     max-width: 220px;
@@ -596,7 +599,7 @@ nav ul li a.active {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.75rem;  /* ✅ Tighter than var(--spacing-md) */
+    gap: 0.75rem;  
     width: 100%;
 }
 
@@ -608,9 +611,9 @@ nav ul li a.active {
 
 .info-item i {
     color: var(--primary-color);
-    font-size: 1rem;  /* ✅ Slightly smaller */
-    width: 32px;  /* ✅ Reduced from 36px */
-    height: 32px;  /* ✅ Reduced from 36px */
+    font-size: 1.05rem;  
+    width: 34px;  
+    height: 34px;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -630,7 +633,7 @@ nav ul li a.active {
 .info-details {
     display: flex;
     flex-direction: column;
-    gap: 0.1rem;  /* ✅ Very tight spacing */
+    gap: 0.1rem;  
     flex: 0 0 auto;
     white-space: nowrap;
 }
@@ -638,23 +641,23 @@ nav ul li a.active {
 .info-title {
     font-weight: 600;
     color: var(--text-color);
-    font-size: 0.7rem;  /* ✅ Smaller */
+    font-size: 0.75rem;  
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 .info-value {
     color: var(--light-text-color);
-    font-size: 0.85rem;  /* ✅ Smaller */
+    font-size: 0.9rem;  
 }
 
 .about-sidebar .btn {
     width: 100%;
-    padding: 0.65rem 1.25rem;  /* ✅ Slightly smaller */
-    font-size: 0.9rem;  /* ✅ Slightly smaller */
+    padding: 0.7rem 1.3rem;  
+    font-size: 0.95rem;  
     text-align: center;
     white-space: nowrap;
-    margin-top: 0.75rem;  /* ✅ Tighter spacing */
+    margin-top: 0.75rem;  
 }
 
 /* ===== Credentials Section ===== */
