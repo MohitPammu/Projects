@@ -650,11 +650,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 90px; /* Moved down slightly for title visibility */
+    padding-top: 80px; 
 }
 
 .about .section-header {
-    margin-bottom: 1.5rem; /* Balanced spacing */
+    margin-bottom: 1rem; /* Balanced spacing */
     flex-shrink: 0;
 }
 
