@@ -519,7 +519,7 @@ nav ul li a.active {
     background-color: transparent !important;
     box-shadow: none !important;
     padding: 0 !important;
-    text-align: left;
+    text-align: left !important;
     width: 100%;
     justify-self: start;
 }
