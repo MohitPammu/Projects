@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-20T00:01:38.229Z",
+  "lastUpdated": "2025-11-21T00:01:34.287Z",
   "items": [
     {
-      "title": "Unlock Business Value: Build a Data & Analytics Strategy That Delivers",
-      "link": "https://www.kdnuggets.com/2025/11/gartner/unlock-business-value-build-a-data-analytics-strategy-that-delivers",
-      "pubDate": "Wed, 19 Nov 2025 18:00:16 +0000",
+      "title": "How Data Engineering Can Power Manufacturing Industry Transformation",
+      "link": "https://www.kdnuggets.com/2025/11/damcosolutions/how-data-engineering-can-power-manufacturing-industry-transformation",
+      "pubDate": "Thu, 20 Nov 2025 18:00:45 +0000",
       "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
-      "title": "An Introduction to Zapier Automations for Data Scientists",
-      "link": "https://www.kdnuggets.com/an-introduction-to-zapier-automations-for-data-scientists",
-      "pubDate": "Wed, 19 Nov 2025 15:00:04 +0000",
-      "author": "Shittu Olumide",
+      "title": "Top SQL Patterns from FAANG Data Science Interviews (with Code)",
+      "link": "https://www.kdnuggets.com/top-sql-patterns-from-faang-data-science-interviews-with-code",
+      "pubDate": "Thu, 20 Nov 2025 17:00:27 +0000",
+      "author": "Nate Rosidi",
       "source": "KDnuggets"
     },
     {
@@ -31,33 +31,33 @@
       "source": "R-bloggers"
     },
     {
-      "title": "At our Research@ Poland event we shared how AI is helping us solve big challenges.",
-      "link": "https://blog.google/technology/research/ai-collaboration-poland-2025/",
-      "pubDate": "Wed, 19 Nov 2025 09:00:00 +0000",
-      "author": "Staff Writer",
-      "source": "Blog"
-    },
-    {
-      "title": "A new era of intelligence with Gemini 3",
-      "link": "https://blog.google/products/gemini/gemini-3/",
-      "pubDate": "Tue, 18 Nov 2025 16:00:00 +0000",
+      "title": "Build with Nano Banana Pro, our Gemini 3 Pro Image model",
+      "link": "https://blog.google/technology/developers/gemini-3-pro-image-developers/",
+      "pubDate": "Thu, 20 Nov 2025 15:00:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Sundar Pichai"
+          "Alisa Fortin"
         ],
         "title": [
-          "CEO, Google and Alphabet"
+          "Product Manager"
         ],
         "department": [
-          ""
+          "Google DeepMind"
         ],
         "company": [
           ""
         ]
       },
+      "source": "Blog"
+    },
+    {
+      "title": "At our Research@ Poland event we shared how AI is helping us solve big challenges.",
+      "link": "https://blog.google/technology/research/ai-collaboration-poland-2025/",
+      "pubDate": "Wed, 19 Nov 2025 09:00:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
