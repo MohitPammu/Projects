@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-21T00:01:34.287Z",
+  "lastUpdated": "2025-11-22T00:01:26.081Z",
   "items": [
+    {
+      "title": "Top 7 Open Source AI Coding Models You Are Missing Out On",
+      "link": "https://www.kdnuggets.com/top-7-open-source-ai-coding-models-you-are-missing-out-on",
+      "pubDate": "Fri, 21 Nov 2025 13:00:54 +0000",
+      "author": "Abid Ali Awan",
+      "source": "KDnuggets"
+    },
     {
       "title": "How Data Engineering Can Power Manufacturing Industry Transformation",
       "link": "https://www.kdnuggets.com/2025/11/damcosolutions/how-data-engineering-can-power-manufacturing-industry-transformation",
@@ -10,11 +17,11 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Top SQL Patterns from FAANG Data Science Interviews (with Code)",
-      "link": "https://www.kdnuggets.com/top-sql-patterns-from-faang-data-science-interviews-with-code",
-      "pubDate": "Thu, 20 Nov 2025 17:00:27 +0000",
-      "author": "Nate Rosidi",
-      "source": "KDnuggets"
+      "title": "(ICYMI) RPweave: Unified R + Python + LaTeX System using uv",
+      "link": "https://www.r-bloggers.com/2025/11/icymi-rpweave-unified-r-python-latex-system-using-uv/",
+      "pubDate": "Fri, 21 Nov 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
+      "source": "R-bloggers"
     },
     {
       "title": "Announcing AI in Production 2026: A New Conference for AI and ML Practitioners",
@@ -24,11 +31,27 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Why you should not use mean imputation for missing data",
-      "link": "https://www.r-bloggers.com/2025/11/why-you-should-not-use-mean-imputation-for-missing-data/",
-      "pubDate": "Tue, 18 Nov 2025 05:00:00 +0000",
-      "author": "Jason Bryer",
-      "source": "R-bloggers"
+      "title": "16 Google AI tips for stress-free holiday hosting in 2025",
+      "link": "https://blog.google/products/pixel/google-holiday-hosting-tips-2024/",
+      "pubDate": "Fri, 21 Nov 2025 16:00:00 +0000",
+      "author": {
+        "$": {
+          "xmlns:author": "http://www.w3.org/2005/Atom"
+        },
+        "name": [
+          "Molly McHugh-Johnson"
+        ],
+        "title": [
+          "Contributor"
+        ],
+        "department": [
+          "The Keyword"
+        ],
+        "company": [
+          ""
+        ]
+      },
+      "source": "Blog"
     },
     {
       "title": "Build with Nano Banana Pro, our Gemini 3 Pro Image model",
@@ -51,13 +74,6 @@
           ""
         ]
       },
-      "source": "Blog"
-    },
-    {
-      "title": "At our Research@ Poland event we shared how AI is helping us solve big challenges.",
-      "link": "https://blog.google/technology/research/ai-collaboration-poland-2025/",
-      "pubDate": "Wed, 19 Nov 2025 09:00:00 +0000",
-      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
