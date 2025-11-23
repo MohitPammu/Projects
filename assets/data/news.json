@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-22T00:01:26.081Z",
+  "lastUpdated": "2025-11-23T00:01:43.681Z",
   "items": [
     {
       "title": "Top 7 Open Source AI Coding Models You Are Missing Out On",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Data Science Quiz For Humanities",
+      "link": "https://www.r-bloggers.com/2025/11/data-science-quiz-for-humanities/",
+      "pubDate": "Sat, 22 Nov 2025 00:00:00 +0000",
+      "author": "Ponne, Bruno",
+      "source": "R-bloggers"
+    },
+    {
       "title": "(ICYMI) RPweave: Unified R + Python + LaTeX System using uv",
       "link": "https://www.r-bloggers.com/2025/11/icymi-rpweave-unified-r-python-latex-system-using-uv/",
       "pubDate": "Fri, 21 Nov 2025 00:00:00 +0000",
       "author": "T. Moudiki",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Announcing AI in Production 2026: A New Conference for AI and ML Practitioners",
-      "link": "https://www.r-bloggers.com/2025/11/announcing-ai-in-production-2026-a-new-conference-for-ai-and-ml-practitioners/",
-      "pubDate": "Wed, 19 Nov 2025 23:59:00 +0000",
-      "author": "The Jumping Rivers Blog",
       "source": "R-bloggers"
     },
     {
