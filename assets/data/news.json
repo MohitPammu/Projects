@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-27T00:01:27.871Z",
+  "lastUpdated": "2025-11-28T00:01:44.259Z",
   "items": [
+    {
+      "title": "Staying Ahead of AI in Your Career",
+      "link": "https://www.kdnuggets.com/staying-ahead-of-ai-in-your-career",
+      "pubDate": "Thu, 27 Nov 2025 15:08:04 +0000",
+      "author": "Nahla Davies",
+      "source": "KDnuggets"
+    },
     {
       "title": "5 Excel AI Lessons I Learned the Hard Way",
       "link": "https://www.kdnuggets.com/5-excel-ai-lessons-i-learned-the-hard-way",
@@ -10,11 +17,18 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Our favourite Black Friday deal to Learn SQL, AI, Python, and become a certified data analyst!",
-      "link": "https://www.kdnuggets.com/2025/11/datacamp/our-favourite-black-friday-deal-to-learn-sql-ai-python-and-become-a-certified-data-analyst",
-      "pubDate": "Tue, 25 Nov 2025 18:00:54 +0000",
-      "author": "KDnuggets",
-      "source": "KDnuggets"
+      "title": "Start 2026 Ahead of the Curve: Boost Your Career with Jumping Rivers Training",
+      "link": "https://www.r-bloggers.com/2025/11/start-2026-ahead-of-the-curve-boost-your-career-with-jumping-rivers-training/",
+      "pubDate": "Thu, 27 Nov 2025 23:59:00 +0000",
+      "author": "The Jumping Rivers Blog",
+      "source": "R-bloggers"
+    },
+    {
+      "title": "Railways",
+      "link": "https://www.r-bloggers.com/2025/11/railways/",
+      "pubDate": "Wed, 26 Nov 2025 19:00:00 +0000",
+      "author": "Michael",
+      "source": "R-bloggers"
     },
     {
       "title": "Get an in-depth look at Gemini 3 with CEO Sundar Pichai.",
@@ -45,20 +59,6 @@
         ]
       },
       "source": "Blog"
-    },
-    {
-      "title": "Quantum Computing and Its Impact on Data Science",
-      "link": "https://ieee.org/publications/quantum-computing-data-science-2025",
-      "pubDate": "2025-11-23T00:01:25.950Z",
-      "author": "Quantum Research Team",
-      "source": "IEEE"
-    },
-    {
-      "title": "The Rise of Explainable AI in Enterprise Applications",
-      "link": "https://techcrunch.com/2025/05/26/explainable-ai-enterprise/",
-      "pubDate": "2025-11-24T00:01:25.950Z",
-      "author": "Enterprise Tech Editor",
-      "source": "TechCrunch"
     }
   ]
 }
