@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-11-29T00:01:26.498Z",
+  "lastUpdated": "2025-11-30T00:01:41.210Z",
   "items": [
     {
       "title": "Staying Ahead of AI in Your Career",
@@ -17,17 +17,17 @@
       "source": "KDnuggets"
     },
     {
+      "title": "Gaussian Processes Again",
+      "link": "https://www.r-bloggers.com/2025/11/gaussian-processes-again/",
+      "pubDate": "Sat, 29 Nov 2025 00:00:00 +0000",
+      "author": "Chris Bowdon",
+      "source": "R-bloggers"
+    },
+    {
       "title": "Start 2026 Ahead of the Curve: Boost Your Career with Jumping Rivers Training",
       "link": "https://www.r-bloggers.com/2025/11/start-2026-ahead-of-the-curve-boost-your-career-with-jumping-rivers-training/",
       "pubDate": "Thu, 27 Nov 2025 23:59:00 +0000",
       "author": "The Jumping Rivers Blog",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Railways",
-      "link": "https://www.r-bloggers.com/2025/11/railways/",
-      "pubDate": "Wed, 26 Nov 2025 19:00:00 +0000",
-      "author": "Michael",
       "source": "R-bloggers"
     },
     {
