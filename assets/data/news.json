@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-12-01T00:02:28.064Z",
+  "lastUpdated": "2025-12-02T00:01:36.093Z",
   "items": [
+    {
+      "title": "Building a Simple Data Quality DSL in Python",
+      "link": "https://www.kdnuggets.com/building-a-simple-data-quality-dsl-in-python",
+      "pubDate": "Mon, 01 Dec 2025 17:00:16 +0000",
+      "author": "Bala Priya C",
+      "source": "KDnuggets"
+    },
     {
       "title": "Staying Ahead of AI in Your Career",
       "link": "https://www.kdnuggets.com/staying-ahead-of-ai-in-your-career",
@@ -10,24 +17,17 @@
       "source": "KDnuggets"
     },
     {
-      "title": "5 Excel AI Lessons I Learned the Hard Way",
-      "link": "https://www.kdnuggets.com/5-excel-ai-lessons-i-learned-the-hard-way",
-      "pubDate": "Wed, 26 Nov 2025 13:00:06 +0000",
-      "author": "Rachel Kuznetsov",
-      "source": "KDnuggets"
+      "title": "tisthemachinelearner: New Workflow with uv for R Integration of scikit-learn",
+      "link": "https://www.r-bloggers.com/2025/11/tisthemachinelearner-new-workflow-with-uv-for-r-integration-of-scikit-learn/",
+      "pubDate": "Mon, 01 Dec 2025 00:00:00 +0000",
+      "author": "T. Moudiki",
+      "source": "R-bloggers"
     },
     {
       "title": "Gaussian Processes Again",
       "link": "https://www.r-bloggers.com/2025/11/gaussian-processes-again/",
       "pubDate": "Sat, 29 Nov 2025 00:00:00 +0000",
       "author": "Chris Bowdon",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Start 2026 Ahead of the Curve: Boost Your Career with Jumping Rivers Training",
-      "link": "https://www.r-bloggers.com/2025/11/start-2026-ahead-of-the-curve-boost-your-career-with-jumping-rivers-training/",
-      "pubDate": "Thu, 27 Nov 2025 23:59:00 +0000",
-      "author": "The Jumping Rivers Blog",
       "source": "R-bloggers"
     },
     {
