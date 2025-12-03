@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-12-02T00:01:36.093Z",
+  "lastUpdated": "2025-12-03T00:01:21.699Z",
   "items": [
+    {
+      "title": "7 ChatGPT Tricks to Automate Your Data Tasks",
+      "link": "https://www.kdnuggets.com/7-chatgpt-tricks-to-automate-your-data-tasks",
+      "pubDate": "Tue, 02 Dec 2025 13:24:47 +0000",
+      "author": "Nahla Davies",
+      "source": "KDnuggets"
+    },
     {
       "title": "Building a Simple Data Quality DSL in Python",
       "link": "https://www.kdnuggets.com/building-a-simple-data-quality-dsl-in-python",
@@ -10,24 +17,17 @@
       "source": "KDnuggets"
     },
     {
-      "title": "Staying Ahead of AI in Your Career",
-      "link": "https://www.kdnuggets.com/staying-ahead-of-ai-in-your-career",
-      "pubDate": "Thu, 27 Nov 2025 15:08:04 +0000",
-      "author": "Nahla Davies",
-      "source": "KDnuggets"
+      "title": "dplyr and Oracle database with DatabaseConnector and JDBC on Windows",
+      "link": "https://www.r-bloggers.com/2025/12/dplyr-and-oracle-database-with-databaseconnector-and-jdbc-on-windows/",
+      "pubDate": "Tue, 02 Dec 2025 08:05:50 +0000",
+      "author": "Guillaume Pressiat",
+      "source": "R-bloggers"
     },
     {
       "title": "tisthemachinelearner: New Workflow with uv for R Integration of scikit-learn",
       "link": "https://www.r-bloggers.com/2025/11/tisthemachinelearner-new-workflow-with-uv-for-r-integration-of-scikit-learn/",
       "pubDate": "Mon, 01 Dec 2025 00:00:00 +0000",
       "author": "T. Moudiki",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "Gaussian Processes Again",
-      "link": "https://www.r-bloggers.com/2025/11/gaussian-processes-again/",
-      "pubDate": "Sat, 29 Nov 2025 00:00:00 +0000",
-      "author": "Chris Bowdon",
       "source": "R-bloggers"
     },
     {
