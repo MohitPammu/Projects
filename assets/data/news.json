@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-12-03T00:01:21.699Z",
+  "lastUpdated": "2025-12-04T00:01:34.215Z",
   "items": [
+    {
+      "title": "Time Series and Trend Analysis Challenge Inspired by Real World Datasets",
+      "link": "https://www.kdnuggets.com/time-series-and-trend-analysis-challenge-inspired-by-real-world-datasets",
+      "pubDate": "Wed, 03 Dec 2025 16:32:12 +0000",
+      "author": "Nate Rosidi",
+      "source": "KDnuggets"
+    },
     {
       "title": "7 ChatGPT Tricks to Automate Your Data Tasks",
       "link": "https://www.kdnuggets.com/7-chatgpt-tricks-to-automate-your-data-tasks",
       "pubDate": "Tue, 02 Dec 2025 13:24:47 +0000",
       "author": "Nahla Davies",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "Building a Simple Data Quality DSL in Python",
-      "link": "https://www.kdnuggets.com/building-a-simple-data-quality-dsl-in-python",
-      "pubDate": "Mon, 01 Dec 2025 17:00:16 +0000",
-      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
