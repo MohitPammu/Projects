@@ -1,33 +1,33 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-12-04T00:01:34.215Z",
+  "lastUpdated": "2025-12-05T00:01:31.169Z",
   "items": [
     {
-      "title": "Time Series and Trend Analysis Challenge Inspired by Real World Datasets",
-      "link": "https://www.kdnuggets.com/time-series-and-trend-analysis-challenge-inspired-by-real-world-datasets",
-      "pubDate": "Wed, 03 Dec 2025 16:32:12 +0000",
-      "author": "Nate Rosidi",
+      "title": "Emergent Introspective Awareness in Large Language Models",
+      "link": "https://www.kdnuggets.com/emergent-introspective-awareness-in-large-language-models",
+      "pubDate": "Thu, 04 Dec 2025 15:00:25 +0000",
+      "author": "Iván Palomares Carrascosa",
       "source": "KDnuggets"
     },
     {
-      "title": "7 ChatGPT Tricks to Automate Your Data Tasks",
-      "link": "https://www.kdnuggets.com/7-chatgpt-tricks-to-automate-your-data-tasks",
-      "pubDate": "Tue, 02 Dec 2025 13:24:47 +0000",
-      "author": "Nahla Davies",
+      "title": "5 Critical Feature Engineering Mistakes That Kill Machine Learning Projects",
+      "link": "https://www.kdnuggets.com/5-critical-feature-engineering-mistakes-that-kill-machine-learning-projects",
+      "pubDate": "Thu, 04 Dec 2025 13:00:20 +0000",
+      "author": "Rachel Kuznetsov",
       "source": "KDnuggets"
+    },
+    {
+      "title": "New Preprint: Model Checking for Vector Autoregressive Models",
+      "link": "https://www.r-bloggers.com/2025/12/new-preprint-model-checking-for-vector-autoregressive-models/",
+      "pubDate": "Thu, 04 Dec 2025 08:00:00 +0000",
+      "author": "Jonas Haslbeck - r",
+      "source": "R-bloggers"
     },
     {
       "title": "dplyr and Oracle database with DatabaseConnector and JDBC on Windows",
       "link": "https://www.r-bloggers.com/2025/12/dplyr-and-oracle-database-with-databaseconnector-and-jdbc-on-windows/",
       "pubDate": "Tue, 02 Dec 2025 08:05:50 +0000",
       "author": "Guillaume Pressiat",
-      "source": "R-bloggers"
-    },
-    {
-      "title": "tisthemachinelearner: New Workflow with uv for R Integration of scikit-learn",
-      "link": "https://www.r-bloggers.com/2025/11/tisthemachinelearner-new-workflow-with-uv-for-r-integration-of-scikit-learn/",
-      "pubDate": "Mon, 01 Dec 2025 00:00:00 +0000",
-      "author": "T. Moudiki",
       "source": "R-bloggers"
     },
     {
