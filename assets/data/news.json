@@ -1,7 +1,14 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-12-05T00:01:31.169Z",
+  "lastUpdated": "2025-12-06T00:01:33.968Z",
   "items": [
+    {
+      "title": "Pixi: A Smarter Way to Manage Python Environments",
+      "link": "https://www.kdnuggets.com/pixi-a-smarter-way-to-manage-python-environments",
+      "pubDate": "Fri, 05 Dec 2025 15:00:14 +0000",
+      "author": "Kanwal Mehreen",
+      "source": "KDnuggets"
+    },
     {
       "title": "Emergent Introspective Awareness in Large Language Models",
       "link": "https://www.kdnuggets.com/emergent-introspective-awareness-in-large-language-models",
@@ -10,54 +17,47 @@
       "source": "KDnuggets"
     },
     {
-      "title": "5 Critical Feature Engineering Mistakes That Kill Machine Learning Projects",
-      "link": "https://www.kdnuggets.com/5-critical-feature-engineering-mistakes-that-kill-machine-learning-projects",
-      "pubDate": "Thu, 04 Dec 2025 13:00:20 +0000",
-      "author": "Rachel Kuznetsov",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "New Preprint: Model Checking for Vector Autoregressive Models",
-      "link": "https://www.r-bloggers.com/2025/12/new-preprint-model-checking-for-vector-autoregressive-models/",
-      "pubDate": "Thu, 04 Dec 2025 08:00:00 +0000",
+      "title": "Introducing openESM: A database of openly available experience sampling datasets including R/Python interface",
+      "link": "https://www.r-bloggers.com/2025/12/introducing-openesm-a-database-of-openly-available-experience-sampling-datasets-including-r-python-interface/",
+      "pubDate": "Fri, 05 Dec 2025 08:00:00 +0000",
       "author": "Jonas Haslbeck - r",
       "source": "R-bloggers"
     },
     {
-      "title": "dplyr and Oracle database with DatabaseConnector and JDBC on Windows",
-      "link": "https://www.r-bloggers.com/2025/12/dplyr-and-oracle-database-with-databaseconnector-and-jdbc-on-windows/",
-      "pubDate": "Tue, 02 Dec 2025 08:05:50 +0000",
-      "author": "Guillaume Pressiat",
+      "title": "Haskell IS a Great Language for Data Science",
+      "link": "https://www.r-bloggers.com/2025/12/haskell-is-a-great-language-for-data-science/",
+      "pubDate": "Fri, 05 Dec 2025 00:00:00 +0000",
+      "author": "Jonathan Carroll",
       "source": "R-bloggers"
     },
     {
-      "title": "Get an in-depth look at Gemini 3 with CEO Sundar Pichai.",
-      "link": "https://blog.google/technology/ai/sundar-pichai-ai-release-notes-podcast/",
-      "pubDate": "Tue, 25 Nov 2025 23:39:00 +0000",
-      "author": "Staff Writer",
-      "source": "Blog"
-    },
-    {
-      "title": "16 Google AI tips for stress-free holiday hosting in 2025",
-      "link": "https://blog.google/products/pixel/google-holiday-hosting-tips-2024/",
-      "pubDate": "Fri, 21 Nov 2025 16:00:00 +0000",
+      "title": "The latest AI news we announced in November",
+      "link": "https://blog.google/technology/ai/google-ai-updates-november-2025/",
+      "pubDate": "Fri, 05 Dec 2025 19:45:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Molly McHugh-Johnson"
+          "Keyword Team"
         ],
         "title": [
-          "Contributor"
+          ""
         ],
         "department": [
-          "The Keyword"
+          ""
         ],
         "company": [
           ""
         ]
       },
+      "source": "Blog"
+    },
+    {
+      "title": "New research from Google Workspace reveals how young leaders are using AI at work.",
+      "link": "https://blog.google/products/workspace/young-leaders-survey-ai/",
+      "pubDate": "Fri, 05 Dec 2025 16:00:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
