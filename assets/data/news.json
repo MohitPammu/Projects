@@ -1,20 +1,27 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-12-09T00:01:33.952Z",
+  "lastUpdated": "2025-12-10T00:01:33.943Z",
   "items": [
     {
-      "title": "Statistics at the Command Line for Beginner Data Scientists",
-      "link": "https://www.kdnuggets.com/statistics-at-the-command-line-for-beginner-data-scientists",
-      "pubDate": "Mon, 08 Dec 2025 16:48:59 +0000",
-      "author": "Bala Priya C",
+      "title": "Why model distillation is becoming the most important technique in production AI",
+      "link": "https://www.kdnuggets.com/why-model-distillation-is-becoming-the-most-important-technique-in-production-ai",
+      "pubDate": "Tue, 09 Dec 2025 18:02:15 +0000",
+      "author": "KDnuggets",
       "source": "KDnuggets"
     },
     {
-      "title": "The Best Web Scraping APIs for AI Models in 2026",
-      "link": "https://www.kdnuggets.com/2025/12/brightdata/the-best-web-scraping-apis-for-ai-models-in-2026",
-      "pubDate": "Sun, 07 Dec 2025 11:00:17 +0000",
-      "author": "KDnuggets",
+      "title": "TPOT: Automating ML Pipelines with Genetic Algorithms in Python",
+      "link": "https://www.kdnuggets.com/tpot-automating-ml-pipelines-with-genetic-algorithms-in-python",
+      "pubDate": "Tue, 09 Dec 2025 17:00:05 +0000",
+      "author": "Kanwal Mehreen",
       "source": "KDnuggets"
+    },
+    {
+      "title": "How AI coding assistants can bias your coding and analysis",
+      "link": "https://www.r-bloggers.com/2025/12/how-ai-coding-assistants-can-bias-your-coding-and-analysis/",
+      "pubDate": "Mon, 08 Dec 2025 13:00:00 +0000",
+      "author": "Seascapemodels",
+      "source": "R-bloggers"
     },
     {
       "title": "Introducing openESM: A database of openly available experience sampling datasets including R/Python interface",
@@ -24,11 +31,11 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Haskell IS a Great Language for Data Science",
-      "link": "https://www.r-bloggers.com/2025/12/haskell-is-a-great-language-for-data-science/",
-      "pubDate": "Fri, 05 Dec 2025 00:00:00 +0000",
-      "author": "Jonathan Carroll",
-      "source": "R-bloggers"
+      "title": "Learn more about AI in the workplace in our new research report.",
+      "link": "https://blog.google/products/workspace/gemini-ai-workplace-research-report/",
+      "pubDate": "Tue, 09 Dec 2025 17:00:00 +0000",
+      "author": "Staff Writer",
+      "source": "Blog"
     },
     {
       "title": "Transforming Nordic classrooms through responsible AI partnerships",
@@ -43,29 +50,6 @@
         ],
         "title": [
           "Google for Education Lead (Benelux, CEE, DACH, France, Nordics and Baltics)"
-        ],
-        "department": [
-          ""
-        ],
-        "company": [
-          ""
-        ]
-      },
-      "source": "Blog"
-    },
-    {
-      "title": "The latest AI news we announced in November",
-      "link": "https://blog.google/technology/ai/google-ai-updates-november-2025/",
-      "pubDate": "Fri, 05 Dec 2025 19:45:00 +0000",
-      "author": {
-        "$": {
-          "xmlns:author": "http://www.w3.org/2005/Atom"
-        },
-        "name": [
-          "Keyword Team"
-        ],
-        "title": [
-          ""
         ],
         "department": [
           ""
