@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-12-11T00:01:29.552Z",
+  "lastUpdated": "2025-12-12T00:01:37.143Z",
   "items": [
     {
-      "title": "Why model distillation is becoming the most important technique in production AI",
-      "link": "https://www.kdnuggets.com/why-model-distillation-is-becoming-the-most-important-technique-in-production-ai",
-      "pubDate": "Tue, 09 Dec 2025 18:02:15 +0000",
-      "author": "KDnuggets",
+      "title": "7 Steps to Mastering Agentic AI",
+      "link": "https://www.kdnuggets.com/7-steps-to-mastering-agentic-ai",
+      "pubDate": "Thu, 11 Dec 2025 17:00:08 +0000",
+      "author": "Bala Priya C",
       "source": "KDnuggets"
     },
     {
-      "title": "TPOT: Automating ML Pipelines with Genetic Algorithms in Python",
-      "link": "https://www.kdnuggets.com/tpot-automating-ml-pipelines-with-genetic-algorithms-in-python",
-      "pubDate": "Tue, 09 Dec 2025 17:00:05 +0000",
-      "author": "Kanwal Mehreen",
+      "title": "10 GitHub Repositories to Master Machine Learning Deployment",
+      "link": "https://www.kdnuggets.com/10-github-repositories-to-master-machine-learning-deployment",
+      "pubDate": "Thu, 11 Dec 2025 15:10:18 +0000",
+      "author": "Abid Ali Awan",
       "source": "KDnuggets"
     },
     {
@@ -31,25 +31,18 @@
       "source": "R-bloggers"
     },
     {
-      "title": "Learn more about AI in the workplace in our new research report.",
-      "link": "https://blog.google/products/workspace/gemini-ai-workplace-research-report/",
-      "pubDate": "Tue, 09 Dec 2025 17:00:00 +0000",
-      "author": "Staff Writer",
-      "source": "Blog"
-    },
-    {
-      "title": "Transforming Nordic classrooms through responsible AI partnerships",
-      "link": "https://blog.google/around-the-globe/google-europe/transforming-nordic-classrooms-through-responsible-ai-partnerships/",
-      "pubDate": "Mon, 08 Dec 2025 10:00:00 +0000",
+      "title": "Gradient Canvas: Celebrating over a decade of artistic collaborations with AI",
+      "link": "https://blog.google/technology/ai/google-gradient-canvas-ai-art/",
+      "pubDate": "Thu, 11 Dec 2025 21:30:00 +0000",
       "author": {
         "$": {
           "xmlns:author": "http://www.w3.org/2005/Atom"
         },
         "name": [
-          "Alexandra Ahtiainen"
+          "Mira Lane"
         ],
         "title": [
-          "Google for Education Lead (Benelux, CEE, DACH, France, Nordics and Baltics)"
+          "Vice President, Envisioning Studio, Technology & Society"
         ],
         "department": [
           ""
@@ -58,6 +51,13 @@
           ""
         ]
       },
+      "source": "Blog"
+    },
+    {
+      "title": "Learn more about AI in the workplace in our new research report.",
+      "link": "https://blog.google/products/workspace/gemini-ai-workplace-research-report/",
+      "pubDate": "Tue, 09 Dec 2025 17:00:00 +0000",
+      "author": "Staff Writer",
       "source": "Blog"
     }
   ]
