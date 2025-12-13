@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "lastUpdated": "2025-12-12T00:01:37.143Z",
+  "lastUpdated": "2025-12-13T00:01:28.073Z",
   "items": [
+    {
+      "title": "How to Write Efficient Python Data Classes",
+      "link": "https://www.kdnuggets.com/how-to-write-efficient-python-data-classes",
+      "pubDate": "Fri, 12 Dec 2025 17:00:47 +0000",
+      "author": "Bala Priya C",
+      "source": "KDnuggets"
+    },
     {
       "title": "7 Steps to Mastering Agentic AI",
       "link": "https://www.kdnuggets.com/7-steps-to-mastering-agentic-ai",
       "pubDate": "Thu, 11 Dec 2025 17:00:08 +0000",
       "author": "Bala Priya C",
-      "source": "KDnuggets"
-    },
-    {
-      "title": "10 GitHub Repositories to Master Machine Learning Deployment",
-      "link": "https://www.kdnuggets.com/10-github-repositories-to-master-machine-learning-deployment",
-      "pubDate": "Thu, 11 Dec 2025 15:10:18 +0000",
-      "author": "Abid Ali Awan",
       "source": "KDnuggets"
     },
     {
